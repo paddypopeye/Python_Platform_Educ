@@ -1,0 +1,50 @@
+[
+{
+  "fields": {
+    "title": "English",
+    "slug": "english-b1"
+  },
+  "pk": 1,
+  "model": "courses.subject"
+},
+{
+  "fields": {
+    "title": "English Intermediary",
+    "slug": "english-intermediary"
+  },
+  "pk": 2,
+  "model": "courses.subject"
+},
+{
+  "fields": {
+    "title": "German",
+    "slug": "german-b1"
+  },
+  "pk": 3,
+  "model": "courses.subject"
+},
+{
+  "fields": {
+    "title": "German Intermediary",
+    "slug": "german-intermediary"
+  },
+  "pk": 4,
+  "model": "courses.subject"
+},
+{
+  "fields": {
+    "title": "English Advanced",
+    "slug": "english-advanced"
+  },
+  "pk": 5,
+  "model": "courses.subject"
+},
+{
+  "fields": {
+    "title": "German Advanced",
+    "slug": "german-advanced"
+  },
+  "pk": 6,
+  "model": "courses.subject"
+}
+]

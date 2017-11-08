@@ -1,0 +1,57 @@
+{% load thumbnail %}
+<style>
+    .scrollholder {
+        position: relative;
+        width: 310px; height: 350px;
+        overflow: auto;
+        z-index: 1;
+    }
+</style>
+
+<script>
+    function isTouchDevice() {
+        try {
+            document.createEvent("TouchEvent");
+            return true;
+        } catch (e) {
+            return false;
+        }
+    }
+
+    function touchScroll(id) {
+        if (isTouchDevice()) { //if touch events exist...
+            var el = document.getElementById(id);
+            var scrollStartPos = 0;
+
+            document.getElementById(id).addEventListener("touchstart", function (event) {
+                scrollStartPos = this.scrollTop + event.touches[0].pageY;
+                event.preventDefault();
+            }, false);
+
+            document.getElementById(id).addEventListener("touchmove", function (event) {
+                this.scrollTop = scrollStartPos - event.touches[0].pageY;
+                event.preventDefault();
+            }, false);
+        }
+    }
+</script>
+
+{% for image in images %}
+
+    <div class="image">
+        <a href="{{ image.get_absolute_url }}">
+            {% thumbnail image.image "400x400" as im %}
+                <a href="{{ image.get_absolute_url }}">
+                    <img src="{{ im.url }}">
+                </a>
+            {% endthumbnail %}
+        </a>
+        <div class="info">
+            <a href="{{ image.get_absolute_url }}" class="title">
+            {{ image.title }}</a>
+        </div>
+    </div>
+    {% endfor %}
+ 
+
+

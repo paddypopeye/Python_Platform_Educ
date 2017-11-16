@@ -24,7 +24,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # See https://docs.djangoproject.com/en/1.8/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = '%4mulu)vvot8_e&#(gg5g(wnjd)is#!6bm=81p8fz%#adbq^b('
+SECRET_KEY = '*******************************'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -168,17 +168,17 @@ AUTHENTICATION_BACKENDS = (
                 'account.authentication.EmailAuthBackend',)
 
 SOCIAL_AUTH_RAISE_EXCEPTIONS = False
-SOCIAL_AUTH_FACEBOOK_KEY = '233156223724412' # Facebook App ID
-SOCIAL_AUTH_FACEBOOK_SECRET = 'b6a2407cefde906313fe76b94ce5f166' # Facebook App Secret
+SOCIAL_AUTH_FACEBOOK_KEY = '**************' # Facebook App ID
+SOCIAL_AUTH_FACEBOOK_SECRET = '*********************' # Facebook App Secret
 #SOCIAL_AUTH_FACEBOOK_SCOPE = ['email']   #Facebook Scope
 SOCIAL_AUTH_TWITTER_KEY = '' #Twitter consumer key
 SOCIAL_AUTH_TWITTER_SECRET = ''
-SOCIAL_AUTH_GOOGLE_OAUTH2_KEY ='767674675436-s3lrmchrhe1nigbqdfv011h88l9pe025.apps.googleusercontent.com'
-SOCIAL_AUTH_GOOGLE_OAUTH2_SECRET ='kkUTaBitRE7xqirZk8Zjronv'
+SOCIAL_AUTH_GOOGLE_OAUTH2_KEY ='***************'
+SOCIAL_AUTH_GOOGLE_OAUTH2_SECRET ='**************'
 #SOCIAL_AUTH_LOGIN_REDIRECT_URL = 'complete/facebook'
 
 # django-paypal settings
-PAYPAL_RECEIVER_EMAIL = 'paddypopeye@hotmail.com'
+PAYPAL_RECEIVER_EMAIL = '***************'
 PAYPAL_TEST = True
 CART_SESSION_ID = 'cart'
 

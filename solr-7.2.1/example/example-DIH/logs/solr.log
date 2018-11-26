@@ -1,0 +1,343 @@
+INFO  - 2018-03-06 17:17:18.313; [   ] org.eclipse.jetty.util.log.Log; Logging initialized @4899ms
+INFO  - 2018-03-06 17:17:21.436; [   ] org.eclipse.jetty.server.Server; jetty-9.3.20.v20170531
+INFO  - 2018-03-06 17:17:21.722; [   ] org.eclipse.jetty.deploy.providers.ScanningAppProvider; Deployment monitor [file:///home/vagrant/Django/LangSchool/LangSchool/solr-7.2.1/server/contexts/] at interval 0
+INFO  - 2018-03-06 17:17:35.645; [   ] org.eclipse.jetty.webapp.StandardDescriptorProcessor; NO JSP Support for /solr, did not find org.apache.jasper.servlet.JspServlet
+INFO  - 2018-03-06 17:17:35.987; [   ] org.apache.solr.servlet.SolrDispatchFilter;  ___      _       Welcome to Apache Solr™ version 7.2.1
+INFO  - 2018-03-06 17:17:35.993; [   ] org.apache.solr.servlet.SolrDispatchFilter; / __| ___| |_ _   Starting in standalone mode on port 8983
+INFO  - 2018-03-06 17:17:35.995; [   ] org.apache.solr.servlet.SolrDispatchFilter; \__ \/ _ \ | '_|  Install dir: /home/vagrant/Django/LangSchool/LangSchool/solr-7.2.1
+INFO  - 2018-03-06 17:17:36.172; [   ] org.apache.solr.servlet.SolrDispatchFilter; |___/\___/_|_|    Start time: 2018-03-06T17:17:36.002Z
+INFO  - 2018-03-06 17:17:36.287; [   ] org.apache.solr.core.SolrResourceLoader; Using system property solr.solr.home: /home/vagrant/Django/LangSchool/LangSchool/solr-7.2.1/example/example-DIH/solr
+INFO  - 2018-03-06 17:17:36.321; [   ] org.apache.solr.core.SolrXmlConfig; Loading container configuration from /home/vagrant/Django/LangSchool/LangSchool/solr-7.2.1/example/example-DIH/solr/solr.xml
+INFO  - 2018-03-06 17:17:43.049; [   ] org.apache.solr.core.CorePropertiesLocator; Found 5 core definitions underneath /home/vagrant/Django/LangSchool/LangSchool/solr-7.2.1/example/example-DIH/solr
+INFO  - 2018-03-06 17:17:43.096; [   ] org.apache.solr.core.CorePropertiesLocator; Cores are: [db, solr, mail, atom, tika]
+INFO  - 2018-03-06 17:17:43.223; [   ] org.apache.solr.core.TransientSolrCoreCacheDefault; Allocating transient cache for 2147483647 transient cores
+INFO  - 2018-03-06 17:17:43.555; [   x:db] org.apache.solr.core.SolrResourceLoader; [null] Added 2 libs to classloader, from paths: [/home/vagrant/Django/LangSchool/LangSchool/solr-7.2.1/example/example-DIH/solr/db/lib]
+INFO  - 2018-03-06 17:17:44.932; [   ] org.eclipse.jetty.server.handler.ContextHandler; Started o.e.j.w.WebAppContext@33c7e1bb{/solr,file:///home/vagrant/Django/LangSchool/LangSchool/solr-7.2.1/server/solr-webapp/webapp/,AVAILABLE}{/home/vagrant/Django/LangSchool/LangSchool/solr-7.2.1/server/solr-webapp/webapp}
+INFO  - 2018-03-06 17:17:45.285; [   ] org.eclipse.jetty.server.AbstractConnector; Started ServerConnector@39906a7d{HTTP/1.1,[http/1.1]}{0.0.0.0:8983}
+WARN  - 2018-03-06 17:17:45.311; [   x:mail] org.apache.solr.core.SolrConfig; Couldn't add files from /home/vagrant/Django/LangSchool/LangSchool/solr-7.2.1/contrib/dataimporthandler/lib filtered by .*\.jar to classpath: /home/vagrant/Django/LangSchool/LangSchool/solr-7.2.1/contrib/dataimporthandler/lib
+INFO  - 2018-03-06 17:17:45.324; [   ] org.eclipse.jetty.server.Server; Started @31957ms
+INFO  - 2018-03-06 17:17:45.738; [   x:solr] org.apache.solr.core.SolrResourceLoader; [solr] Added 48 libs to classloader, from paths: [/home/vagrant/Django/LangSchool/LangSchool/solr-7.2.1/contrib/extraction/lib, /home/vagrant/Django/LangSchool/LangSchool/solr-7.2.1/contrib/langid/lib, /home/vagrant/Django/LangSchool/LangSchool/solr-7.2.1/contrib/velocity/lib, /home/vagrant/Django/LangSchool/LangSchool/solr-7.2.1/dist]
+INFO  - 2018-03-06 17:17:45.797; [   x:mail] org.apache.solr.core.SolrResourceLoader; [mail] Added 51 libs to classloader, from paths: [/home/vagrant/Django/LangSchool/LangSchool/solr-7.2.1/contrib/dataimporthandler-extras/lib, /home/vagrant/Django/LangSchool/LangSchool/solr-7.2.1/contrib/extraction/lib, /home/vagrant/Django/LangSchool/LangSchool/solr-7.2.1/contrib/langid/lib, /home/vagrant/Django/LangSchool/LangSchool/solr-7.2.1/contrib/velocity/lib, /home/vagrant/Django/LangSchool/LangSchool/solr-7.2.1/dist]
+INFO  - 2018-03-06 17:17:50.016; [   x:mail] org.apache.solr.update.SolrIndexConfig; IndexWriter infoStream solr logging is enabled
+INFO  - 2018-03-06 17:17:50.017; [   x:solr] org.apache.solr.update.SolrIndexConfig; IndexWriter infoStream solr logging is enabled
+INFO  - 2018-03-06 17:17:50.221; [   x:mail] org.apache.solr.core.SolrConfig; Using Lucene MatchVersion: 7.2.1
+INFO  - 2018-03-06 17:17:50.228; [   x:solr] org.apache.solr.core.SolrConfig; Using Lucene MatchVersion: 7.2.1
+INFO  - 2018-03-06 17:17:50.319; [   x:db] org.apache.solr.core.SolrResourceLoader; [db] Added 48 libs to classloader, from paths: [/home/vagrant/Django/LangSchool/LangSchool/solr-7.2.1/contrib/extraction/lib, /home/vagrant/Django/LangSchool/LangSchool/solr-7.2.1/contrib/langid/lib, /home/vagrant/Django/LangSchool/LangSchool/solr-7.2.1/contrib/velocity/lib, /home/vagrant/Django/LangSchool/LangSchool/solr-7.2.1/dist]
+INFO  - 2018-03-06 17:17:53.290; [   x:db] org.apache.solr.update.SolrIndexConfig; IndexWriter infoStream solr logging is enabled
+INFO  - 2018-03-06 17:17:53.414; [   x:db] org.apache.solr.core.SolrConfig; Using Lucene MatchVersion: 7.2.1
+INFO  - 2018-03-06 17:17:55.897; [   x:mail] org.apache.solr.schema.IndexSchema; [mail] Schema name=example-DIH-mail
+INFO  - 2018-03-06 17:17:55.963; [   x:solr] org.apache.solr.schema.IndexSchema; [solr] Schema name=example-DIH-solr
+INFO  - 2018-03-06 17:17:56.362; [   x:db] org.apache.solr.schema.IndexSchema; [db] Schema name=example-DIH-db
+WARN  - 2018-03-06 17:18:00.773; [   x:db] org.apache.solr.core.SolrResourceLoader; Solr loaded a deprecated plugin/analysis class [solr.LatLonType]. Please consult documentation how to replace it accordingly.
+WARN  - 2018-03-06 17:18:00.775; [   x:mail] org.apache.solr.core.SolrResourceLoader; Solr loaded a deprecated plugin/analysis class [solr.LatLonType]. Please consult documentation how to replace it accordingly.
+WARN  - 2018-03-06 17:18:00.774; [   x:solr] org.apache.solr.core.SolrResourceLoader; Solr loaded a deprecated plugin/analysis class [solr.LatLonType]. Please consult documentation how to replace it accordingly.
+INFO  - 2018-03-06 17:18:04.500; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/info/system params={wt=json} status=0 QTime=1484
+INFO  - 2018-03-06 17:18:09.704; [   x:db] org.apache.solr.schema.IndexSchema; Loaded schema example-DIH-db/1.6 with uniqueid field id
+INFO  - 2018-03-06 17:18:09.706; [   x:solr] org.apache.solr.schema.IndexSchema; Loaded schema example-DIH-solr/1.6 with uniqueid field id
+INFO  - 2018-03-06 17:18:09.706; [   x:mail] org.apache.solr.schema.IndexSchema; Loaded schema example-DIH-mail/1.6 with uniqueid field messageId
+INFO  - 2018-03-06 17:18:11.936; [   x:solr] org.apache.solr.core.CoreContainer; Creating SolrCore 'solr' using configuration from instancedir /home/vagrant/Django/LangSchool/LangSchool/solr-7.2.1/example/example-DIH/solr/solr, trusted=true
+INFO  - 2018-03-06 17:18:11.945; [   x:mail] org.apache.solr.core.CoreContainer; Creating SolrCore 'mail' using configuration from instancedir /home/vagrant/Django/LangSchool/LangSchool/solr-7.2.1/example/example-DIH/solr/mail, trusted=true
+INFO  - 2018-03-06 17:18:12.008; [   x:db] org.apache.solr.core.CoreContainer; Creating SolrCore 'db' using configuration from instancedir /home/vagrant/Django/LangSchool/LangSchool/solr-7.2.1/example/example-DIH/solr/db, trusted=true
+INFO  - 2018-03-06 17:18:12.278; [   x:mail] org.apache.solr.core.SolrCore; solr.RecoveryStrategy.Builder
+INFO  - 2018-03-06 17:18:12.279; [   x:solr] org.apache.solr.core.SolrCore; solr.RecoveryStrategy.Builder
+INFO  - 2018-03-06 17:18:12.282; [   x:db] org.apache.solr.core.SolrCore; solr.RecoveryStrategy.Builder
+INFO  - 2018-03-06 17:18:12.340; [   x:mail] org.apache.solr.core.SolrCore; [[mail] ] Opening new SolrCore at [/home/vagrant/Django/LangSchool/LangSchool/solr-7.2.1/example/example-DIH/solr/mail], dataDir=[/home/vagrant/Django/LangSchool/LangSchool/solr-7.2.1/example/example-DIH/solr/mail/data/]
+INFO  - 2018-03-06 17:18:12.342; [   x:db] org.apache.solr.core.SolrCore; [[db] ] Opening new SolrCore at [/home/vagrant/Django/LangSchool/LangSchool/solr-7.2.1/example/example-DIH/solr/db], dataDir=[/home/vagrant/Django/LangSchool/LangSchool/solr-7.2.1/example/example-DIH/solr/db/data/]
+INFO  - 2018-03-06 17:18:12.346; [   x:solr] org.apache.solr.core.SolrCore; [[solr] ] Opening new SolrCore at [/home/vagrant/Django/LangSchool/LangSchool/solr-7.2.1/example/example-DIH/solr/solr], dataDir=[/home/vagrant/Django/LangSchool/LangSchool/solr-7.2.1/example/example-DIH/solr/solr/data/]
+INFO  - 2018-03-06 17:18:15.877; [   x:db] org.apache.solr.response.XSLTResponseWriter; xsltCacheLifetimeSeconds=5
+INFO  - 2018-03-06 17:18:15.910; [   x:mail] org.apache.solr.response.XSLTResponseWriter; xsltCacheLifetimeSeconds=5
+INFO  - 2018-03-06 17:18:15.930; [   x:solr] org.apache.solr.response.XSLTResponseWriter; xsltCacheLifetimeSeconds=5
+INFO  - 2018-03-06 17:18:19.844; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1520356698428} status=0 QTime=62
+INFO  - 2018-03-06 17:18:20.279; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/info/system params={wt=json&_=1520356698432} status=0 QTime=466
+INFO  - 2018-03-06 17:18:20.350; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/info/system params={wt=json&_=1520356698432} status=0 QTime=481
+INFO  - 2018-03-06 17:18:25.452; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/cores params={wt=json&_=1520356698428} status=0 QTime=21
+INFO  - 2018-03-06 17:18:25.459; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1520356698428} status=0 QTime=15
+INFO  - 2018-03-06 17:18:25.907; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/cores params={wt=json&_=1520356698428} status=0 QTime=17
+INFO  - 2018-03-06 17:18:25.918; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1520356698428} status=0 QTime=45
+INFO  - 2018-03-06 17:18:25.929; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/info/system params={wt=json&_=1520356698432} status=0 QTime=482
+INFO  - 2018-03-06 17:18:26.643; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/info/system params={wt=json&_=1520356698432} status=0 QTime=750
+INFO  - 2018-03-06 17:18:28.315; [   x:db] org.apache.solr.update.UpdateHandler; Using UpdateLog implementation: org.apache.solr.update.UpdateLog
+INFO  - 2018-03-06 17:18:28.319; [   x:solr] org.apache.solr.update.UpdateHandler; Using UpdateLog implementation: org.apache.solr.update.UpdateLog
+INFO  - 2018-03-06 17:18:28.317; [   x:mail] org.apache.solr.update.UpdateHandler; Using UpdateLog implementation: org.apache.solr.update.UpdateLog
+INFO  - 2018-03-06 17:18:28.323; [   x:mail] org.apache.solr.update.UpdateLog; Initializing UpdateLog: dataDir= defaultSyncLevel=FLUSH numRecordsToKeep=100 maxNumLogsToKeep=10 numVersionBuckets=65536
+INFO  - 2018-03-06 17:18:28.327; [   x:solr] org.apache.solr.update.UpdateLog; Initializing UpdateLog: dataDir= defaultSyncLevel=FLUSH numRecordsToKeep=100 maxNumLogsToKeep=10 numVersionBuckets=65536
+INFO  - 2018-03-06 17:18:28.332; [   x:db] org.apache.solr.update.UpdateLog; Initializing UpdateLog: dataDir= defaultSyncLevel=FLUSH numRecordsToKeep=100 maxNumLogsToKeep=10 numVersionBuckets=65536
+INFO  - 2018-03-06 17:18:28.451; [   x:solr] org.apache.solr.update.CommitTracker; Hard AutoCommit: if uncommited for 15000ms; 
+INFO  - 2018-03-06 17:18:28.454; [   x:solr] org.apache.solr.update.CommitTracker; Soft AutoCommit: disabled
+INFO  - 2018-03-06 17:18:28.452; [   x:mail] org.apache.solr.update.CommitTracker; Hard AutoCommit: if uncommited for 15000ms; 
+INFO  - 2018-03-06 17:18:28.462; [   x:mail] org.apache.solr.update.CommitTracker; Soft AutoCommit: disabled
+INFO  - 2018-03-06 17:18:28.453; [   x:db] org.apache.solr.update.CommitTracker; Hard AutoCommit: if uncommited for 15000ms; 
+INFO  - 2018-03-06 17:18:28.466; [   x:db] org.apache.solr.update.CommitTracker; Soft AutoCommit: disabled
+INFO  - 2018-03-06 17:18:28.832; [   x:mail] org.apache.solr.search.SolrIndexSearcher; Opening [Searcher@3a1a933[mail] main]
+INFO  - 2018-03-06 17:18:28.834; [   x:db] org.apache.solr.search.SolrIndexSearcher; Opening [Searcher@54579fa[db] main]
+INFO  - 2018-03-06 17:18:28.834; [   x:solr] org.apache.solr.search.SolrIndexSearcher; Opening [Searcher@73b32b27[solr] main]
+INFO  - 2018-03-06 17:18:28.991; [   x:db] org.apache.solr.rest.ManagedResourceStorage$FileStorageIO; File-based storage initialized to use dir: /home/vagrant/Django/LangSchool/LangSchool/solr-7.2.1/example/example-DIH/solr/db/conf
+INFO  - 2018-03-06 17:18:28.992; [   x:solr] org.apache.solr.rest.ManagedResourceStorage$FileStorageIO; File-based storage initialized to use dir: /home/vagrant/Django/LangSchool/LangSchool/solr-7.2.1/example/example-DIH/solr/solr/conf
+INFO  - 2018-03-06 17:18:28.999; [   x:mail] org.apache.solr.rest.ManagedResourceStorage$FileStorageIO; File-based storage initialized to use dir: /home/vagrant/Django/LangSchool/LangSchool/solr-7.2.1/example/example-DIH/solr/mail/conf
+INFO  - 2018-03-06 17:18:29.242; [   x:solr] org.apache.solr.handler.component.SpellCheckComponent; Initializing spell checkers
+INFO  - 2018-03-06 17:18:29.244; [   x:mail] org.apache.solr.handler.component.SpellCheckComponent; Initializing spell checkers
+INFO  - 2018-03-06 17:18:29.245; [   x:db] org.apache.solr.handler.component.SpellCheckComponent; Initializing spell checkers
+INFO  - 2018-03-06 17:18:29.403; [   x:solr] org.apache.solr.spelling.DirectSolrSpellChecker; init: {name=default,field=text,classname=solr.DirectSolrSpellChecker,distanceMeasure=internal,accuracy=0.5,maxEdits=2,minPrefix=1,maxInspections=5,minQueryLength=4,maxQueryFrequency=0.01}
+INFO  - 2018-03-06 17:18:29.405; [   x:db] org.apache.solr.spelling.DirectSolrSpellChecker; init: {name=default,field=text,classname=solr.DirectSolrSpellChecker,distanceMeasure=internal,accuracy=0.5,maxEdits=2,minPrefix=1,maxInspections=5,minQueryLength=4,maxQueryFrequency=0.01}
+INFO  - 2018-03-06 17:18:29.409; [   x:mail] org.apache.solr.spelling.DirectSolrSpellChecker; init: {name=default,field=text,classname=solr.DirectSolrSpellChecker,distanceMeasure=internal,accuracy=0.5,maxEdits=2,minPrefix=1,maxInspections=5,minQueryLength=4,maxQueryFrequency=0.01}
+INFO  - 2018-03-06 17:18:29.578; [   x:solr] org.apache.solr.handler.component.SuggestComponent; Initializing SuggestComponent
+INFO  - 2018-03-06 17:18:29.580; [   x:db] org.apache.solr.handler.component.SuggestComponent; Initializing SuggestComponent
+INFO  - 2018-03-06 17:18:29.589; [   x:mail] org.apache.solr.handler.component.SuggestComponent; Initializing SuggestComponent
+INFO  - 2018-03-06 17:18:29.631; [   x:mail] org.apache.solr.spelling.suggest.SolrSuggester; init: {name=mySuggester,lookupImpl=FuzzyLookupFactory,dictionaryImpl=DocumentDictionaryFactory,field=cat,weightField=price,suggestAnalyzerFieldType=string}
+INFO  - 2018-03-06 17:18:29.632; [   x:solr] org.apache.solr.spelling.suggest.SolrSuggester; init: {name=mySuggester,lookupImpl=FuzzyLookupFactory,dictionaryImpl=DocumentDictionaryFactory,field=cat,weightField=price,suggestAnalyzerFieldType=string}
+INFO  - 2018-03-06 17:18:29.632; [   x:db] org.apache.solr.spelling.suggest.SolrSuggester; init: {name=mySuggester,lookupImpl=FuzzyLookupFactory,dictionaryImpl=DocumentDictionaryFactory,field=cat,weightField=price,suggestAnalyzerFieldType=string}
+INFO  - 2018-03-06 17:18:30.148; [   x:mail] org.apache.solr.spelling.suggest.SolrSuggester; Dictionary loaded with params: {name=mySuggester,lookupImpl=FuzzyLookupFactory,dictionaryImpl=DocumentDictionaryFactory,field=cat,weightField=price,suggestAnalyzerFieldType=string}
+INFO  - 2018-03-06 17:18:30.148; [   x:db] org.apache.solr.spelling.suggest.SolrSuggester; Dictionary loaded with params: {name=mySuggester,lookupImpl=FuzzyLookupFactory,dictionaryImpl=DocumentDictionaryFactory,field=cat,weightField=price,suggestAnalyzerFieldType=string}
+INFO  - 2018-03-06 17:18:30.148; [   x:solr] org.apache.solr.spelling.suggest.SolrSuggester; Dictionary loaded with params: {name=mySuggester,lookupImpl=FuzzyLookupFactory,dictionaryImpl=DocumentDictionaryFactory,field=cat,weightField=price,suggestAnalyzerFieldType=string}
+INFO  - 2018-03-06 17:18:30.160; [   x:db] org.apache.solr.handler.component.SuggestComponent; Registering searcher listener for suggester: mySuggester - SuggesterListener [core=org.apache.solr.core.SolrCore@d39fc7c, suggester=SolrSuggester [ name=mySuggester, sourceLocation=null, storeDir=, lookupImpl=FuzzyLookupFactory, dictionaryImpl=DocumentDictionaryFactory, sizeInBytes=0 ], buildOnCommit=false, buildOnOptimize=false, buildOnStartup=true, isCoreReload=false]
+INFO  - 2018-03-06 17:18:30.161; [   x:mail] org.apache.solr.handler.component.SuggestComponent; Registering searcher listener for suggester: mySuggester - SuggesterListener [core=org.apache.solr.core.SolrCore@1d03bbf, suggester=SolrSuggester [ name=mySuggester, sourceLocation=null, storeDir=, lookupImpl=FuzzyLookupFactory, dictionaryImpl=DocumentDictionaryFactory, sizeInBytes=0 ], buildOnCommit=false, buildOnOptimize=false, buildOnStartup=true, isCoreReload=false]
+INFO  - 2018-03-06 17:18:30.161; [   x:solr] org.apache.solr.handler.component.SuggestComponent; Registering searcher listener for suggester: mySuggester - SuggesterListener [core=org.apache.solr.core.SolrCore@23c25b4d, suggester=SolrSuggester [ name=mySuggester, sourceLocation=null, storeDir=, lookupImpl=FuzzyLookupFactory, dictionaryImpl=DocumentDictionaryFactory, sizeInBytes=0 ], buildOnCommit=false, buildOnOptimize=false, buildOnStartup=true, isCoreReload=false]
+INFO  - 2018-03-06 17:18:30.183; [   x:solr] org.apache.solr.handler.component.QueryElevationComponent; Loading QueryElevation from: /home/vagrant/Django/LangSchool/LangSchool/solr-7.2.1/example/example-DIH/solr/solr/conf/elevate.xml
+INFO  - 2018-03-06 17:18:30.187; [   x:db] org.apache.solr.handler.component.QueryElevationComponent; Loading QueryElevation from: /home/vagrant/Django/LangSchool/LangSchool/solr-7.2.1/example/example-DIH/solr/db/conf/elevate.xml
+INFO  - 2018-03-06 17:18:30.194; [   x:mail] org.apache.solr.handler.component.QueryElevationComponent; Loading QueryElevation from: /home/vagrant/Django/LangSchool/LangSchool/solr-7.2.1/example/example-DIH/solr/mail/conf/elevate.xml
+INFO  - 2018-03-06 17:18:30.485; [   x:db] org.apache.solr.handler.ReplicationHandler; Commits will be reserved for 10000ms.
+INFO  - 2018-03-06 17:18:30.489; [   x:mail] org.apache.solr.handler.ReplicationHandler; Commits will be reserved for 10000ms.
+INFO  - 2018-03-06 17:18:30.487; [   x:solr] org.apache.solr.handler.ReplicationHandler; Commits will be reserved for 10000ms.
+INFO  - 2018-03-06 17:18:31.573; [   x:mail] org.apache.solr.core.QuerySenderListener; QuerySenderListener sending requests to Searcher@3a1a933[mail] main{ExitableDirectoryReader(UninvertingDirectoryReader())}
+INFO  - 2018-03-06 17:18:31.576; [   x:solr] org.apache.solr.core.QuerySenderListener; QuerySenderListener sending requests to Searcher@73b32b27[solr] main{ExitableDirectoryReader(UninvertingDirectoryReader())}
+INFO  - 2018-03-06 17:18:31.583; [   x:db] org.apache.solr.core.QuerySenderListener; QuerySenderListener sending requests to Searcher@54579fa[db] main{ExitableDirectoryReader(UninvertingDirectoryReader())}
+INFO  - 2018-03-06 17:18:31.616; [   x:solr] org.apache.solr.update.UpdateLog; Could not find max version in index or recent updates, using new clock 1594209559239458816
+INFO  - 2018-03-06 17:18:31.618; [   x:db] org.apache.solr.update.UpdateLog; Could not find max version in index or recent updates, using new clock 1594209559241555968
+INFO  - 2018-03-06 17:18:31.619; [   x:mail] org.apache.solr.update.UpdateLog; Could not find max version in index or recent updates, using new clock 1594209559242604544
+INFO  - 2018-03-06 17:18:32.019; [   ] org.apache.solr.core.SolrResourceLoader; [atom] Added 2 libs to classloader, from paths: [/home/vagrant/Django/LangSchool/LangSchool/solr-7.2.1/dist]
+INFO  - 2018-03-06 17:18:32.371; [   ] org.apache.solr.core.SolrResourceLoader; [tika] Added 39 libs to classloader, from paths: [/home/vagrant/Django/LangSchool/LangSchool/solr-7.2.1/contrib/extraction/lib, /home/vagrant/Django/LangSchool/LangSchool/solr-7.2.1/dist]
+INFO  - 2018-03-06 17:18:32.626; [   x:solr] org.apache.solr.core.SolrCore; [solr]  webapp=null path=null params={q=static+firstSearcher+warming+in+solrconfig.xml&distrib=false&event=firstSearcher} hits=0 status=0 QTime=1011
+INFO  - 2018-03-06 17:18:32.627; [   x:mail] org.apache.solr.core.SolrCore; [mail]  webapp=null path=null params={q=static+firstSearcher+warming+in+solrconfig.xml&distrib=false&event=firstSearcher} hits=0 status=0 QTime=1013
+INFO  - 2018-03-06 17:18:32.636; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=null path=null params={q=static+firstSearcher+warming+in+solrconfig.xml&distrib=false&event=firstSearcher} hits=0 status=0 QTime=1016
+INFO  - 2018-03-06 17:18:32.649; [   x:solr] org.apache.solr.core.QuerySenderListener; QuerySenderListener done.
+INFO  - 2018-03-06 17:18:32.651; [   x:db] org.apache.solr.core.QuerySenderListener; QuerySenderListener done.
+INFO  - 2018-03-06 17:18:32.651; [   x:mail] org.apache.solr.core.QuerySenderListener; QuerySenderListener done.
+INFO  - 2018-03-06 17:18:32.669; [   x:mail] org.apache.solr.handler.component.SpellCheckComponent$SpellCheckerListener; Loading spell index for spellchecker: default
+INFO  - 2018-03-06 17:18:32.671; [   x:mail] org.apache.solr.handler.component.SpellCheckComponent$SpellCheckerListener; Loading spell index for spellchecker: wordbreak
+INFO  - 2018-03-06 17:18:32.669; [   x:db] org.apache.solr.handler.component.SpellCheckComponent$SpellCheckerListener; Loading spell index for spellchecker: default
+INFO  - 2018-03-06 17:18:32.676; [   x:db] org.apache.solr.handler.component.SpellCheckComponent$SpellCheckerListener; Loading spell index for spellchecker: wordbreak
+INFO  - 2018-03-06 17:18:32.682; [   x:db] org.apache.solr.handler.component.SuggestComponent$SuggesterListener; buildOnStartup: mySuggester
+INFO  - 2018-03-06 17:18:32.688; [   x:db] org.apache.solr.spelling.suggest.SolrSuggester; SolrSuggester.build(mySuggester)
+INFO  - 2018-03-06 17:18:32.676; [   x:mail] org.apache.solr.handler.component.SuggestComponent$SuggesterListener; buildOnStartup: mySuggester
+INFO  - 2018-03-06 17:18:32.677; [   x:solr] org.apache.solr.handler.component.SpellCheckComponent$SpellCheckerListener; Loading spell index for spellchecker: default
+INFO  - 2018-03-06 17:18:32.694; [   x:solr] org.apache.solr.handler.component.SpellCheckComponent$SpellCheckerListener; Loading spell index for spellchecker: wordbreak
+INFO  - 2018-03-06 17:18:32.697; [   x:solr] org.apache.solr.handler.component.SuggestComponent$SuggesterListener; buildOnStartup: mySuggester
+INFO  - 2018-03-06 17:18:32.695; [   x:mail] org.apache.solr.spelling.suggest.SolrSuggester; SolrSuggester.build(mySuggester)
+INFO  - 2018-03-06 17:18:32.705; [   x:solr] org.apache.solr.spelling.suggest.SolrSuggester; SolrSuggester.build(mySuggester)
+INFO  - 2018-03-06 17:18:32.732; [   ] org.apache.solr.core.SolrConfig; Using Lucene MatchVersion: 7.2.1
+INFO  - 2018-03-06 17:18:32.996; [   x:mail] org.apache.solr.core.SolrCore; [mail] Registered new searcher Searcher@3a1a933[mail] main{ExitableDirectoryReader(UninvertingDirectoryReader())}
+INFO  - 2018-03-06 17:18:32.998; [   x:db] org.apache.solr.core.SolrCore; [db] Registered new searcher Searcher@54579fa[db] main{ExitableDirectoryReader(UninvertingDirectoryReader())}
+INFO  - 2018-03-06 17:18:33.004; [   x:solr] org.apache.solr.core.SolrCore; [solr] Registered new searcher Searcher@73b32b27[solr] main{ExitableDirectoryReader(UninvertingDirectoryReader())}
+INFO  - 2018-03-06 17:18:33.214; [   ] org.apache.solr.schema.IndexSchema; [atom] Schema name=example-DIH-atom
+INFO  - 2018-03-06 17:18:33.373; [   ] org.apache.solr.core.SolrConfig; Using Lucene MatchVersion: 7.2.1
+INFO  - 2018-03-06 17:18:33.725; [   ] org.apache.solr.schema.IndexSchema; Loaded schema example-DIH-atom/1.6 with uniqueid field id
+INFO  - 2018-03-06 17:18:33.784; [   ] org.apache.solr.schema.IndexSchema; [tika] Schema name=example-DIH-tika
+INFO  - 2018-03-06 17:18:33.862; [   ] org.apache.solr.schema.IndexSchema; Loaded schema example-DIH-tika/1.6 with uniqueid field id
+INFO  - 2018-03-06 17:18:33.868; [   ] org.apache.solr.core.CoreContainer; Creating SolrCore 'tika' using configuration from instancedir /home/vagrant/Django/LangSchool/LangSchool/solr-7.2.1/example/example-DIH/solr/tika, trusted=true
+INFO  - 2018-03-06 17:18:33.877; [   ] org.apache.solr.core.SolrCore; solr.RecoveryStrategy.Builder
+INFO  - 2018-03-06 17:18:33.878; [   ] org.apache.solr.core.CoreContainer; Creating SolrCore 'atom' using configuration from instancedir /home/vagrant/Django/LangSchool/LangSchool/solr-7.2.1/example/example-DIH/solr/atom, trusted=true
+INFO  - 2018-03-06 17:18:33.884; [   ] org.apache.solr.core.SolrCore; solr.RecoveryStrategy.Builder
+INFO  - 2018-03-06 17:18:33.885; [   ] org.apache.solr.core.SolrCore; [[atom] ] Opening new SolrCore at [/home/vagrant/Django/LangSchool/LangSchool/solr-7.2.1/example/example-DIH/solr/atom], dataDir=[/home/vagrant/Django/LangSchool/LangSchool/solr-7.2.1/example/example-DIH/solr/atom/data/]
+INFO  - 2018-03-06 17:18:33.885; [   ] org.apache.solr.core.SolrCore; [[tika] ] Opening new SolrCore at [/home/vagrant/Django/LangSchool/LangSchool/solr-7.2.1/example/example-DIH/solr/tika], dataDir=[/home/vagrant/Django/LangSchool/LangSchool/solr-7.2.1/example/example-DIH/solr/tika/data/]
+INFO  - 2018-03-06 17:18:35.681; [   ] org.apache.solr.update.CommitTracker; Hard AutoCommit: disabled
+INFO  - 2018-03-06 17:18:35.691; [   ] org.apache.solr.update.CommitTracker; Soft AutoCommit: disabled
+INFO  - 2018-03-06 17:18:35.723; [   ] org.apache.solr.update.CommitTracker; Hard AutoCommit: disabled
+INFO  - 2018-03-06 17:18:35.725; [   ] org.apache.solr.update.CommitTracker; Soft AutoCommit: disabled
+INFO  - 2018-03-06 17:18:35.807; [   ] org.apache.solr.search.SolrIndexSearcher; Opening [Searcher@3c098f71[tika] main]
+INFO  - 2018-03-06 17:18:35.830; [   ] org.apache.solr.rest.ManagedResourceStorage$FileStorageIO; File-based storage initialized to use dir: /home/vagrant/Django/LangSchool/LangSchool/solr-7.2.1/example/example-DIH/solr/tika/conf
+INFO  - 2018-03-06 17:18:35.839; [   ] org.apache.solr.handler.ReplicationHandler; Commits will be reserved for 10000ms.
+INFO  - 2018-03-06 17:18:35.856; [   ] org.apache.solr.search.SolrIndexSearcher; Opening [Searcher@6dad9e4[atom] main]
+INFO  - 2018-03-06 17:18:35.873; [   ] org.apache.solr.rest.ManagedResourceStorage$FileStorageIO; File-based storage initialized to use dir: /home/vagrant/Django/LangSchool/LangSchool/solr-7.2.1/example/example-DIH/solr/atom/conf
+INFO  - 2018-03-06 17:18:35.959; [   ] org.apache.solr.handler.ReplicationHandler; Commits will be reserved for 10000ms.
+INFO  - 2018-03-06 17:18:35.973; [   ] org.apache.solr.core.SolrCore; [tika] Registered new searcher Searcher@3c098f71[tika] main{ExitableDirectoryReader(UninvertingDirectoryReader())}
+INFO  - 2018-03-06 17:18:36.044; [   ] org.apache.solr.core.SolrCore; [atom] Registered new searcher Searcher@6dad9e4[atom] main{ExitableDirectoryReader(UninvertingDirectoryReader())}
+INFO  - 2018-03-06 17:18:36.335; [   ] org.apache.solr.core.SolrResourceLoader; [null] Added 2 libs to classloader, from paths: [/home/vagrant/Django/LangSchool/LangSchool/solr-7.2.1/example/example-DIH/solr/db/lib]
+INFO  - 2018-03-06 17:18:36.883; [   ] org.apache.solr.core.SolrResourceLoader; [db] Added 48 libs to classloader, from paths: [/home/vagrant/Django/LangSchool/LangSchool/solr-7.2.1/contrib/extraction/lib, /home/vagrant/Django/LangSchool/LangSchool/solr-7.2.1/contrib/langid/lib, /home/vagrant/Django/LangSchool/LangSchool/solr-7.2.1/contrib/velocity/lib, /home/vagrant/Django/LangSchool/LangSchool/solr-7.2.1/dist]
+INFO  - 2018-03-06 17:18:37.461; [   ] org.apache.solr.update.SolrIndexConfig; IndexWriter infoStream solr logging is enabled
+INFO  - 2018-03-06 17:18:37.484; [   ] org.apache.solr.core.SolrConfig; Using Lucene MatchVersion: 7.2.1
+INFO  - 2018-03-06 17:18:37.947; [   ] org.apache.solr.schema.IndexSchema; [db] Schema name=example-DIH-db
+INFO  - 2018-03-06 17:18:40.697; [   ] org.apache.solr.schema.IndexSchema; Loaded schema example-DIH-db/1.6 with uniqueid field id
+INFO  - 2018-03-06 17:18:41.716; [   ] org.apache.solr.core.CoreContainer; Reloading SolrCore 'db' using configuration from instancedir /home/vagrant/Django/LangSchool/LangSchool/solr-7.2.1/example/example-DIH/solr/db
+INFO  - 2018-03-06 17:18:41.731; [   x:db] org.apache.solr.core.SolrCore; [[db] ] Opening new SolrCore at [/home/vagrant/Django/LangSchool/LangSchool/solr-7.2.1/example/example-DIH/solr/db], dataDir=[/home/vagrant/Django/LangSchool/LangSchool/solr-7.2.1/example/example-DIH/solr/db/data/]
+INFO  - 2018-03-06 17:18:41.763; [   x:db] org.apache.solr.response.XSLTResponseWriter; xsltCacheLifetimeSeconds=5
+INFO  - 2018-03-06 17:18:42.512; [   x:db] org.apache.solr.update.CommitTracker; Hard AutoCommit: if uncommited for 15000ms; 
+INFO  - 2018-03-06 17:18:42.515; [   x:db] org.apache.solr.update.CommitTracker; Soft AutoCommit: disabled
+INFO  - 2018-03-06 17:18:42.543; [   x:db] org.apache.solr.search.SolrIndexSearcher; Opening [Searcher@1095c390[db] main]
+INFO  - 2018-03-06 17:18:42.558; [   x:db] org.apache.solr.rest.ManagedResourceStorage$FileStorageIO; File-based storage initialized to use dir: /home/vagrant/Django/LangSchool/LangSchool/solr-7.2.1/example/example-DIH/solr/db/conf
+INFO  - 2018-03-06 17:18:42.563; [   x:db] org.apache.solr.handler.component.SpellCheckComponent; Initializing spell checkers
+INFO  - 2018-03-06 17:18:42.570; [   x:db] org.apache.solr.spelling.DirectSolrSpellChecker; init: {name=default,field=text,classname=solr.DirectSolrSpellChecker,distanceMeasure=internal,accuracy=0.5,maxEdits=2,minPrefix=1,maxInspections=5,minQueryLength=4,maxQueryFrequency=0.01}
+INFO  - 2018-03-06 17:18:42.575; [   x:db] org.apache.solr.handler.component.SuggestComponent; Initializing SuggestComponent
+INFO  - 2018-03-06 17:18:42.579; [   x:db] org.apache.solr.spelling.suggest.SolrSuggester; init: {name=mySuggester,lookupImpl=FuzzyLookupFactory,dictionaryImpl=DocumentDictionaryFactory,field=cat,weightField=price,suggestAnalyzerFieldType=string}
+INFO  - 2018-03-06 17:18:42.586; [   x:db] org.apache.solr.spelling.suggest.SolrSuggester; Dictionary loaded with params: {name=mySuggester,lookupImpl=FuzzyLookupFactory,dictionaryImpl=DocumentDictionaryFactory,field=cat,weightField=price,suggestAnalyzerFieldType=string}
+INFO  - 2018-03-06 17:18:42.590; [   x:db] org.apache.solr.handler.component.SuggestComponent; Registering searcher listener for suggester: mySuggester - SuggesterListener [core=org.apache.solr.core.SolrCore@350a2306, suggester=SolrSuggester [ name=mySuggester, sourceLocation=null, storeDir=, lookupImpl=FuzzyLookupFactory, dictionaryImpl=DocumentDictionaryFactory, sizeInBytes=0 ], buildOnCommit=false, buildOnOptimize=false, buildOnStartup=true, isCoreReload=true]
+INFO  - 2018-03-06 17:18:42.603; [   x:db] org.apache.solr.handler.component.QueryElevationComponent; Loading QueryElevation from: /home/vagrant/Django/LangSchool/LangSchool/solr-7.2.1/example/example-DIH/solr/db/conf/elevate.xml
+INFO  - 2018-03-06 17:18:42.668; [   x:db] org.apache.solr.handler.ReplicationHandler; Commits will be reserved for 10000ms.
+INFO  - 2018-03-06 17:18:42.748; [   x:db] org.apache.solr.core.QuerySenderListener; QuerySenderListener sending requests to Searcher@1095c390[db] main{ExitableDirectoryReader(UninvertingDirectoryReader())}
+INFO  - 2018-03-06 17:18:42.763; [   x:db] org.apache.solr.update.UpdateLog; Could not find max version in index or recent updates, using new clock 1594209570927935488
+INFO  - 2018-03-06 17:18:42.771; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=null path=null params={q=static+firstSearcher+warming+in+solrconfig.xml&distrib=false&event=firstSearcher} hits=0 status=0 QTime=21
+INFO  - 2018-03-06 17:18:42.774; [   x:db] org.apache.solr.core.QuerySenderListener; QuerySenderListener done.
+INFO  - 2018-03-06 17:18:42.780; [   x:db] org.apache.solr.handler.component.SpellCheckComponent$SpellCheckerListener; Loading spell index for spellchecker: default
+INFO  - 2018-03-06 17:18:42.782; [   x:db] org.apache.solr.handler.component.SpellCheckComponent$SpellCheckerListener; Loading spell index for spellchecker: wordbreak
+INFO  - 2018-03-06 17:18:42.784; [   x:db] org.apache.solr.handler.component.SuggestComponent$SuggesterListener; Skipping first newSearcher call for suggester SolrSuggester [ name=mySuggester, sourceLocation=null, storeDir=, lookupImpl=FuzzyLookupFactory, dictionaryImpl=DocumentDictionaryFactory, sizeInBytes=0 ] in core reload
+INFO  - 2018-03-06 17:18:42.791; [   x:db] org.apache.solr.core.SolrCore; [db] Registered new searcher Searcher@1095c390[db] main{ExitableDirectoryReader(UninvertingDirectoryReader())}
+INFO  - 2018-03-06 17:18:42.937; [   x:db] org.apache.solr.update.DefaultSolrCoreState; New IndexWriter is ready to be used.
+INFO  - 2018-03-06 17:18:42.946; [   x:db] org.apache.solr.search.SolrIndexSearcher; Opening [Searcher@3a694cf0[db] main]
+INFO  - 2018-03-06 17:18:42.969; [   x:db] org.apache.solr.core.QuerySenderListener; QuerySenderListener sending requests to Searcher@3a694cf0[db] main{ExitableDirectoryReader(UninvertingDirectoryReader())}
+INFO  - 2018-03-06 17:18:42.971; [   x:db] org.apache.solr.core.QuerySenderListener; QuerySenderListener done.
+INFO  - 2018-03-06 17:18:42.980; [   x:db] org.apache.solr.handler.component.SuggestComponent$SuggesterListener; buildOnStartup: mySuggester
+INFO  - 2018-03-06 17:18:42.986; [   x:db] org.apache.solr.spelling.suggest.SolrSuggester; SolrSuggester.build(mySuggester)
+INFO  - 2018-03-06 17:18:42.971; [   x:db] org.apache.solr.core.SolrCore; [db]  CLOSING SolrCore org.apache.solr.core.SolrCore@d39fc7c
+INFO  - 2018-03-06 17:18:42.990; [   x:db] org.apache.solr.metrics.SolrMetricManager; Closing metric reporters for registry=solr.core.db, tag=221903996
+INFO  - 2018-03-06 17:18:43.004; [   x:db] org.apache.solr.core.SolrCore; [db] Registered new searcher Searcher@3a694cf0[db] main{ExitableDirectoryReader(UninvertingDirectoryReader())}
+INFO  - 2018-03-06 17:18:43.014; [   x:db] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/cores params={core=db&action=RELOAD&wt=json&_=1520356698428} status=0 QTime=6723
+INFO  - 2018-03-06 17:18:44.261; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1520356698428} status=0 QTime=6
+INFO  - 2018-03-06 17:18:44.402; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/info/system params={wt=json&_=1520356698432} status=0 QTime=130
+INFO  - 2018-03-06 17:18:44.513; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/cores params={wt=json&_=1520356698428} status=0 QTime=243
+INFO  - 2018-03-06 17:19:25.710; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1520356698428} status=0 QTime=6
+INFO  - 2018-03-06 17:19:25.924; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/info/system params={wt=json&_=1520356698432} status=0 QTime=203
+INFO  - 2018-03-06 17:19:26.035; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/cores params={wt=json&_=1520356698428} status=0 QTime=312
+INFO  - 2018-03-06 17:19:29.410; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1520356698428} status=0 QTime=0
+INFO  - 2018-03-06 17:19:29.602; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/cores params={wt=json&_=1520356698428} status=0 QTime=176
+INFO  - 2018-03-06 17:19:29.654; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/info/system params={wt=json&_=1520356698432} status=0 QTime=236
+INFO  - 2018-03-06 17:19:32.720; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1520356698428} status=0 QTime=11
+INFO  - 2018-03-06 17:19:32.826; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/info/system params={wt=json&_=1520356698432} status=0 QTime=116
+INFO  - 2018-03-06 17:19:32.889; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/cores params={wt=json&_=1520356698428} status=0 QTime=195
+INFO  - 2018-03-06 17:19:35.107; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1520356698428} status=0 QTime=0
+INFO  - 2018-03-06 17:19:35.317; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/info/system params={wt=json&_=1520356698432} status=0 QTime=177
+INFO  - 2018-03-06 17:19:35.340; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/cores params={wt=json&_=1520356698428} status=0 QTime=219
+INFO  - 2018-03-06 17:19:43.518; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1520356698428} status=0 QTime=23
+INFO  - 2018-03-06 17:19:43.611; [   x:mail] org.apache.solr.core.SolrCore; [mail]  webapp=/solr path=/admin/ping params={action=status&wt=json&_=1520356698433&ts=1520356698433} status=503 QTime=72
+INFO  - 2018-03-06 17:19:43.635; [   x:mail] org.apache.solr.core.SolrCore; [mail]  webapp=/solr path=/replication params={wt=json&command=details&_=1520356783406} status=0 QTime=103
+INFO  - 2018-03-06 17:19:43.666; [   x:mail] org.apache.solr.core.SolrCore; [mail]  webapp=/solr path=/admin/luke params={numTerms=0&show=index&wt=json&_=1520356783404} status=0 QTime=124
+INFO  - 2018-03-06 17:19:43.745; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/info/system params={wt=json&_=1520356698432} status=0 QTime=222
+INFO  - 2018-03-06 17:19:43.790; [   x:mail] org.apache.solr.core.SolrCore; [mail]  webapp=/solr path=/admin/system params={wt=json&_=1520356783405} status=0 QTime=254
+INFO  - 2018-03-06 17:20:15.259; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1520356698428} status=0 QTime=0
+INFO  - 2018-03-06 17:20:15.394; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/info/system params={wt=json&_=1520356698432} status=0 QTime=149
+INFO  - 2018-03-06 17:20:15.523; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/cores params={wt=json&_=1520356698428} status=0 QTime=266
+INFO  - 2018-03-06 17:20:15.771; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1520356698428} status=0 QTime=1
+INFO  - 2018-03-06 17:20:15.923; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/info/system params={wt=json&_=1520356698432} status=0 QTime=149
+INFO  - 2018-03-06 17:20:16.059; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/cores params={wt=json&_=1520356698428} status=0 QTime=277
+INFO  - 2018-03-06 17:20:29.812; [   ] org.apache.solr.handler.admin.CoreAdminOperation; core create command schema=schema.xml&dataDir=data&name=blog&action=CREATE&config=solrconfig.xml&instanceDir=blog&wt=json&_=1520356698428
+ERROR - 2018-03-06 17:20:29.886; [   x:blog] org.apache.solr.common.SolrException; org.apache.solr.common.SolrException: Error CREATEing SolrCore 'blog': Unable to create core [blog] Caused by: Can't find resource 'solrconfig.xml' in classpath or '/home/vagrant/Django/LangSchool/LangSchool/solr-7.2.1/example/example-DIH/solr/blog'
+	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:987)
+	at org.apache.solr.handler.admin.CoreAdminOperation.lambda$static$0(CoreAdminOperation.java:91)
+	at org.apache.solr.handler.admin.CoreAdminOperation.execute(CoreAdminOperation.java:384)
+	at org.apache.solr.handler.admin.CoreAdminHandler$CallInfo.call(CoreAdminHandler.java:389)
+	at org.apache.solr.handler.admin.CoreAdminHandler.handleRequestBody(CoreAdminHandler.java:174)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:177)
+	at org.apache.solr.servlet.HttpSolrCall.handleAdmin(HttpSolrCall.java:735)
+	at org.apache.solr.servlet.HttpSolrCall.handleAdminRequest(HttpSolrCall.java:716)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:497)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:382)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:326)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1751)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:582)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:548)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:226)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1180)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:512)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1112)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:213)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:119)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:134)
+	at org.eclipse.jetty.rewrite.handler.RewriteHandler.handle(RewriteHandler.java:335)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:134)
+	at org.eclipse.jetty.server.Server.handle(Server.java:534)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:320)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:251)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:283)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:108)
+	at org.eclipse.jetty.io.SelectChannelEndPoint$2.run(SelectChannelEndPoint.java:93)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.executeProduceConsume(ExecuteProduceConsume.java:303)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.produceConsume(ExecuteProduceConsume.java:148)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.run(ExecuteProduceConsume.java:136)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:671)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:589)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.apache.solr.common.SolrException: Unable to create core [blog]
+	at org.apache.solr.core.CoreContainer.createFromDescriptor(CoreContainer.java:1053)
+	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:948)
+	... 37 more
+Caused by: org.apache.solr.common.SolrException: Could not load conf for core blog: Error loading solr config from /home/vagrant/Django/LangSchool/LangSchool/solr-7.2.1/example/example-DIH/solr/blog/conf/solrconfig.xml
+	at org.apache.solr.core.ConfigSetService.getConfig(ConfigSetService.java:97)
+	at org.apache.solr.core.CoreContainer.getConfigSet(CoreContainer.java:1081)
+	at org.apache.solr.core.CoreContainer.createFromDescriptor(CoreContainer.java:1033)
+	... 38 more
+Caused by: org.apache.solr.common.SolrException: Error loading solr config from /home/vagrant/Django/LangSchool/LangSchool/solr-7.2.1/example/example-DIH/solr/blog/conf/solrconfig.xml
+	at org.apache.solr.core.SolrConfig.readFromResourceLoader(SolrConfig.java:189)
+	at org.apache.solr.core.ConfigSetService.createSolrConfig(ConfigSetService.java:109)
+	at org.apache.solr.core.ConfigSetService.getConfig(ConfigSetService.java:91)
+	... 40 more
+Caused by: org.apache.solr.core.SolrResourceNotFoundException: Can't find resource 'solrconfig.xml' in classpath or '/home/vagrant/Django/LangSchool/LangSchool/solr-7.2.1/example/example-DIH/solr/blog'
+	at org.apache.solr.core.SolrResourceLoader.openResource(SolrResourceLoader.java:407)
+	at org.apache.solr.core.SolrResourceLoader.openConfig(SolrResourceLoader.java:362)
+	at org.apache.solr.core.Config.<init>(Config.java:120)
+	at org.apache.solr.core.Config.<init>(Config.java:90)
+	at org.apache.solr.core.SolrConfig.<init>(SolrConfig.java:204)
+	at org.apache.solr.core.SolrConfig.readFromResourceLoader(SolrConfig.java:181)
+	... 42 more
+
+INFO  - 2018-03-06 17:20:29.888; [   x:blog] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/cores params={schema=schema.xml&dataDir=data&name=blog&action=CREATE&config=solrconfig.xml&instanceDir=blog&wt=json&_=1520356698428} status=400 QTime=76
+INFO  - 2018-03-06 17:20:34.601; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1520356698428} status=0 QTime=1
+INFO  - 2018-03-06 17:20:34.778; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/info/system params={wt=json&_=1520356698432} status=0 QTime=163
+INFO  - 2018-03-06 17:20:34.862; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/cores params={wt=json&_=1520356698428} status=0 QTime=242
+INFO  - 2018-03-06 17:20:35.271; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1520356698428} status=0 QTime=47
+INFO  - 2018-03-06 17:20:35.451; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/info/system params={wt=json&_=1520356698432} status=0 QTime=170
+INFO  - 2018-03-06 17:20:35.518; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/cores params={wt=json&_=1520356698428} status=0 QTime=165
+INFO  - 2018-03-06 17:33:35.395; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1520357613747} status=0 QTime=8
+INFO  - 2018-03-06 17:33:35.594; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/info/system params={wt=json&_=1520357613774} status=0 QTime=191
+INFO  - 2018-03-06 17:33:36.563; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/cores params={wt=json&_=1520357613747} status=0 QTime=1117
+INFO  - 2018-03-06 17:33:39.330; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1520357618199} status=0 QTime=22
+INFO  - 2018-03-06 17:33:39.460; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/info/system params={wt=json&_=1520357618203} status=0 QTime=140
+INFO  - 2018-03-06 17:33:39.483; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/cores params={wt=json&_=1520357618199} status=0 QTime=155
+INFO  - 2018-03-06 17:33:48.344; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1520357627459} status=0 QTime=0
+INFO  - 2018-03-06 17:33:48.551; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/info/system params={wt=json&_=1520357627467} status=0 QTime=156
+INFO  - 2018-03-06 17:33:48.641; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/info/system params={wt=json&_=1520357627467} status=0 QTime=289
+INFO  - 2018-03-06 17:34:02.997; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1520357627459} status=0 QTime=0
+INFO  - 2018-03-06 17:34:03.070; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/info/logging params={wt=json&_=1520357642901&since=0} status=0 QTime=43
+INFO  - 2018-03-06 17:34:03.196; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/info/system params={wt=json&_=1520357627467} status=0 QTime=152
+INFO  - 2018-03-06 17:34:12.973; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/info/logging params={wt=json&_=1520357642901&since=0} status=0 QTime=0
+INFO  - 2018-03-06 17:34:17.983; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1520357627459} status=0 QTime=6
+INFO  - 2018-03-06 17:34:18.199; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/info/system params={wt=json&_=1520357627467} status=0 QTime=200
+INFO  - 2018-03-06 17:34:18.329; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/cores params={wt=json&_=1520357627459} status=0 QTime=334
+INFO  - 2018-03-06 17:34:18.664; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1520357627459} status=0 QTime=6
+INFO  - 2018-03-06 17:34:18.839; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/info/system params={wt=json&_=1520357627467} status=0 QTime=163
+INFO  - 2018-03-06 17:34:18.868; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/cores params={wt=json&_=1520357627459} status=0 QTime=184
+INFO  - 2018-03-06 17:34:22.650; [   ] org.apache.solr.metrics.SolrMetricManager; Closing metric reporters for registry=solr.core.atom, tag=null
+INFO  - 2018-03-06 17:34:22.666; [   ] org.apache.solr.core.SolrCore; [atom]  CLOSING SolrCore org.apache.solr.core.SolrCore@10fa8993
+INFO  - 2018-03-06 17:34:22.670; [   ] org.apache.solr.metrics.SolrMetricManager; Closing metric reporters for registry=solr.core.atom, tag=284854675
+INFO  - 2018-03-06 17:34:22.815; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/cores params={core=atom&action=UNLOAD&wt=json&_=1520357627459} status=0 QTime=177
+INFO  - 2018-03-06 17:34:23.366; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1520357627459} status=0 QTime=66
+INFO  - 2018-03-06 17:34:23.564; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/info/system params={wt=json&_=1520357627467} status=0 QTime=262
+INFO  - 2018-03-06 17:34:23.605; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/cores params={wt=json&_=1520357627459} status=0 QTime=139
+INFO  - 2018-03-06 17:34:24.132; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1520357627459} status=0 QTime=1
+INFO  - 2018-03-06 17:34:24.363; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/info/system params={wt=json&_=1520357627467} status=0 QTime=200
+INFO  - 2018-03-06 17:34:24.422; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/cores params={wt=json&_=1520357627459} status=0 QTime=253
+INFO  - 2018-03-06 17:34:26.975; [   ] org.apache.solr.metrics.SolrMetricManager; Closing metric reporters for registry=solr.core.db, tag=null
+INFO  - 2018-03-06 17:34:26.977; [   ] org.apache.solr.core.SolrCore; [db]  CLOSING SolrCore org.apache.solr.core.SolrCore@350a2306
+INFO  - 2018-03-06 17:34:26.980; [   ] org.apache.solr.metrics.SolrMetricManager; Closing metric reporters for registry=solr.core.db, tag=889856774
+INFO  - 2018-03-06 17:34:27.083; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/cores params={core=db&action=UNLOAD&wt=json&_=1520357627459} status=0 QTime=116
+INFO  - 2018-03-06 17:34:27.390; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1520357627459} status=0 QTime=19
+INFO  - 2018-03-06 17:34:27.603; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/cores params={wt=json&_=1520357627459} status=0 QTime=219
+INFO  - 2018-03-06 17:34:27.676; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/info/system params={wt=json&_=1520357627467} status=0 QTime=294
+INFO  - 2018-03-06 17:34:28.034; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1520357627459} status=0 QTime=0
+INFO  - 2018-03-06 17:34:28.173; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/cores params={wt=json&_=1520357627459} status=0 QTime=130
+INFO  - 2018-03-06 17:34:28.249; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/info/system params={wt=json&_=1520357627467} status=0 QTime=201
+INFO  - 2018-03-06 17:34:41.061; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1520357627459} status=0 QTime=0
+INFO  - 2018-03-06 17:34:41.198; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/info/system params={wt=json&_=1520357627467} status=0 QTime=127
+INFO  - 2018-03-06 17:34:41.213; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/cores params={wt=json&_=1520357627459} status=0 QTime=136
+INFO  - 2018-03-06 17:35:05.387; [   ] org.eclipse.jetty.server.AbstractConnector; Stopped ServerConnector@39906a7d{HTTP/1.1,[http/1.1]}{0.0.0.0:8983}
+INFO  - 2018-03-06 17:35:05.399; [   ] org.apache.solr.core.CoreContainer; Shutting down CoreContainer instance=1782580546
+INFO  - 2018-03-06 17:35:05.410; [   ] org.apache.solr.metrics.SolrMetricManager; Closing metric reporters for registry=solr.node, tag=null
+INFO  - 2018-03-06 17:35:05.428; [   ] org.apache.solr.metrics.SolrMetricManager; Closing metric reporters for registry=solr.jvm, tag=null
+INFO  - 2018-03-06 17:35:05.440; [   ] org.apache.solr.metrics.SolrMetricManager; Closing metric reporters for registry=solr.jetty, tag=null
+INFO  - 2018-03-06 17:35:05.483; [   x:mail] org.apache.solr.core.SolrCore; [mail]  CLOSING SolrCore org.apache.solr.core.SolrCore@1d03bbf
+INFO  - 2018-03-06 17:35:05.485; [   x:mail] org.apache.solr.metrics.SolrMetricManager; Closing metric reporters for registry=solr.core.mail, tag=30423999
+INFO  - 2018-03-06 17:35:05.485; [   x:solr] org.apache.solr.core.SolrCore; [solr]  CLOSING SolrCore org.apache.solr.core.SolrCore@23c25b4d
+INFO  - 2018-03-06 17:35:05.492; [   x:solr] org.apache.solr.metrics.SolrMetricManager; Closing metric reporters for registry=solr.core.solr, tag=599939917
+INFO  - 2018-03-06 17:35:05.494; [   x:tika] org.apache.solr.core.SolrCore; [tika]  CLOSING SolrCore org.apache.solr.core.SolrCore@70731ff8
+INFO  - 2018-03-06 17:35:05.499; [   x:tika] org.apache.solr.metrics.SolrMetricManager; Closing metric reporters for registry=solr.core.tika, tag=1886593016
+INFO  - 2018-03-06 17:35:05.826; [   ] org.eclipse.jetty.server.handler.ContextHandler; Stopped o.e.j.w.WebAppContext@33c7e1bb{/solr,null,UNAVAILABLE}{/home/vagrant/Django/LangSchool/LangSchool/solr-7.2.1/server/solr-webapp/webapp}

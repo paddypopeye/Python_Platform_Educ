@@ -1,0 +1,6 @@
+2018-05-11 09:55:13.632 INFO  (main) [   ] o.e.j.s.Server jetty-9.3.20.v20170531
+2018-05-11 09:55:29.423 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter  ___      _       Welcome to Apache Solr™ version 7.2.1
+2018-05-11 09:55:29.428 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter / __| ___| |_ _   Starting in standalone mode on port 8983
+2018-05-11 09:55:29.431 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter \__ \/ _ \ | '_|  Install dir: /home/vagrant/Django/LangSchool/solr-7.2.1
+2018-05-11 09:55:29.587 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter |___/\___/_|_|    Start time: 2018-05-11T09:55:29.439Z
+2018-05-11 09:55:29.592 INFO  (main) [   ] o.a.s.u.StartupLoggingUtils Property solr.log.muteconsole given. Muting ConsoleAppender named CONSOLE

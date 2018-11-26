@@ -1,0 +1,521 @@
+[
+{
+  "model": "shop.categorytranslation",
+  "pk": 1,
+  "fields": {
+    "language_code": "en",
+    "name": "German",
+    "slug": "german",
+    "master": 1
+  }
+},
+{
+  "model": "shop.categorytranslation",
+  "pk": 2,
+  "fields": {
+    "language_code": "es",
+    "name": "Alem\u00e1n",
+    "slug": "aleman",
+    "master": 1
+  }
+},
+{
+  "model": "shop.categorytranslation",
+  "pk": 3,
+  "fields": {
+    "language_code": "ca",
+    "name": "Alemany",
+    "slug": "alemany",
+    "master": 1
+  }
+},
+{
+  "model": "shop.categorytranslation",
+  "pk": 4,
+  "fields": {
+    "language_code": "ca",
+    "name": "Franc\u00e8s",
+    "slug": "frances",
+    "master": 2
+  }
+},
+{
+  "model": "shop.categorytranslation",
+  "pk": 5,
+  "fields": {
+    "language_code": "en",
+    "name": "French",
+    "slug": "french",
+    "master": 2
+  }
+},
+{
+  "model": "shop.categorytranslation",
+  "pk": 6,
+  "fields": {
+    "language_code": "es",
+    "name": "Franc\u00e8s",
+    "slug": "franceses",
+    "master": 2
+  }
+},
+{
+  "model": "shop.categorytranslation",
+  "pk": 7,
+  "fields": {
+    "language_code": "es",
+    "name": "Ingl\u00e9s",
+    "slug": "ingles",
+    "master": 3
+  }
+},
+{
+  "model": "shop.categorytranslation",
+  "pk": 8,
+  "fields": {
+    "language_code": "en",
+    "name": "English",
+    "slug": "english",
+    "master": 3
+  }
+},
+{
+  "model": "shop.categorytranslation",
+  "pk": 9,
+  "fields": {
+    "language_code": "ca",
+    "name": "Angl\u00e8s",
+    "slug": "angles",
+    "master": 3
+  }
+},
+{
+  "model": "shop.category",
+  "pk": 1,
+  "fields": {}
+},
+{
+  "model": "shop.category",
+  "pk": 2,
+  "fields": {}
+},
+{
+  "model": "shop.category",
+  "pk": 3,
+  "fields": {}
+},
+{
+  "model": "shop.producttranslation",
+  "pk": 1,
+  "fields": {
+    "language_code": "en",
+    "name": "German A1",
+    "slug": "german-a1",
+    "description": "",
+    "master": 1
+  }
+},
+{
+  "model": "shop.producttranslation",
+  "pk": 2,
+  "fields": {
+    "language_code": "es",
+    "name": "Alem\u00e1n",
+    "slug": "aleman",
+    "description": "",
+    "master": 1
+  }
+},
+{
+  "model": "shop.producttranslation",
+  "pk": 3,
+  "fields": {
+    "language_code": "ca",
+    "name": "Alemany",
+    "slug": "alemany",
+    "description": "",
+    "master": 1
+  }
+},
+{
+  "model": "shop.producttranslation",
+  "pk": 4,
+  "fields": {
+    "language_code": "en",
+    "name": "German B1",
+    "slug": "german-b1",
+    "description": "",
+    "master": 2
+  }
+},
+{
+  "model": "shop.producttranslation",
+  "pk": 5,
+  "fields": {
+    "language_code": "es",
+    "name": "Alem\u00e1n B1",
+    "slug": "aleman-b1",
+    "description": "",
+    "master": 2
+  }
+},
+{
+  "model": "shop.producttranslation",
+  "pk": 6,
+  "fields": {
+    "language_code": "ca",
+    "name": "Alemany B1",
+    "slug": "alemany-b1",
+    "description": "",
+    "master": 2
+  }
+},
+{
+  "model": "shop.producttranslation",
+  "pk": 7,
+  "fields": {
+    "language_code": "en",
+    "name": "German C1",
+    "slug": "german-c1",
+    "description": "",
+    "master": 3
+  }
+},
+{
+  "model": "shop.producttranslation",
+  "pk": 8,
+  "fields": {
+    "language_code": "es",
+    "name": "Alem\u00e1n C1",
+    "slug": "aleman-c1",
+    "description": "",
+    "master": 3
+  }
+},
+{
+  "model": "shop.producttranslation",
+  "pk": 9,
+  "fields": {
+    "language_code": "ca",
+    "name": "Alemany C1",
+    "slug": "alemany-c1",
+    "description": "",
+    "master": 3
+  }
+},
+{
+  "model": "shop.producttranslation",
+  "pk": 10,
+  "fields": {
+    "language_code": "en",
+    "name": "French A1",
+    "slug": "french-a1",
+    "description": "",
+    "master": 4
+  }
+},
+{
+  "model": "shop.producttranslation",
+  "pk": 11,
+  "fields": {
+    "language_code": "es",
+    "name": "Alem\u00e1n A1",
+    "slug": "aleman-a1",
+    "description": "",
+    "master": 4
+  }
+},
+{
+  "model": "shop.producttranslation",
+  "pk": 12,
+  "fields": {
+    "language_code": "ca",
+    "name": "Alemany A1",
+    "slug": "alemany-a1",
+    "description": "",
+    "master": 4
+  }
+},
+{
+  "model": "shop.producttranslation",
+  "pk": 13,
+  "fields": {
+    "language_code": "en",
+    "name": "French  B1",
+    "slug": "french-b1",
+    "description": "",
+    "master": 5
+  }
+},
+{
+  "model": "shop.producttranslation",
+  "pk": 14,
+  "fields": {
+    "language_code": "es",
+    "name": "Franc\u00e8s B1",
+    "slug": "frances-b1",
+    "description": "",
+    "master": 5
+  }
+},
+{
+  "model": "shop.producttranslation",
+  "pk": 15,
+  "fields": {
+    "language_code": "ca",
+    "name": "Franc\u00e8s B1",
+    "slug": "frances-b1ca",
+    "description": "",
+    "master": 5
+  }
+},
+{
+  "model": "shop.producttranslation",
+  "pk": 16,
+  "fields": {
+    "language_code": "en",
+    "name": "French C1",
+    "slug": "french-c1",
+    "description": "",
+    "master": 6
+  }
+},
+{
+  "model": "shop.producttranslation",
+  "pk": 17,
+  "fields": {
+    "language_code": "es",
+    "name": "Franc\u00e8s C1",
+    "slug": "frances-c1",
+    "description": "",
+    "master": 6
+  }
+},
+{
+  "model": "shop.producttranslation",
+  "pk": 18,
+  "fields": {
+    "language_code": "ca",
+    "name": "Franc\u00e8s C1",
+    "slug": "frances-c1ca",
+    "description": "",
+    "master": 6
+  }
+},
+{
+  "model": "shop.producttranslation",
+  "pk": 19,
+  "fields": {
+    "language_code": "en",
+    "name": "English A1",
+    "slug": "english-a1",
+    "description": "",
+    "master": 7
+  }
+},
+{
+  "model": "shop.producttranslation",
+  "pk": 20,
+  "fields": {
+    "language_code": "es",
+    "name": "Ingl\u00e9s A1",
+    "slug": "ingles-a1",
+    "description": "",
+    "master": 7
+  }
+},
+{
+  "model": "shop.producttranslation",
+  "pk": 21,
+  "fields": {
+    "language_code": "ca",
+    "name": "Angl\u00e8s A1",
+    "slug": "angles-a1",
+    "description": "",
+    "master": 7
+  }
+},
+{
+  "model": "shop.producttranslation",
+  "pk": 22,
+  "fields": {
+    "language_code": "en",
+    "name": "English C1",
+    "slug": "english-c1",
+    "description": "",
+    "master": 8
+  }
+},
+{
+  "model": "shop.producttranslation",
+  "pk": 23,
+  "fields": {
+    "language_code": "es",
+    "name": "Ingl\u00e9s C1",
+    "slug": "ingles-c1",
+    "description": "",
+    "master": 8
+  }
+},
+{
+  "model": "shop.producttranslation",
+  "pk": 24,
+  "fields": {
+    "language_code": "ca",
+    "name": "Angl\u00e8s C1",
+    "slug": "angles-c1",
+    "description": "",
+    "master": 8
+  }
+},
+{
+  "model": "shop.producttranslation",
+  "pk": 25,
+  "fields": {
+    "language_code": "en",
+    "name": "English B1",
+    "slug": "english-b1",
+    "description": "",
+    "master": 9
+  }
+},
+{
+  "model": "shop.producttranslation",
+  "pk": 26,
+  "fields": {
+    "language_code": "es",
+    "name": "Ingl\u00e9s B1",
+    "slug": "ingles-b1",
+    "description": "",
+    "master": 9
+  }
+},
+{
+  "model": "shop.producttranslation",
+  "pk": 27,
+  "fields": {
+    "language_code": "ca",
+    "name": "Angl\u00e8s B1",
+    "slug": "angles-b1",
+    "description": "",
+    "master": 9
+  }
+},
+{
+  "model": "shop.product",
+  "pk": 1,
+  "fields": {
+    "category": 1,
+    "image": "products/2018/04/21/German2.jpeg",
+    "price": "100.00",
+    "stock": 10,
+    "available": true,
+    "created": "2018-04-05T17:01:38.596Z",
+    "updated": "2018-04-21T14:40:09.434Z"
+  }
+},
+{
+  "model": "shop.product",
+  "pk": 2,
+  "fields": {
+    "category": 1,
+    "image": "products/2018/04/21/German.jpeg",
+    "price": "100.00",
+    "stock": 50,
+    "available": true,
+    "created": "2018-04-05T17:02:40.701Z",
+    "updated": "2018-04-21T14:39:32.622Z"
+  }
+},
+{
+  "model": "shop.product",
+  "pk": 3,
+  "fields": {
+    "category": 1,
+    "image": "products/2018/04/21/foreign.jpeg",
+    "price": "100.00",
+    "stock": 60,
+    "available": true,
+    "created": "2018-04-05T17:03:46.196Z",
+    "updated": "2018-04-21T14:39:09.854Z"
+  }
+},
+{
+  "model": "shop.product",
+  "pk": 4,
+  "fields": {
+    "category": 2,
+    "image": "products/2018/04/21/books.jpeg",
+    "price": "150.00",
+    "stock": 50,
+    "available": true,
+    "created": "2018-04-05T17:06:18.860Z",
+    "updated": "2018-04-21T14:38:30.465Z"
+  }
+},
+{
+  "model": "shop.product",
+  "pk": 5,
+  "fields": {
+    "category": 2,
+    "image": "products/2018/04/21/hello.jpeg",
+    "price": "250.00",
+    "stock": 60,
+    "available": true,
+    "created": "2018-04-05T17:07:30.661Z",
+    "updated": "2018-04-21T14:38:04.330Z"
+  }
+},
+{
+  "model": "shop.product",
+  "pk": 6,
+  "fields": {
+    "category": 2,
+    "image": "products/2018/04/21/bonjour.jpeg",
+    "price": "250.00",
+    "stock": 50,
+    "available": true,
+    "created": "2018-04-05T17:09:13.070Z",
+    "updated": "2018-04-21T14:37:44.476Z"
+  }
+},
+{
+  "model": "shop.product",
+  "pk": 7,
+  "fields": {
+    "category": 3,
+    "image": "products/2018/04/21/students.jpeg",
+    "price": "100.00",
+    "stock": 20,
+    "available": true,
+    "created": "2018-04-05T17:10:24.924Z",
+    "updated": "2018-04-21T14:37:27.458Z"
+  }
+},
+{
+  "model": "shop.product",
+  "pk": 8,
+  "fields": {
+    "category": 3,
+    "image": "products/2018/04/21/images.jpeg",
+    "price": "500.00",
+    "stock": 50,
+    "available": true,
+    "created": "2018-04-05T17:11:26.671Z",
+    "updated": "2018-04-21T14:36:57.035Z"
+  }
+},
+{
+  "model": "shop.product",
+  "pk": 9,
+  "fields": {
+    "category": 3,
+    "image": "products/2018/04/21/English.jpeg",
+    "price": "450.00",
+    "stock": 50,
+    "available": true,
+    "created": "2018-04-05T17:13:22.905Z",
+    "updated": "2018-04-21T14:36:04.055Z"
+  }
+}
+]

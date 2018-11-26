@@ -1,0 +1,23 @@
+{% extends "courses.html" %}
+{% load staticfiles %}
+
+{% load i18n %}
+
+{% block title %}{% trans "My Courses" %}{% endblock %}
+
+{% block content %}
+	<h1>{% trans "My Courses" %}</h1>
+		<div class="module">
+			{% for course in object_list %}
+				<div class="course-info">
+					<h3>{{ course.title }}</h3>
+					<p><a href="{% url 'students:student_course_detail' course.id %}">{% trans "Access contents" %}</a></p>
+				</div>
+			{% empty %}
+				<p>
+					{% trans "You are not enrolled in any courses yet." %}
+					<a href="{% url 'courses:course_list' %}">{% trans "Browse Courses" %}</a>{% trans "to enroll in a course." %}
+				</p>
+				{% endfor %}
+		</div>
+	{% endblock %}

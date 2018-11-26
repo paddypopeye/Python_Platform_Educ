@@ -1,0 +1,24 @@
+{% extends "blog/base.html" %}
+{% load i18n %}
+{% block title %}{{ post.title 	}}{% endblock %}
+
+
+{% block content %}
+
+{% if sent %}
+
+<h1>{% trans "E-Mail successfully sent" %}</h1>
+ <p>
+ 	"{{ post.title }}" {% trans "was successfully sent to" %}{{ to }}
+ 	{% trans "from" %}{{ name }}
+ 	</p>
+ {% else %}
+ <h1>{% trans "Share" %}"{{ post.title }}" {% trans "by e-mail" %}</h1>
+ <form action="." method="post">
+ 	{{ form.as_p }}
+ 	{% csrf_token %}
+
+ 	<input type="submit" value="{% trans 'Send e-mail' %}">
+ </form>
+ {% endif %}
+ {% endblock %}

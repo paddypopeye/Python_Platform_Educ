@@ -1,0 +1,29 @@
+{% extends "courses.html" %}
+{% load i18n parler_tags %}
+{% block title %}
+	{% if object %}
+		{% trans "Edit Course" %}
+	{% else %}
+		{% trans "Create a new course" %}
+	{% endif %}
+{% endblock %}
+
+
+{% block content %}
+	<h1>
+		{% if object %}
+			{% trans "Edit Course" %}"{{ object.title }}"
+		{% else %}
+			{% trans "Create a new course" %}
+		{% endif %}
+	</h1>
+
+	<div class="module">
+			<h2>{% trans "Course Summary" %}</h2>
+			<form action="." method="post">
+				{{ form.as_p }}
+				{% csrf_token %}
+				<p><input type="submit" value="{% trans 'Save Course.' %}"></p>
+			</form>
+	</div>
+	{% endblock %}

@@ -1,0 +1,324 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-04-07 08:53+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: models.py:14 models.py:25 models.py:39 models.py:62
+msgid "title"
+msgstr ""
+
+#: models.py:26
+msgid "slug"
+msgstr ""
+
+#: templates/courses.html:11 templates/courses.html:42
+msgid "Courses"
+msgstr ""
+
+#: templates/courses.html:47
+msgid "Language"
+msgstr ""
+
+#: templates/courses.html:56
+msgid "Sign Out"
+msgstr ""
+
+#: templates/courses.html:58
+msgid "Sign In"
+msgstr ""
+
+#: templates/courses/content/file.html:2
+msgid "Download file"
+msgstr ""
+
+#: templates/courses/course/detail.html:14
+msgid "Overview"
+msgstr ""
+
+#: templates/courses/course/detail.html:17
+msgid "modules. Teacher:"
+msgstr ""
+
+#: templates/courses/course/detail.html:24
+msgid "Enroll now"
+msgstr ""
+
+#: templates/courses/course/detail.html:27
+msgid "Register as student to enroll"
+msgstr ""
+
+#: templates/courses/course/list.html:8 templates/courses/course/list.html:17
+#: templates/courses/course/list.html:33
+msgid "courses"
+msgstr ""
+
+#: templates/courses/course/list.html:10
+msgid "All courses"
+msgstr ""
+
+#: templates/courses/course/list.html:19
+msgid "All Courses"
+msgstr ""
+
+#: templates/courses/course/list.html:24
+msgid "Subjects"
+msgstr ""
+
+#: templates/courses/course/list.html:27
+msgid "All"
+msgstr ""
+
+#: templates/courses/course/list.html:45
+msgid "modules. Teacher: "
+msgstr ""
+
+#: templates/courses/manage/content/form.html:6
+#: templates/courses/manage/content/form.html:16
+msgid "Edit Content"
+msgstr ""
+
+#: templates/courses/manage/content/form.html:8
+#: templates/courses/manage/content/form.html:18
+msgid "Add new content"
+msgstr ""
+
+#: templates/courses/manage/content/form.html:23
+msgid "Course Information"
+msgstr ""
+
+#: templates/courses/manage/content/form.html:27
+msgid "Save Content"
+msgstr ""
+
+#: templates/courses/manage/course/delete.html:3
+#: templates/courses/manage/course/delete.html:5
+msgid "Delete course"
+msgstr ""
+
+#: templates/courses/manage/course/delete.html:9
+msgid "Are you sure you want to delete"
+msgstr ""
+
+#: templates/courses/manage/course/delete.html:10
+msgid "Confirm"
+msgstr ""
+
+#: templates/courses/manage/course/form.html:5
+#: templates/courses/manage/course/form.html:15
+msgid "Edit Course"
+msgstr ""
+
+#: templates/courses/manage/course/form.html:7
+#: templates/courses/manage/course/form.html:17
+msgid "Create a new course"
+msgstr ""
+
+#: templates/courses/manage/course/form.html:22
+msgid "Course Summary"
+msgstr ""
+
+#: templates/courses/manage/course/form.html:26
+msgid "Save Course."
+msgstr ""
+
+#: templates/courses/manage/course/list.html:3
+#: templates/courses/manage/course/list.html:7
+msgid "My Courses"
+msgstr ""
+
+#: templates/courses/manage/course/list.html:15
+#: templates/courses/manage/module/content_list.html:39
+#: templates/courses/manage/module/formset.html:4
+#: templates/courses/manage/module/formset.html:7
+msgid "Edit"
+msgstr ""
+
+#: templates/courses/manage/course/list.html:16
+#: templates/courses/manage/module/content_list.html:41
+msgid "Delete"
+msgstr ""
+
+#: templates/courses/manage/course/list.html:17
+msgid "Edit Modules"
+msgstr ""
+
+#: templates/courses/manage/course/list.html:19
+msgid "Manage contents"
+msgstr ""
+
+#: templates/courses/manage/course/list.html:24
+msgid "You have yet to create any courses"
+msgstr ""
+
+#: templates/courses/manage/course/list.html:29
+msgid "Create New Course"
+msgstr ""
+
+#: templates/courses/manage/module/content_list.html:5
+#: templates/courses/manage/module/content_list.html:18
+#: templates/courses/manage/module/content_list.html:31
+msgid "Module"
+msgstr ""
+
+#: templates/courses/manage/module/content_list.html:10
+msgid "Course"
+msgstr ""
+
+#: templates/courses/manage/module/content_list.html:12
+msgid "Modules"
+msgstr ""
+
+#: templates/courses/manage/module/content_list.html:25
+msgid "No modules yet."
+msgstr ""
+
+#: templates/courses/manage/module/content_list.html:28
+msgid "Edit modules"
+msgstr ""
+
+#: templates/courses/manage/module/content_list.html:32
+msgid "Module contents:"
+msgstr ""
+
+#: templates/courses/manage/module/content_list.html:47
+msgid "This module has no contents yet."
+msgstr ""
+
+#: templates/courses/manage/module/content_list.html:51
+msgid "Add new content:"
+msgstr ""
+
+#: templates/courses/manage/module/content_list.html:53
+msgid "Text"
+msgstr ""
+
+#: templates/courses/manage/module/content_list.html:54
+msgid "Image"
+msgstr ""
+
+#: templates/courses/manage/module/content_list.html:55
+msgid "Video"
+msgstr ""
+
+#: templates/courses/manage/module/content_list.html:56
+msgid "File"
+msgstr ""
+
+#: templates/courses/manage/module/formset.html:9
+msgid "Course Modules"
+msgstr ""
+
+#: templates/courses/manage/module/formset.html:14
+msgid "Save Modules"
+msgstr ""
+
+#: templates/registration/coursesloggedout.html:3
+#: templates/registration/coursesloggedout.html:6
+msgid "Logged Out"
+msgstr ""
+
+#: templates/registration/coursesloggedout.html:8
+msgid "You are now logged out.Bye!! or Log back in"
+msgstr ""
+
+#: templates/registration/coursesloggedout.html:8
+msgid "Login again"
+msgstr ""
+
+#: templates/registration/courseslogin.html:4
+msgid "Teacher Login"
+msgstr ""
+
+#: templates/registration/courseslogin.html:7
+msgid "Teacher Log-in"
+msgstr ""
+
+#: templates/registration/courseslogin.html:11
+msgid "Your credentials are not correct.Please try again."
+msgstr ""
+
+#: templates/registration/courseslogin.html:15
+msgid "Please, use this form to log in"
+msgstr ""
+
+#: templates/registration/courseslogin.html:23
+msgid "Login"
+msgstr ""
+
+#: urls.py:9
+msgid "^clogin/$"
+msgstr ""
+
+#: urls.py:10
+msgid "^clogout/$"
+msgstr ""
+
+#: urls.py:11
+msgid "^mine/$"
+msgstr ""
+
+#: urls.py:12
+msgid "^create/$"
+msgstr ""
+
+#: urls.py:13
+msgid "^(?P<pk>\\d+)/edit/$"
+msgstr ""
+
+#: urls.py:14
+msgid "^(?P<pk>\\d+)/delete/$"
+msgstr ""
+
+#: urls.py:15
+msgid "^(?P<pk>\\d+)/module/$"
+msgstr ""
+
+#: urls.py:16
+msgid "^module/(?P<module_id>\\d+)/content/(?P<model_name>\\w+)/create/$"
+msgstr ""
+
+#: urls.py:17
+msgid "^module/(?P<module_id>\\d+)/content/(?P<model_name>\\w+)/(?P<id>\\d+)/$"
+msgstr ""
+
+#: urls.py:18
+msgid "^module/(?P<module_id>\\d+)/$"
+msgstr ""
+
+#: urls.py:19
+msgid "^content/(?P<id>\\d+)/delete/$"
+msgstr ""
+
+#: urls.py:20
+msgid "^module/order/$"
+msgstr ""
+
+#: urls.py:21
+msgid "^content/order/$"
+msgstr ""
+
+#: urls.py:22
+msgid "^list/$"
+msgstr ""
+
+#: urls.py:23
+msgid "^subject/(?P<subject>[\\w-]+)/$"
+msgstr ""
+
+#: urls.py:24
+msgid "^(?P<slug>[\\w-]+)/$"
+msgstr ""

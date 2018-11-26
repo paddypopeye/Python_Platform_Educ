@@ -1,0 +1,310 @@
+{% load static %}
+{% load i18n %}
+{% load thumbnail %}
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>Working template</title>
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script> 
+            $('#chat-form').on('submit', function(event){
+    event.preventDefault();
+    
+    $.ajax({
+        url : "/chatpop/post/",
+        type : "POST",
+        
+        data : { msgbox: $('#chat-msg').val() },
+        
+        success : function(json){
+            console.log(json.userto);
+            $('#chat-msg').val('');
+            $('#msg-list').append('<li class="text-right list-group-item">' + json.msg + '</li>');
+            $('#msg-list').append('<li class="text-right list-group-item">' + json.usertoid + '</li>');
+            $('#msg-list').append('<li class="text-right list-group-item">' + json.userto + '</li>');
+            var chatlist = document.getElementById('msg-list-div');
+            chatlist.scrollTop = chatlist.scrollHeight;
+        }
+    });
+});
+
+function getMessages(){
+    if (!scrolling) {
+        $.get('/chatpop/messages/', function(messages){
+            
+            $('#msg-list').html(messages);
+            var chatlist = document.getElementById('msg-list-div');
+            chatlist.scrollTop = chatlist.scrollHeight;
+        });
+    }
+    var scrolling = false;
+}
+
+$(function(){
+    $('#msg-list-div').on('scroll', function(){
+        scrolling = true;
+    });
+    setInterval(function() {
+    $("#sidebar-name").load("{% url 'chatpop:home' %}");}, 10000);
+    refreshTimer = setInterval(getMessages, 10000);
+});
+
+$(document).ready(function() {
+     $('#send').attr('disabled','disabled');
+     $('#chat-msg').keyup(function() {
+        if($(this).val() != '') {
+            $('#send').removeAttr('disabled');
+        }
+        else {
+            $('#send').attr('disabled','disabled');
+        }
+     });
+ });
+
+
+// using jQuery
+function getCookie(name) {
+    var cookieValue = null;
+    if (document.cookie && document.cookie != '') {
+        var cookies = document.cookie.split(';');
+        for (var i = 0; i < cookies.length; i++) {
+            var cookie = jQuery.trim(cookies[i]);
+            // Does this cookie string begin with the name we want?
+            if (cookie.substring(0, name.length + 1) == (name + '=')) {
+                cookieValue = decodeURIComponent(cookie.substring(name.length + 1));
+                break;
+            }
+        }
+    }
+    return cookieValue;
+}
+
+var csrftoken = getCookie('csrftoken');
+
+function csrfSafeMethod(method) {
+    // these HTTP methods do not require CSRF protection
+    return (/^(GET|HEAD|OPTIONS|TRACE)$/.test(method));
+}
+$.ajaxSetup({
+    beforeSend: function(xhr, settings) {
+        if (!csrfSafeMethod(settings.type) && !this.crossDomain) {
+            xhr.setRequestHeader("X-CSRFToken", csrftoken);
+        }
+    }
+});
+
+            //this function can remove a array element.
+            Array.remove = function(array, from, to) {
+                var rest = array.slice((to || from) + 1 || array.length);
+                array.length = from < 0 ? array.length + from : from;
+                return array.push.apply(array, rest);
+            };
+       
+            //this variable represents the total number of popups can be displayed according to the viewport width
+            var total_popups = 0;
+           
+            //arrays of popups ids
+            var popups = [];
+       
+            //this is used to close a popup
+            function close_popup(id)
+            {
+                for(var iii = 0; iii < popups.length; iii++)
+                {
+                    if(id == popups[iii])
+                    {
+                        Array.remove(popups, iii);
+                       
+                        document.getElementById(id).style.display = "none";
+                       
+                        calculate_popups();
+                       
+                        return;
+                    }
+                }  
+            }
+       
+            //displays the popups. Displays based on the maximum number of popups that can be displayed on the current viewport width
+            function display_popups()
+            {
+                var right = 220;
+               
+                var iii = 0;
+                for(iii; iii < total_popups; iii++)
+                {
+                    if(popups[iii] != undefined)
+                    {
+                        var element = document.getElementById(popups[iii]);
+                        element.style.right = right + "px";
+                        right = right + 320;
+                        element.style.display = "block";
+
+                    }
+                }
+               
+                for(var jjj = iii; jjj < popups.length; jjj++)
+                {
+                    var element = document.getElementById(popups[jjj]);
+                    element.style.display = "none";
+                }
+            }
+           
+            //creates markup for a new popup. Adds the id to popups array.
+            function register_popup(id, name)
+            {
+               
+                for(var iii = 0; iii < popups.length; iii++)
+                {  
+                    //already registered. Bring it to front.
+                    if(id == popups[iii])
+                    {
+                        Array.remove(popups, iii);
+                   
+                        popups.unshift(id);
+                        
+                        calculate_popups();
+                       
+                       
+                        return;
+                    }
+                }              
+                
+                var token = getCookie('csrftoken');
+                var element = '<div class="popup-box chat-popup" id="'+id+'">';
+                element = element + '<div class="popup-head">'
+                element = element + '<div class="popup-head-left">'+name+'</div>';
+                element = element + '<div class="popup-head-right"><a href="javascript:close_popup(\''+id+'\');">&#10005;</a></div>';
+                element = element + '<div style="clear: both;"></div></div><div class="popup-messages">'
+                element = element + '<form action="{% url 'chatpop:chatpop/post' %}" id="chat-form" method="post">'
+                element = element + '<div class="panel-heading">{% trans "Chat Box" %}</div><div id="msg-list-div" class="panel-body"><div id="msg-list-div" class="panel-body"><ul id="msg-list" class="list-group">'
+              
+                element = element + '{% for obj in chat %}{%if obj.user.username == "Robot" and 'id' == 'id' %}<li class="list-group-item-item" style="font-size:20px;color:red"><center>{{ obj.message }}</center></li>'
+                      
+                element = element + '{%elif obj.user == request.user and obj.user.username != "Robot" %}<li class="text-right list-group-item" style="color: red;">{{ obj.message }}</li>'
+                element = element + '{%else%}{% for user in userto %} this is userto {{ user }} and this is name '+name+'{% if  '+name+'  ==   user  %}<li class="text-left list-group-item" style="color: green;">this is the user variable {{ user }} this is the userto variable {{ userto }} and the final variable is the name '+name+' {{ obj.message }}</li>{% endif %}{% endfor %}{% endif %}'
+                element = element + '{% empty %}<li class="text-right list-group-item">No messages yet!</li>{% endfor %}' 
+                element = element + '<input type="textarea" id="chat-msg" name="chat-msg" class="form-control"/><input type="submit" id="send" value="Send"></input><input id="userto" name="userto" type="hidden" value='+name+'></input><input id="user" name="user" type="hidden" value={{ user }}></input><input id="usertoid" name="usertoid" type="hidden" value='+id+'></input></form></div></div><br>';
+
+                
+                document.getElementsByTagName("body")[0].innerHTML = document.getElementsByTagName("body")[0].innerHTML + element; 
+                console.log('the typeof id is', typeof id);
+                console.log('the typeof name is', typeof name)
+                popups.unshift(id);
+                
+                calculate_popups();
+               
+            }
+           
+           //recalculate when window is loaded and also when window is resized.
+window.addEventListener("resize", calculate_popups);
+window.addEventListener("load", calculate_popups);
+
+            //calculate the total number of popups suitable and then populate the toatal_popups variable.
+            function calculate_popups()
+            {
+                var width = window.innerWidth;
+                if(width < 540)
+                {
+                    total_popups = 0;
+                }
+                else
+                {
+                    width = width - 200;
+                    //320 is width of a single popup box
+                    total_popups = parseInt(width/320);
+                }
+               
+                display_popups();
+               
+            }
+                //recalculate when window is loaded and also when window is resized.
+window.addEventListener("resize", calculate_popups);
+window.addEventListener("load", calculate_popups);
+
+var url = "static/js/chatpop.js";
+async:false;
+$.getScript(url); 
+
+</script>      
+    {% block title %}Chat with Someone{% endblock %}
+    <licnk rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="{% static 'chatpopstyle.css' %}">
+
+        </head>
+{% block content %}
+<body>
+
+    <div id="json" name="json">
+        This is the json div
+    </div>
+
+
+    <h4>This is the full request obj {{ request}}</h4>
+        <h1><p>This is the new middleware</p></h1> 
+             <p>this is the queryset...</p>
+                <p>I am {{ request.user }}</p>
+                
+             {% for user in request.online_now %}
+                {% if request.user != user %}
+                    <li>{{ user }}</li>
+                    {% endif %}
+            {% endfor %}
+                        {% for userto in userto %}
+                            this is the userto {{ userto }}<br>
+                        {% endfor %}
+            {%  for obj in c %}
+             this is the usertoid
+             {% endfor %}
+             <p>the online ids {{ request.online_now_ids }}</p>
+             <p>the total count {{ request.online_now.count }}</p>
+           <div class="chat-sidebar">
+        <div class="sidebar-name">
+            <!-- Pass username and display name to register popup -->
+            {% for user in request.online_now %}
+                {% if request.user != user %}
+            <a href="javascript:register_popup({{ user.id }},'{{ user.first_name }}',);">
+            {% for img in users %}
+                {% if img == user %}
+        {% thumbnail img.profile.photo "30x30" crop="100%" as im %}
+         <img src="{{ im.url }}" class="user-detail">
+            {% endthumbnail %}{% endif %}{% endfor %}
+            <span>{{ user }}</span>
+            </a>{% endif %}{% endfor %}
+                    
+    
+    <div id="chat-body" class="panel panel-default">
+     <div class="panel-heading">{% trans "Chat Box" %}</div>
+        <div id="msg-list-div" class="panel-body">
+    <div id="msg-list-div" class="panel-body">
+            <ul id="msg-list" class="list-group">
+              
+                {% for obj in chat %}
+                        {{ obj.user.username }}
+                            {{ obj.user_to.id }}
+
+
+
+                        {%if obj.user.username == "Robot"%}
+                        <li class="list-group-item-item" style="font-size:20px;color:red"><center>{{ obj.message }}</center></li>
+                            
+                        {%elif obj.user == request.user and obj.user.username != "Robot"%}
+                        <li class="text-right list-group-item" style="color: red;">{{ obj.message }}</li>
+                                {%elif obj.user_to.id != id and obj.user.username != "Robot"%}
+                        <li class="text-left list-group-item" style="color: green;">{{ obj.message }}</li>
+                        {%endif%}   
+                        {% empty %}
+                        <li class="text-right list-group-item">No messages yet!</li>
+                {% endfor %}
+                <script>
+                    var chatlist = document.getElementById('msg-list-div');
+                       
+                </script>
+            </ul></div>
+   </div></div>
+</body>
+{% endblock %}
+</html>

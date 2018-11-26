@@ -1,0 +1,13 @@
+{% extends "blog/base.html" %}
+{% load i18n %}
+{% block title %}{% trans "Create" %}{% endblock %}
+
+{%block content %}
+	<div>
+		<form action="." method="post">
+		{{ form.as_p }}
+		{% csrf_token %}
+	<input type="submit" value="Create Review">
+		</form>
+	</div>
+{% endblock %}

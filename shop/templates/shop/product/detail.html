@@ -1,0 +1,41 @@
+{% extends "shop/shop.html" %}
+{% load i18n %}
+{% load staticfiles %}
+{% load thumbnail %}
+{% block title %}
+    {{ product.name }}
+{% endblock %}
+
+{% block content %}
+    <div class="product-detail">
+    {% for item in cart_products %}
+        <h1>{{ item }}</h1>
+        {% endfor %}
+        <img src="{% if product.image %}{{ product.image.url }}{% else %}{% static 'img/no_image.png' %}{% endif %}">
+        <h1>{{ product.name }}</h1>
+        <h2><a href="{{ product.category.get_absolute_url }}">{{ product.category }}</a></h2>
+        <p class="  price">Euro{{ product.price }}</p>
+        <a href="{% url 'shop:product_list' %}" class="button
+            light">{% trans "Continue shopping" %}</a><br>
+        <br><form action="{% url 'cart:cart_add' product.id %}" method="post">
+            {{ cart_product_form }}
+            {% csrf_token %}
+            <input type="submit" value="{% trans 'Add to cart' %}">
+        </form>
+        
+        {{ product.description|linebreaks }}
+{% if recommended_products %}
+<div class="recommendations">
+<h3>{% trans "People who bought this also bought" %}</h3>
+{% for p in recommended_products %}
+<div class="item">
+<a href="{{ p.get_absolute_url }}">{% thumbnail p.image "75x40" crop="100%" as im %}
+<img src="{% if im %}{{ im.url }}{% else %}{%static 'img/no_image.png' %}{% endif %}">{% endthumbnail %}
+</a>
+<p><a href="{{ p.get_absolute_url }}">{{ p.name }}</a></p>
+</div>
+{% endfor %}
+</div>
+{% endif %}
+</div>
+{% endblock %}

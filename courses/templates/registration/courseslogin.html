@@ -1,0 +1,29 @@
+{% extends "courses.html" %}
+{% load i18n %}
+{% load staticfiles %}
+{% block title %}{% trans "Teacher Login" %}{% endblock %}
+
+{% block content %}
+	<h1>{% trans "Teacher Log-in" %}</h1>
+	<div class="module">
+		{% if form.errors %}
+	<p>
+	{% trans "Your credentials are not correct.Please try again." %}
+	</p>
+		{% else %}
+			<p>
+			{% trans "Please, use this form to log in" %}
+			</p>
+		{% endif %}
+		<div class="login-form">
+			<form action="{% url 'courses:clogin' %}" method="post">
+					{{ form.as_p }}
+					{% csrf_token %}
+				<input type="hidden" name="next" value="{{ next }}"/>
+				<p>
+				<input type="submit" value="{% trans 'Login' %}">
+				</p>
+			</form>
+		</div>
+	</div>
+	{% endblock %}

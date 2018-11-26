@@ -1,0 +1,159 @@
+INFO  - 2018-03-06 12:53:30.118; [   ] org.eclipse.jetty.util.log.Log; Logging initialized @4145ms
+INFO  - 2018-03-06 12:53:32.474; [   ] org.eclipse.jetty.server.Server; jetty-9.3.20.v20170531
+INFO  - 2018-03-06 12:53:32.740; [   ] org.eclipse.jetty.deploy.providers.ScanningAppProvider; Deployment monitor [file:///home/vagrant/Django/LangSchool/solr-7.2.1/server/contexts/] at interval 0
+INFO  - 2018-03-06 12:53:44.723; [   ] org.eclipse.jetty.webapp.StandardDescriptorProcessor; NO JSP Support for /solr, did not find org.apache.jasper.servlet.JspServlet
+INFO  - 2018-03-06 12:53:45.064; [   ] org.apache.solr.servlet.SolrDispatchFilter;  ___      _       Welcome to Apache Solr™ version 7.2.1
+INFO  - 2018-03-06 12:53:45.072; [   ] org.apache.solr.servlet.SolrDispatchFilter; / __| ___| |_ _   Starting in standalone mode on port 8983
+INFO  - 2018-03-06 12:53:45.074; [   ] org.apache.solr.servlet.SolrDispatchFilter; \__ \/ _ \ | '_|  Install dir: /home/vagrant/Django/LangSchool/solr-7.2.1
+INFO  - 2018-03-06 12:53:45.199; [   ] org.apache.solr.servlet.SolrDispatchFilter; |___/\___/_|_|    Start time: 2018-03-06T12:53:45.081Z
+INFO  - 2018-03-06 12:53:45.363; [   ] org.apache.solr.core.SolrResourceLoader; Using system property solr.solr.home: /home/vagrant/Django/LangSchool/solr-7.2.1/example/techproducts/solr
+INFO  - 2018-03-06 12:53:45.432; [   ] org.apache.solr.core.SolrXmlConfig; Loading container configuration from /home/vagrant/Django/LangSchool/solr-7.2.1/example/techproducts/solr/solr.xml
+INFO  - 2018-03-06 12:53:52.572; [   ] org.apache.solr.core.CorePropertiesLocator; Found 0 core definitions underneath /home/vagrant/Django/LangSchool/solr-7.2.1/example/techproducts/solr
+INFO  - 2018-03-06 12:53:53.347; [   ] org.eclipse.jetty.server.handler.ContextHandler; Started o.e.j.w.WebAppContext@33c7e1bb{/solr,file:///home/vagrant/Django/LangSchool/solr-7.2.1/server/solr-webapp/webapp/,AVAILABLE}{/home/vagrant/Django/LangSchool/solr-7.2.1/server/solr-webapp/webapp}
+INFO  - 2018-03-06 12:53:53.420; [   ] org.eclipse.jetty.server.AbstractConnector; Started ServerConnector@39906a7d{HTTP/1.1,[http/1.1]}{0.0.0.0:8983}
+INFO  - 2018-03-06 12:53:53.434; [   ] org.eclipse.jetty.server.Server; Started @27491ms
+INFO  - 2018-03-06 12:54:01.949; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/info/system params={wt=json} status=0 QTime=328
+INFO  - 2018-03-06 12:54:02.364; [   ] org.apache.solr.core.TransientSolrCoreCacheDefault; Allocating transient cache for 2147483647 transient cores
+INFO  - 2018-03-06 12:54:02.391; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/cores params={core=techproducts&action=STATUS&wt=json} status=0 QTime=37
+INFO  - 2018-03-06 12:54:02.662; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/info/system params={wt=json} status=0 QTime=158
+INFO  - 2018-03-06 12:54:02.888; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/info/system params={wt=json} status=0 QTime=149
+INFO  - 2018-03-06 12:54:03.042; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/cores params={core=techproducts&action=STATUS&wt=json} status=0 QTime=5
+INFO  - 2018-03-06 12:54:07.871; [   ] org.apache.solr.handler.admin.CoreAdminOperation; core create command name=techproducts&action=CREATE&instanceDir=techproducts&wt=json
+INFO  - 2018-03-06 12:54:10.825; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1520340849408} status=0 QTime=48
+INFO  - 2018-03-06 12:54:11.187; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/info/system params={wt=json&_=1520340849416} status=0 QTime=335
+INFO  - 2018-03-06 12:54:12.000; [   x:techproducts] org.apache.solr.core.SolrResourceLoader; [techproducts] Added 54 libs to classloader, from paths: [/home/vagrant/Django/LangSchool/solr-7.2.1/contrib/clustering/lib, /home/vagrant/Django/LangSchool/solr-7.2.1/contrib/extraction/lib, /home/vagrant/Django/LangSchool/solr-7.2.1/contrib/langid/lib, /home/vagrant/Django/LangSchool/solr-7.2.1/contrib/velocity/lib, /home/vagrant/Django/LangSchool/solr-7.2.1/dist]
+INFO  - 2018-03-06 12:54:15.120; [   x:techproducts] org.apache.solr.update.SolrIndexConfig; IndexWriter infoStream solr logging is enabled
+INFO  - 2018-03-06 12:54:15.168; [   x:techproducts] org.apache.solr.core.SolrConfig; Using Lucene MatchVersion: 7.2.1
+INFO  - 2018-03-06 12:54:17.554; [   x:techproducts] org.apache.solr.schema.IndexSchema; [techproducts] Schema name=example
+INFO  - 2018-03-06 12:54:22.070; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1520340849408} status=0 QTime=21
+INFO  - 2018-03-06 12:54:22.074; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/cores params={wt=json&_=1520340849408} status=0 QTime=9
+INFO  - 2018-03-06 12:54:22.274; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/info/system params={wt=json&_=1520340849416} status=0 QTime=213
+INFO  - 2018-03-06 12:54:25.487; [   x:techproducts] org.apache.solr.rest.RestManager$Registry; Registered ManagedResource impl org.apache.solr.rest.schema.analysis.ManagedWordSetResource for path /schema/analysis/stopwords/english
+INFO  - 2018-03-06 12:54:25.491; [   x:techproducts] org.apache.solr.rest.RestManager$Registry; Registered ManagedResource impl org.apache.solr.rest.schema.analysis.ManagedSynonymGraphFilterFactory$SynonymManager for path /schema/analysis/synonyms/english
+INFO  - 2018-03-06 12:54:25.498; [   x:techproducts] org.apache.solr.rest.RestManager$Registry; Added observer of type org.apache.solr.rest.schema.analysis.ManagedStopFilterFactory to existing ManagedResource /schema/analysis/stopwords/english
+INFO  - 2018-03-06 12:54:25.502; [   x:techproducts] org.apache.solr.rest.RestManager$Registry; Added observer of type org.apache.solr.rest.schema.analysis.ManagedSynonymGraphFilterFactory to existing ManagedResource /schema/analysis/synonyms/english
+INFO  - 2018-03-06 12:54:25.580; [   x:techproducts] org.apache.solr.schema.IndexSchema; Loaded schema example/1.6 with uniqueid field id
+INFO  - 2018-03-06 12:54:25.586; [   x:techproducts] org.apache.solr.rest.RestManager$Registry; Added observer of type org.apache.solr.rest.schema.analysis.ManagedStopFilterFactory to existing ManagedResource /schema/analysis/stopwords/english
+INFO  - 2018-03-06 12:54:25.590; [   x:techproducts] org.apache.solr.rest.RestManager$Registry; Added observer of type org.apache.solr.rest.schema.analysis.ManagedSynonymGraphFilterFactory to existing ManagedResource /schema/analysis/synonyms/english
+INFO  - 2018-03-06 12:54:25.598; [   x:techproducts] org.apache.solr.rest.RestManager$Registry; Added observer of type org.apache.solr.rest.schema.analysis.ManagedStopFilterFactory to existing ManagedResource /schema/analysis/stopwords/english
+INFO  - 2018-03-06 12:54:25.602; [   x:techproducts] org.apache.solr.rest.RestManager$Registry; Added observer of type org.apache.solr.rest.schema.analysis.ManagedSynonymGraphFilterFactory to existing ManagedResource /schema/analysis/synonyms/english
+INFO  - 2018-03-06 12:54:26.648; [   x:techproducts] org.apache.solr.core.CoreContainer; Creating SolrCore 'techproducts' using configuration from instancedir /home/vagrant/Django/LangSchool/solr-7.2.1/example/techproducts/solr/techproducts, trusted=true
+INFO  - 2018-03-06 12:54:26.831; [   x:techproducts] org.apache.solr.core.SolrCore; solr.RecoveryStrategy.Builder
+INFO  - 2018-03-06 12:54:26.876; [   x:techproducts] org.apache.solr.core.SolrCore; [[techproducts] ] Opening new SolrCore at [/home/vagrant/Django/LangSchool/solr-7.2.1/example/techproducts/solr/techproducts], dataDir=[/home/vagrant/Django/LangSchool/solr-7.2.1/example/techproducts/solr/techproducts/data/]
+INFO  - 2018-03-06 12:54:28.029; [   x:techproducts] org.apache.solr.response.XSLTResponseWriter; xsltCacheLifetimeSeconds=5
+INFO  - 2018-03-06 12:54:32.167; [   x:techproducts] org.apache.solr.update.UpdateHandler; Using UpdateLog implementation: org.apache.solr.update.UpdateLog
+INFO  - 2018-03-06 12:54:32.175; [   x:techproducts] org.apache.solr.update.UpdateLog; Initializing UpdateLog: dataDir= defaultSyncLevel=FLUSH numRecordsToKeep=100 maxNumLogsToKeep=10 numVersionBuckets=65536
+INFO  - 2018-03-06 12:54:32.270; [   x:techproducts] org.apache.solr.update.CommitTracker; Hard AutoCommit: if uncommited for 15000ms; 
+INFO  - 2018-03-06 12:54:32.272; [   x:techproducts] org.apache.solr.update.CommitTracker; Soft AutoCommit: disabled
+INFO  - 2018-03-06 12:54:32.616; [   x:techproducts] org.apache.solr.search.SolrIndexSearcher; Opening [Searcher@65e05f1a[techproducts] main]
+INFO  - 2018-03-06 12:54:32.720; [   x:techproducts] org.apache.solr.rest.ManagedResourceStorage$FileStorageIO; File-based storage initialized to use dir: /home/vagrant/Django/LangSchool/solr-7.2.1/example/techproducts/solr/techproducts/conf
+INFO  - 2018-03-06 12:54:32.751; [   x:techproducts] org.apache.solr.rest.ManagedResourceStorage; Loaded LinkedHashMap at path _rest_managed.json using file:dir=/home/vagrant/Django/LangSchool/solr-7.2.1/example/techproducts/solr/techproducts/conf
+INFO  - 2018-03-06 12:54:32.753; [   x:techproducts] org.apache.solr.rest.ManagedResource; Loaded initArgs {} for /rest/managed
+INFO  - 2018-03-06 12:54:32.767; [   x:techproducts] org.apache.solr.rest.ManagedResourceStorage; Loaded LinkedHashMap at path _schema_analysis_stopwords_english.json using file:dir=/home/vagrant/Django/LangSchool/solr-7.2.1/example/techproducts/solr/techproducts/conf
+INFO  - 2018-03-06 12:54:32.770; [   x:techproducts] org.apache.solr.rest.ManagedResource; Loaded initArgs {ignoreCase=true} for /schema/analysis/stopwords/english
+INFO  - 2018-03-06 12:54:32.776; [   x:techproducts] org.apache.solr.rest.schema.analysis.ManagedWordSetResource; Loaded 35 words for /schema/analysis/stopwords/english
+INFO  - 2018-03-06 12:54:32.788; [   x:techproducts] org.apache.solr.rest.ManagedResource; Notified 4 observers of /schema/analysis/stopwords/english
+INFO  - 2018-03-06 12:54:32.803; [   x:techproducts] org.apache.solr.rest.ManagedResourceStorage; Loaded LinkedHashMap at path _schema_analysis_synonyms_english.json using file:dir=/home/vagrant/Django/LangSchool/solr-7.2.1/example/techproducts/solr/techproducts/conf
+INFO  - 2018-03-06 12:54:32.805; [   x:techproducts] org.apache.solr.rest.ManagedResource; Loaded initArgs {ignoreCase=true,format=solr} for /schema/analysis/synonyms/english
+INFO  - 2018-03-06 12:54:32.819; [   x:techproducts] org.apache.solr.rest.schema.analysis.ManagedSynonymGraphFilterFactory$SynonymManager; Loaded 3 synonym mappings for /schema/analysis/synonyms/english
+INFO  - 2018-03-06 12:54:32.855; [   x:techproducts] org.apache.solr.rest.ManagedResource; Notified 4 observers of /schema/analysis/synonyms/english
+INFO  - 2018-03-06 12:54:32.969; [   x:techproducts] org.apache.solr.handler.component.SpellCheckComponent; Initializing spell checkers
+INFO  - 2018-03-06 12:54:33.056; [   x:techproducts] org.apache.solr.spelling.DirectSolrSpellChecker; init: {name=default,field=text,classname=solr.DirectSolrSpellChecker,distanceMeasure=internal,accuracy=0.5,maxEdits=2,minPrefix=1,maxInspections=5,minQueryLength=4,maxQueryFrequency=0.01}
+INFO  - 2018-03-06 12:54:33.162; [   x:techproducts] org.apache.solr.handler.component.SuggestComponent; Initializing SuggestComponent
+INFO  - 2018-03-06 12:54:33.206; [   x:techproducts] org.apache.solr.spelling.suggest.SolrSuggester; init: {name=mySuggester,lookupImpl=FuzzyLookupFactory,dictionaryImpl=DocumentDictionaryFactory,field=cat,weightField=price,suggestAnalyzerFieldType=string,buildOnStartup=false}
+INFO  - 2018-03-06 12:54:33.426; [   x:techproducts] org.apache.solr.spelling.suggest.SolrSuggester; Dictionary loaded with params: {name=mySuggester,lookupImpl=FuzzyLookupFactory,dictionaryImpl=DocumentDictionaryFactory,field=cat,weightField=price,suggestAnalyzerFieldType=string,buildOnStartup=false}
+INFO  - 2018-03-06 12:54:33.462; [   x:techproducts] org.apache.solr.handler.component.QueryElevationComponent; Loading QueryElevation from: /home/vagrant/Django/LangSchool/solr-7.2.1/example/techproducts/solr/techproducts/conf/elevate.xml
+INFO  - 2018-03-06 12:54:33.631; [   x:techproducts] org.apache.solr.handler.ReplicationHandler; Commits will be reserved for 10000ms.
+INFO  - 2018-03-06 12:54:34.597; [   x:techproducts] org.apache.solr.core.QuerySenderListener; QuerySenderListener sending requests to Searcher@65e05f1a[techproducts] main{ExitableDirectoryReader(UninvertingDirectoryReader())}
+INFO  - 2018-03-06 12:54:34.691; [   x:techproducts] org.apache.solr.update.UpdateLog; Could not find max version in index or recent updates, using new clock 1594192953019990016
+INFO  - 2018-03-06 12:54:34.824; [   x:techproducts] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/cores params={name=techproducts&action=CREATE&instanceDir=techproducts&wt=json} status=0 QTime=26960
+INFO  - 2018-03-06 12:54:35.476; [   x:techproducts] org.apache.solr.core.SolrCore; [techproducts]  webapp=null path=null params={q=static+firstSearcher+warming+in+solrconfig.xml&distrib=false&event=firstSearcher} hits=0 status=0 QTime=856
+INFO  - 2018-03-06 12:54:35.490; [   x:techproducts] org.apache.solr.core.QuerySenderListener; QuerySenderListener done.
+INFO  - 2018-03-06 12:54:35.495; [   x:techproducts] org.apache.solr.handler.component.SpellCheckComponent$SpellCheckerListener; Loading spell index for spellchecker: default
+INFO  - 2018-03-06 12:54:35.505; [   x:techproducts] org.apache.solr.handler.component.SpellCheckComponent$SpellCheckerListener; Loading spell index for spellchecker: wordbreak
+INFO  - 2018-03-06 12:54:35.616; [   x:techproducts] org.apache.solr.core.SolrCore; [techproducts] Registered new searcher Searcher@65e05f1a[techproducts] main{ExitableDirectoryReader(UninvertingDirectoryReader())}
+INFO  - 2018-03-06 12:54:36.380; [   x:techproducts] org.apache.solr.update.processor.LogUpdateProcessorFactory$LogUpdateProcessor; [techproducts]  webapp=/solr path=/update params={}{add=[USD (1594192954346438656), EUR (1594192954745946112), GBP (1594192954760626176), NOK (1594192954770063360)]} 0 1201
+INFO  - 2018-03-06 12:54:36.610; [   x:techproducts] org.apache.solr.update.processor.LogUpdateProcessorFactory$LogUpdateProcessor; [techproducts]  webapp=/solr path=/update params={}{add=[SOLR1000 (1594192954868629504)]} 0 179
+INFO  - 2018-03-06 12:54:36.896; [   x:techproducts] org.apache.solr.update.processor.LogUpdateProcessorFactory$LogUpdateProcessor; [techproducts]  webapp=/solr path=/update params={}{add=[F8V7067-APL-KIT (1594192955091976192), IW-02 (1594192955294351360)]} 0 259
+INFO  - 2018-03-06 12:54:36.985; [   x:techproducts] org.apache.solr.update.processor.LogUpdateProcessorFactory$LogUpdateProcessor; [techproducts]  webapp=/solr path=/update params={}{add=[UTF8TEST (1594192955393966080)]} 0 64
+INFO  - 2018-03-06 12:54:37.089; [   x:techproducts] org.apache.solr.update.processor.LogUpdateProcessorFactory$LogUpdateProcessor; [techproducts]  webapp=/solr path=/update params={}{add=[9885A004 (1594192955462123520)]} 0 84
+INFO  - 2018-03-06 12:54:37.149; [   x:techproducts] org.apache.solr.update.processor.LogUpdateProcessorFactory$LogUpdateProcessor; [techproducts]  webapp=/solr path=/update params={}{add=[VA902B (1594192955577466880)]} 0 40
+INFO  - 2018-03-06 12:54:37.238; [   x:techproducts] org.apache.solr.update.processor.LogUpdateProcessorFactory$LogUpdateProcessor; [techproducts]  webapp=/solr path=/update params={}{add=[MA147LL/A (1594192955656110080)]} 0 65
+INFO  - 2018-03-06 12:54:37.566; [   x:techproducts] org.apache.solr.update.processor.LogUpdateProcessorFactory$LogUpdateProcessor; [techproducts]  webapp=/solr path=/update params={}{add=[TWINX2048-3200PRO (1594192955923496960), VS1GB400C3 (1594192955972780032), VDBDB1A16 (1594192956006334464)]} 0 298
+INFO  - 2018-03-06 12:54:37.648; [   x:techproducts] org.apache.solr.update.processor.LogUpdateProcessorFactory$LogUpdateProcessor; [techproducts]  webapp=/solr path=/update params={}{add=[0579B002 (1594192956089171968)]} 0 53
+INFO  - 2018-03-06 12:54:37.742; [   x:techproducts] org.apache.solr.update.processor.LogUpdateProcessorFactory$LogUpdateProcessor; [techproducts]  webapp=/solr path=/update params={}{add=[EN7800GTX/2DHTV/256M (1594192956166766592), 100-435805 (1594192956197175296)]} 0 71
+INFO  - 2018-03-06 12:54:37.958; [   x:techproducts] org.apache.solr.update.processor.LogUpdateProcessorFactory$LogUpdateProcessor; [techproducts]  webapp=/solr path=/update params={}{add=[GB18030TEST (1594192956429959168)]} 0 187
+INFO  - 2018-03-06 12:54:38.066; [   x:techproducts] org.apache.solr.update.processor.LogUpdateProcessorFactory$LogUpdateProcessor; [techproducts]  webapp=/solr path=/update params={}{add=[adata (1594192956492873728), apple (1594192956509650944), asus (1594192956512796672), ati (1594192956514893824), belkin (1594192956522233856), canon (1594192956529573888), corsair (1594192956531671040), dell (1594192956539011072), maxtor (1594192956543205376), samsung (1594192956545302528), ... (11 adds)]} 0 79
+INFO  - 2018-03-06 12:54:38.171; [   x:techproducts] org.apache.solr.update.processor.LogUpdateProcessorFactory$LogUpdateProcessor; [techproducts]  webapp=/solr path=/update params={}{add=[SP2514N (1594192956611362816), 6H500F0 (1594192956639674368)]} 0 74
+INFO  - 2018-03-06 12:54:38.232; [   x:techproducts] org.apache.solr.update.processor.LogUpdateProcessorFactory$LogUpdateProcessor; [techproducts]  webapp=/solr path=/update params={}{add=[3007WFP (1594192956708880384)]} 0 39
+INFO  - 2018-03-06 12:54:38.264; [   x:techproducts] org.apache.solr.update.DirectUpdateHandler2; start commit{_version_=1594192956765503488,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+INFO  - 2018-03-06 12:54:38.272; [   x:techproducts] org.apache.solr.update.SolrIndexWriter; Calling setCommitData with IW:org.apache.solr.update.SolrIndexWriter@7d0b97d3 commitCommandVersion:1594192956765503488
+INFO  - 2018-03-06 12:54:40.304; [   x:techproducts] org.apache.solr.search.SolrIndexSearcher; Opening [Searcher@9044695[techproducts] main]
+INFO  - 2018-03-06 12:54:40.338; [   x:techproducts] org.apache.solr.core.QuerySenderListener; QuerySenderListener sending requests to Searcher@9044695[techproducts] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_0(7.2.1):C32)))}
+INFO  - 2018-03-06 12:54:40.340; [   x:techproducts] org.apache.solr.core.QuerySenderListener; QuerySenderListener done.
+INFO  - 2018-03-06 12:54:40.342; [   x:techproducts] org.apache.solr.core.SolrCore; [techproducts] Registered new searcher Searcher@9044695[techproducts] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_0(7.2.1):C32)))}
+INFO  - 2018-03-06 12:54:40.345; [   x:techproducts] org.apache.solr.update.DirectUpdateHandler2; end_commit_flush
+INFO  - 2018-03-06 12:54:40.354; [   x:techproducts] org.apache.solr.update.processor.LogUpdateProcessorFactory$LogUpdateProcessor; [techproducts]  webapp=/solr path=/update params={commit=true}{commit=} 0 2098
+INFO  - 2018-03-06 12:54:45.373; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1520340849408} status=0 QTime=37
+INFO  - 2018-03-06 12:54:45.547; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/info/system params={wt=json&_=1520340849416} status=0 QTime=189
+INFO  - 2018-03-06 12:54:52.995; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1520340892228} status=0 QTime=14
+INFO  - 2018-03-06 12:54:53.246; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/info/system params={wt=json&_=1520340892232} status=0 QTime=211
+INFO  - 2018-03-06 12:54:53.459; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/info/system params={wt=json&_=1520340892232} status=0 QTime=436
+INFO  - 2018-03-06 12:55:24.078; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1520340892228} status=0 QTime=53
+INFO  - 2018-03-06 12:55:24.117; [   x:techproducts] org.apache.solr.core.SolrCore; [techproducts]  webapp=/solr path=/admin/ping params={action=status&wt=json&_=1520340892233&ts=1520340892233} status=503 QTime=45
+INFO  - 2018-03-06 12:55:24.169; [   x:techproducts] org.apache.solr.core.SolrCore; [techproducts]  webapp=/solr path=/admin/luke params={numTerms=0&show=index&wt=json&_=1520340923926} status=0 QTime=116
+INFO  - 2018-03-06 12:55:24.315; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/info/system params={wt=json&_=1520340892232} status=0 QTime=239
+INFO  - 2018-03-06 12:55:24.396; [   x:techproducts] org.apache.solr.core.SolrCore; [techproducts]  webapp=/solr path=/replication params={wt=json&command=details&_=1520340923931} status=0 QTime=310
+INFO  - 2018-03-06 12:55:24.398; [   x:techproducts] org.apache.solr.core.SolrCore; [techproducts]  webapp=/solr path=/admin/system params={wt=json&_=1520340923928} status=0 QTime=278
+INFO  - 2018-03-06 12:55:29.373; [   x:techproducts] org.apache.solr.core.SolrCore; [techproducts]  webapp=/solr path=/admin/ping params={wt=json&_=1520340892233&ts=1520340892233} hits=32 status=0 QTime=38
+INFO  - 2018-03-06 12:55:29.375; [   x:techproducts] org.apache.solr.core.SolrCore; [techproducts]  webapp=/solr path=/admin/ping params={wt=json&_=1520340892233&ts=1520340892233} status=0 QTime=41
+INFO  - 2018-03-06 12:55:37.857; [   x:techproducts] org.apache.solr.core.SolrCore; [techproducts]  webapp=/solr path=/admin/ping params={wt=json&_=1520340892233&ts=1520340892233} hits=32 status=0 QTime=5
+INFO  - 2018-03-06 12:55:37.860; [   x:techproducts] org.apache.solr.core.SolrCore; [techproducts]  webapp=/solr path=/admin/ping params={wt=json&_=1520340892233&ts=1520340892233} status=0 QTime=7
+INFO  - 2018-03-06 12:55:41.951; [   x:techproducts] org.apache.solr.core.SolrCore; [techproducts]  webapp=/solr path=/admin/ping params={wt=json&_=1520340892233&ts=1520340892233} hits=32 status=0 QTime=3
+INFO  - 2018-03-06 12:55:41.959; [   x:techproducts] org.apache.solr.core.SolrCore; [techproducts]  webapp=/solr path=/admin/ping params={wt=json&_=1520340892233&ts=1520340892233} status=0 QTime=10
+INFO  - 2018-03-06 12:55:42.165; [   x:techproducts] org.apache.solr.core.SolrCore; [techproducts]  webapp=/solr path=/admin/ping params={wt=json&_=1520340892233&ts=1520340892233} hits=32 status=0 QTime=3
+INFO  - 2018-03-06 12:55:42.167; [   x:techproducts] org.apache.solr.core.SolrCore; [techproducts]  webapp=/solr path=/admin/ping params={wt=json&_=1520340892233&ts=1520340892233} status=0 QTime=5
+INFO  - 2018-03-06 12:55:46.028; [   x:techproducts] org.apache.solr.core.SolrCore; [techproducts]  webapp=/solr path=/admin/ping params={wt=json&_=1520340892233&ts=1520340892233} hits=32 status=0 QTime=1
+INFO  - 2018-03-06 12:55:46.039; [   x:techproducts] org.apache.solr.core.SolrCore; [techproducts]  webapp=/solr path=/admin/ping params={wt=json&_=1520340892233&ts=1520340892233} status=0 QTime=12
+INFO  - 2018-03-06 12:55:49.894; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1520340892228} status=0 QTime=7
+INFO  - 2018-03-06 12:55:50.179; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/info/system params={wt=json&_=1520340892232} status=0 QTime=280
+INFO  - 2018-03-06 12:55:50.519; [   x:techproducts] org.apache.solr.core.SolrCore; [techproducts]  webapp=/solr path=/admin/mbeans params={stats=true&wt=json&_=1520340949832} status=0 QTime=594
+INFO  - 2018-03-06 12:55:53.984; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1520340892228} status=0 QTime=1
+INFO  - 2018-03-06 12:55:54.106; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/info/system params={wt=json&_=1520340892232} status=0 QTime=127
+INFO  - 2018-03-06 12:55:57.869; [   x:techproducts] org.apache.solr.core.SolrCore; [techproducts]  webapp=/solr path=/admin/ping params={wt=json&_=1520340892233&ts=1520340892233} hits=32 status=0 QTime=1
+INFO  - 2018-03-06 12:55:57.870; [   x:techproducts] org.apache.solr.core.SolrCore; [techproducts]  webapp=/solr path=/admin/ping params={wt=json&_=1520340892233&ts=1520340892233} status=0 QTime=3
+INFO  - 2018-03-06 12:56:04.782; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1520340892228} status=0 QTime=20
+INFO  - 2018-03-06 12:56:04.883; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/info/system params={wt=json&_=1520340892232} status=0 QTime=117
+INFO  - 2018-03-06 12:56:04.942; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/cores params={wt=json&_=1520340892228} status=0 QTime=166
+INFO  - 2018-03-06 12:56:05.238; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1520340892228} status=0 QTime=0
+INFO  - 2018-03-06 12:56:05.363; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/cores params={wt=json&_=1520340892228} status=0 QTime=113
+INFO  - 2018-03-06 12:56:05.384; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/info/system params={wt=json&_=1520340892232} status=0 QTime=139
+INFO  - 2018-03-06 12:56:17.152; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1520340892228} status=0 QTime=18
+INFO  - 2018-03-06 12:56:17.252; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/info/system params={wt=json&_=1520340892232} status=0 QTime=88
+INFO  - 2018-03-06 12:56:17.290; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/info/system params={wt=json&_=1520340892232} status=0 QTime=130
+INFO  - 2018-03-06 12:57:13.104; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/info/system params={wt=json} status=0 QTime=39
+INFO  - 2018-03-06 13:05:04.287; [   x:techproducts] org.apache.solr.update.processor.LogUpdateProcessorFactory$LogUpdateProcessor; [techproducts]  webapp=/solr path=/update params={}{add=[9885A004 (1594193613131087872)]} 0 83
+INFO  - 2018-03-06 13:05:04.324; [   x:techproducts] org.apache.solr.update.DirectUpdateHandler2; start commit{_version_=1594193613236994048,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+INFO  - 2018-03-06 13:05:04.329; [   x:techproducts] org.apache.solr.update.SolrIndexWriter; Calling setCommitData with IW:org.apache.solr.update.SolrIndexWriter@7d0b97d3 commitCommandVersion:1594193613236994048
+INFO  - 2018-03-06 13:05:05.016; [   x:techproducts] org.apache.solr.search.SolrIndexSearcher; Opening [Searcher@1d554058[techproducts] main]
+INFO  - 2018-03-06 13:05:05.033; [   x:techproducts] org.apache.solr.core.QuerySenderListener; QuerySenderListener sending requests to Searcher@1d554058[techproducts] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_0(7.2.1):C32/1:delGen=1) Uninverting(_1(7.2.1):C1)))}
+INFO  - 2018-03-06 13:05:05.035; [   x:techproducts] org.apache.solr.core.QuerySenderListener; QuerySenderListener done.
+INFO  - 2018-03-06 13:05:05.038; [   x:techproducts] org.apache.solr.core.SolrCore; [techproducts] Registered new searcher Searcher@1d554058[techproducts] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_0(7.2.1):C32/1:delGen=1) Uninverting(_1(7.2.1):C1)))}
+INFO  - 2018-03-06 13:05:05.044; [   x:techproducts] org.apache.solr.update.DirectUpdateHandler2; end_commit_flush
+INFO  - 2018-03-06 13:05:05.047; [   x:techproducts] org.apache.solr.update.processor.LogUpdateProcessorFactory$LogUpdateProcessor; [techproducts]  webapp=/solr path=/update params={commit=true}{commit=} 0 724
+INFO  - 2018-03-06 13:06:02.245; [   x:techproducts] org.apache.solr.core.SolrCore; [techproducts]  webapp=/solr path=/select params={q=sd500&wt=json} hits=1 status=0 QTime=24
+INFO  - 2018-03-06 13:08:11.285; [   x:techproducts] org.apache.solr.core.SolrCore; [techproducts]  webapp=/solr path=/select params={q=inStock:false&fl=id,name&wt=json} hits=4 status=0 QTime=61
+INFO  - 2018-03-06 13:53:24.664; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1520340892228} status=0 QTime=0
+INFO  - 2018-03-06 13:53:24.802; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/info/system params={wt=json&_=1520340892232} status=0 QTime=122
+INFO  - 2018-03-06 13:53:24.869; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/cores params={wt=json&_=1520340892228} status=0 QTime=165
+INFO  - 2018-03-06 13:53:25.424; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1520340892228} status=0 QTime=1
+INFO  - 2018-03-06 13:53:25.538; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/info/system params={wt=json&_=1520340892232} status=0 QTime=105
+INFO  - 2018-03-06 13:53:25.639; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/cores params={wt=json&_=1520340892228} status=0 QTime=197
+INFO  - 2018-03-06 13:54:22.076; [   ] org.eclipse.jetty.server.AbstractConnector; Stopped ServerConnector@39906a7d{HTTP/1.1,[http/1.1]}{0.0.0.0:8983}
+INFO  - 2018-03-06 13:54:22.117; [   ] org.apache.solr.core.CoreContainer; Shutting down CoreContainer instance=836220863
+INFO  - 2018-03-06 13:54:22.137; [   ] org.apache.solr.metrics.SolrMetricManager; Closing metric reporters for registry=solr.node, tag=null
+INFO  - 2018-03-06 13:54:22.154; [   ] org.apache.solr.metrics.SolrMetricManager; Closing metric reporters for registry=solr.jvm, tag=null
+INFO  - 2018-03-06 13:54:22.162; [   ] org.apache.solr.metrics.SolrMetricManager; Closing metric reporters for registry=solr.jetty, tag=null
+INFO  - 2018-03-06 13:54:22.195; [   x:techproducts] org.apache.solr.core.SolrCore; [techproducts]  CLOSING SolrCore org.apache.solr.core.SolrCore@7395e071
+INFO  - 2018-03-06 13:54:22.202; [   x:techproducts] org.apache.solr.metrics.SolrMetricManager; Closing metric reporters for registry=solr.core.techproducts, tag=1939202161
+INFO  - 2018-03-06 13:54:22.491; [   ] org.eclipse.jetty.server.handler.ContextHandler; Stopped o.e.j.w.WebAppContext@33c7e1bb{/solr,null,UNAVAILABLE}{/home/vagrant/Django/LangSchool/solr-7.2.1/server/solr-webapp/webapp}

@@ -1,0 +1,14 @@
+{% extends "account.html" %}
+{% load i18n %}
+{% block title %}{% trans "Bookmark an Image" %}{% endblock %}
+
+{% block content %}
+	<h1>{% trans "Bookmark an Image" %}</h1>
+		<img src="{{ request.GET.url }}" class="image-preview">
+
+	<form action="." method='post'>
+		{{ form.as_p }}
+		{% csrf_token %}
+		<input type="submit" value="Bookmark it!">
+	</form>
+{% endblock %}

@@ -1,0 +1,292 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-04-06 17:18+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: templates/account.html:14
+msgid "Bookmarks"
+msgstr ""
+
+#: templates/account.html:19
+msgid "My dashboard"
+msgstr ""
+
+#: templates/account.html:20
+msgid "Images"
+msgstr ""
+
+#: templates/account.html:21 templates/account/user/list.html:7
+#: templates/account/user/list.html:10
+msgid "People"
+msgstr ""
+
+#: templates/account.html:23
+msgid "Your Courses"
+msgstr ""
+
+#: templates/account.html:26
+msgid "Courses List"
+msgstr ""
+
+#: templates/account.html:30
+msgid "Teachers' Login"
+msgstr ""
+
+#: templates/account.html:33
+msgid "Go Shopping!!"
+msgstr ""
+
+#: templates/account.html:40
+msgid "Logout"
+msgstr ""
+
+#: templates/account.html:42 templates/account/login.html:6
+#: templates/registration/login.html:7 templates/registration/login.html:10
+msgid "Log In"
+msgstr ""
+
+#: templates/account.html:46
+msgid "My shop"
+msgstr ""
+
+#: templates/account.html:51
+msgid "Language"
+msgstr ""
+
+#: templates/account/dashboard.html:3 templates/account/dashboard.html:6
+msgid "Dashboard"
+msgstr ""
+
+#: templates/account/dashboard.html:9
+msgid "Welcome to your dashboard. You have bookmarked"
+msgstr ""
+
+#: templates/account/dashboard.html:9
+msgid "image"
+msgstr ""
+
+#: templates/account/dashboard.html:12
+msgid "Drag the following button to your bookmarks toolbar"
+msgstr ""
+
+#: templates/account/dashboard.html:12
+msgid "Bookmark it"
+msgstr ""
+
+#: templates/account/dashboard.html:14
+msgid "You can also"
+msgstr ""
+
+#: templates/account/dashboard.html:14
+msgid "edit your pofile"
+msgstr ""
+
+#: templates/account/dashboard.html:14
+msgid "change your password"
+msgstr ""
+
+#: templates/account/dashboard.html:16
+msgid "What's happening"
+msgstr ""
+
+#: templates/account/edit.html:3
+msgid "Edit"
+msgstr ""
+
+#: templates/account/edit.html:6
+msgid "Edit your account"
+msgstr ""
+
+#: templates/account/edit.html:7
+msgid "You can edit your account using the form below"
+msgstr ""
+
+#: templates/account/edit.html:12
+msgid "Save Changes"
+msgstr ""
+
+#: templates/account/login.html:3
+msgid "LogIn"
+msgstr ""
+
+#: templates/account/login.html:7
+msgid "Please use the following form to log in"
+msgstr ""
+
+#: templates/account/login.html:11
+msgid "Log in"
+msgstr ""
+
+#: templates/account/register.html:3 templates/account/register.html:6
+msgid "Create an Account"
+msgstr ""
+
+#: templates/account/register.html:7
+msgid "Please create an account using the following form"
+msgstr ""
+
+#: templates/account/register_done.html:3
+#: templates/account/register_done.html:6
+msgid "Welcome"
+msgstr ""
+
+#: templates/account/register_done.html:7
+msgid "Your account has been created.. You can"
+msgstr ""
+
+#: templates/account/register_done.html:7
+msgid "log in"
+msgstr ""
+
+#: templates/account/user/detail.html:19
+msgid "follow"
+msgstr ""
+
+#: templates/account/user/detail.html:19
+msgid "follow button"
+msgstr ""
+
+#: templates/account/user/detail.html:21
+msgid "Follow"
+msgstr ""
+
+#: templates/account/user/detail.html:23
+msgid "Unfollow"
+msgstr ""
+
+#: templates/registration/login.html:13
+msgid "Your username and password didn't match"
+msgstr ""
+
+#: templates/registration/login.html:15
+msgid "Please try again..."
+msgstr ""
+
+#: templates/registration/login.html:20
+msgid ""
+"Please, use the following form to log-in. If you don't have an account...."
+msgstr ""
+
+#: templates/registration/login.html:22
+msgid "Register here"
+msgstr ""
+
+#: templates/registration/login.html:30
+msgid "Sign in with Facebook"
+msgstr ""
+
+#: templates/registration/login.html:32
+msgid "Login with Twitter"
+msgstr ""
+
+#: templates/registration/login.html:34
+msgid "Login with Google"
+msgstr ""
+
+#: templates/registration/login.html:45
+msgid "Forgot your password?"
+msgstr ""
+
+#: templates/registration/login.html:49 templates/registration/login.html:50
+msgid "with Google"
+msgstr ""
+
+#: templates/registration/logout.html:7
+msgid "You have been logged out. You can"
+msgstr ""
+
+#: templates/registration/logout.html:7
+msgid "Log in again"
+msgstr ""
+
+#: templates/registration/password_change_done.html:3
+msgid "Password Changed"
+msgstr ""
+
+#: templates/registration/password_change_done.html:6
+msgid "Password changed"
+msgstr ""
+
+#: templates/registration/password_change_done.html:7
+msgid "Your password has been changed"
+msgstr ""
+
+#: templates/registration/password_change_form.html:3
+msgid "Change your password"
+msgstr ""
+
+#: templates/registration/password_change_form.html:6
+msgid "Change your Password"
+msgstr ""
+
+#: templates/registration/password_change_form.html:7
+msgid "Use the form below to change your password"
+msgstr ""
+
+#: templates/registration/password_reset_complete.html:3
+msgid "Password reset"
+msgstr ""
+
+#: templates/registration/password_reset_complete.html:5
+msgid "Password set"
+msgstr ""
+
+#: templates/registration/password_reset_complete.html:6
+msgid "Your password has been set. You can"
+msgstr ""
+
+#: templates/registration/password_reset_complete.html:6
+msgid "log in now"
+msgstr ""
+
+#: templates/registration/password_reset_confirm.html:3
+#: templates/registration/password_reset_confirm.html:5
+#: templates/registration/password_reset_form.html:3
+msgid "Reset your password"
+msgstr ""
+
+#: templates/registration/password_reset_confirm.html:7
+msgid "Please enter your new password twice:"
+msgstr ""
+
+#: templates/registration/password_reset_confirm.html:11
+msgid "Change my password"
+msgstr ""
+
+#: templates/registration/password_reset_done.html:3
+#: templates/registration/password_reset_done.html:6
+msgid "Reset your Password"
+msgstr ""
+
+#: templates/registration/password_reset_done.html:7
+msgid "You have been sent a reset email"
+msgstr ""
+
+#: templates/registration/password_reset_done.html:8
+msgid ""
+"if you dont receive an email make sure you use the address you registered "
+"with"
+msgstr ""
+
+#: templates/registration/password_reset_form.html:6
+msgid "Forgot your password"
+msgstr ""
+
+#: templates/registration/password_reset_form.html:7
+msgid "Enter your e-mail to get a new password"
+msgstr ""

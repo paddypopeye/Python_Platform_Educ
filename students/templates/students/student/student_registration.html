@@ -1,0 +1,21 @@
+{% extends "courses.html" %}
+{% load staticfiles %}
+{% load i18n %}
+
+
+{% block title %}{% trans "Student Sign Up" %}{% endblock %}
+
+{% block content %}
+	<h1>
+		{%  trans "Student Sign Up" %}
+	</h1>
+	<div class="module">
+		<p>{% trans "Enter your details to create an account." %}</p>
+			<form action="." method="post">
+				{{ form.as_p }}
+				{% csrf_token %}
+			<p><input type="submit" value="{% trans 'Create my Student Account' %}"></p>
+			</form>
+	</div>
+
+{% endblock %}

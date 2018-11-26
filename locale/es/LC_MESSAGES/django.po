@@ -1,0 +1,1281 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-04-26 08:36+0200\n"
+"PO-Revision-Date: 2018-04-26 08:39-0015\n"
+"Last-Translator: vagrant vagrant <vagrant@vagrant.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Content-Encoding: UTF-8\n"
+"X-Translated-Using: django-rosetta 0.8.1\n"
+
+#: LangSchool/settings.py:162
+msgid "english"
+msgstr "Ingles"
+
+#: LangSchool/settings.py:163
+msgid "catalan"
+msgstr "Catala"
+
+#: LangSchool/settings.py:164
+msgid "spanish"
+msgstr "Espanol"
+
+#: LangSchool/urls.py:60
+msgid "^alpha/"
+msgstr "^alpha/"
+
+#: LangSchool/urls.py:63
+msgid "^"
+msgstr "^"
+
+#: LangSchool/urls.py:65
+msgid "^course/"
+msgstr "^curso/"
+
+#: LangSchool/urls.py:66
+msgid "^review/"
+msgstr "^revision/"
+
+#: LangSchool/urls.py:68
+msgid "^images/"
+msgstr "Imagen"
+
+#: LangSchool/urls.py:69
+msgid "^cart/"
+msgstr "^carro/"
+
+#: LangSchool/urls.py:70
+msgid "^orders/"
+msgstr "^pedidos/"
+
+#: LangSchool/urls.py:71
+msgid "^payment/"
+msgstr "^pago/"
+
+#: LangSchool/urls.py:73
+msgid "^coupons/"
+msgstr "^cupons/"
+
+#: LangSchool/urls.py:75
+msgid "^students/"
+msgstr "^estudiants/"
+
+#: LangSchool/urls.py:76
+msgid "^shop/"
+msgstr "tienda/"
+
+#: account/forms.py:6
+msgid "Username"
+msgstr "Nombre de usuario"
+
+#: account/forms.py:7 account/forms.py:11
+msgid "Password"
+msgstr "Contraseña"
+
+#: account/forms.py:12
+msgid "Repeat Password"
+msgstr "Repite la contraseña"
+
+#: account/templates/account.html:15 blog/templates/blog/base.html:12
+msgid "Bookmarks"
+msgstr "Marcadores"
+
+#: account/templates/account.html:20 blog/templates/blog/base.html:17
+#: courses/templates/courses.html:18 shop/templates/shop/shop.html:30
+msgid "My dashboard"
+msgstr "Mi tablero"
+
+#: account/templates/account.html:21 blog/templates/blog/base.html:18
+#: courses/templates/courses.html:23
+msgid "Images"
+msgstr "Imágenes"
+
+#: account/templates/account.html:22
+#: account/templates/account/user/list.html:5
+#: account/templates/account/user/list.html:8 blog/templates/blog/base.html:19
+#: courses/templates/courses.html:25
+msgid "People"
+msgstr "Gente"
+
+#: account/templates/account.html:24 blog/templates/blog/base.html:21
+msgid "Your Courses"
+msgstr "Tus cursos"
+
+#: account/templates/account.html:27 blog/templates/blog/base.html:24
+msgid "Courses List"
+msgstr "Lista de cursos"
+
+#: account/templates/account.html:30 blog/templates/blog/base.html:27
+#: courses/templates/courses.html:39
+msgid "Go Shopping!!"
+msgstr "¡¡Ir de compras!!"
+
+#: account/templates/account.html:32 blog/templates/blog/base.html:29
+msgid "Testimonials"
+msgstr "Testimonios"
+
+#: account/templates/account.html:33
+msgid "Chat With Someone"
+msgstr "Chatear con alguien"
+
+#: account/templates/account.html:40 blog/templates/blog/base.html:36
+msgid "Hello"
+msgstr "Hola"
+
+#: account/templates/account.html:40 alpha/templates/alpha/home.html:42
+#: blog/templates/blog/base.html:36
+msgid "Logout"
+msgstr "Cerrar sesión"
+
+#: account/templates/account.html:42 account/templates/account/login.html:6
+#: account/templates/registration/login.html:7
+#: account/templates/registration/login.html:10
+#: account/templates/registration/login.html:45
+#: blog/templates/blog/base.html:38
+msgid "Log In"
+msgstr "Iniciar sesión"
+
+#: account/templates/account.html:51 blog/templates/blog/base.html:47
+#: shop/templates/shop/shop.html:17
+msgid "Language"
+msgstr "Idioma"
+
+#: account/templates/account/dashboard.html:3
+#: account/templates/account/dashboard.html:6
+msgid "Dashboard"
+msgstr "Tablero"
+
+#: account/templates/account/dashboard.html:9
+msgid "Welcome to your dashboard. You have bookmarked"
+msgstr "Bienvenido a tu tablero. Usted ha marcado como favorito"
+
+#: account/templates/account/dashboard.html:10
+msgid "image"
+msgstr "imagen"
+
+#: account/templates/account/dashboard.html:15
+msgid "Drag the following button to your bookmarks toolbar"
+msgstr "Arrastra el siguiente botón a tu barra de herramientas de marcadores"
+
+#: account/templates/account/dashboard.html:16
+msgid "to bookmark images"
+msgstr "para marcar las imágenes"
+
+#: account/templates/account/dashboard.html:17
+msgid "Bookmark it"
+msgstr "Marcar como favorito"
+
+#: account/templates/account/dashboard.html:19
+msgid "You can also"
+msgstr "Tú también puedes"
+
+#: account/templates/account/dashboard.html:21
+msgid "edit your pofile"
+msgstr "edita tu perfil"
+
+#: account/templates/account/dashboard.html:23
+msgid "change your password"
+msgstr "cambia tu contraseña"
+
+#: account/templates/account/dashboard.html:25
+msgid "What's happening"
+msgstr "Qué esta pasando"
+
+#: account/templates/account/dashboard.html:34
+msgid "REQUESTS SENT"
+msgstr "SOLICITUDES ENVIADAS"
+
+#: account/templates/account/dashboard.html:38
+msgid "You have sent friend request/s to the following people: "
+msgstr "Has enviado solicitudes de amistad a las siguientes personas:"
+
+#: account/templates/account/dashboard.html:54
+msgid "REQUESTS RECIEVED"
+msgstr "SOLICITUDES RECIBIDAS"
+
+#: account/templates/account/dashboard.html:61
+msgid "has sent you a Friend Request"
+msgstr "te ha enviado una solicitud de amistad"
+
+#: account/templates/account/dashboard.html:67
+msgid "Accept"
+msgstr "Aceptar"
+
+#: account/templates/account/dashboard.html:70
+msgid "Reject"
+msgstr "Rechazar"
+
+#: account/templates/account/dashboard.html:73
+msgid "Review"
+msgstr "Revisión"
+
+#: account/templates/account/dashboard.html:79
+msgid "You are friends with; "
+msgstr "Eres amigo de;"
+
+#: account/templates/account/edit.html:3
+#: courses/templates/courses/manage/course/list.html:15
+#: courses/templates/courses/manage/module/content_list.html:39
+#: courses/templates/courses/manage/module/formset.html:4
+#: courses/templates/courses/manage/module/formset.html:7
+msgid "Edit"
+msgstr "Editar"
+
+#: account/templates/account/edit.html:6
+msgid "Edit your account"
+msgstr "Edita tu cuenta"
+
+#: account/templates/account/edit.html:7
+msgid "You can edit your account using the form below"
+msgstr "Puede editar su cuenta usando el siguiente formulario"
+
+#: account/templates/account/edit.html:12
+msgid "Save Changes"
+msgstr "Guardar cambios"
+
+#: account/templates/account/login.html:3
+msgid "LogIn"
+msgstr "Iniciar sesión"
+
+#: account/templates/account/login.html:7
+msgid "Please use the following form to log in"
+msgstr "Utilice el siguiente formulario para iniciar sesión"
+
+#: account/templates/account/login.html:11
+msgid "Log in"
+msgstr "Iniciar sesión"
+
+#: account/templates/account/register.html:3
+#: account/templates/account/register.html:6
+msgid "Create an Account"
+msgstr "Crea una cuenta"
+
+#: account/templates/account/register.html:7
+msgid "Please create an account using the following form"
+msgstr "Por favor crea una cuenta usando el siguiente formulario"
+
+#: account/templates/account/register.html:11
+msgid "Create account"
+msgstr "Crea una cuenta"
+
+#: account/templates/account/register_done.html:3
+#: account/templates/account/register_done.html:6
+msgid "Welcome"
+msgstr "Bienvenido"
+
+#: account/templates/account/register_done.html:7
+msgid "Your account has been created.. You can"
+msgstr "Su cuenta ha sido creada .. Usted puede"
+
+#: account/templates/account/register_done.html:7
+msgid "log in"
+msgstr "iniciar sesión"
+
+#: account/templates/account/user/detail.html:20
+msgid "Remove Friend"
+msgstr "Eliminar amigo"
+
+#: account/templates/account/user/detail.html:24
+msgid "Send Friend Request"
+msgstr "Envia solicitud de amistad"
+
+#: account/templates/account/user/detail.html:34
+msgid "follower"
+msgstr "seguidor"
+
+#: account/templates/account/user/detail.html:36
+msgid "follow"
+msgstr "seguir"
+
+#: account/templates/account/user/detail.html:38
+msgid "Follow"
+msgstr "Seguir"
+
+#: account/templates/account/user/detail.html:40
+msgid "Unfollow"
+msgstr "Dejar de seguir"
+
+#: account/templates/registration/login.html:13
+msgid "Your username and password didn't match"
+msgstr "Su nombre de usuario y contraseña no coinciden"
+
+#: account/templates/registration/login.html:15
+msgid "Please try again..."
+msgstr "Inténtalo de nuevo..."
+
+#: account/templates/registration/login.html:20
+msgid "Please use the form below to log in"
+msgstr "Utilice el formulario a continuación para iniciar sesión"
+
+#: account/templates/registration/login.html:22
+msgid "If you don't have an account.."
+msgstr "Si no tienes una cuenta ..."
+
+#: account/templates/registration/login.html:25
+msgid "Register here"
+msgstr "Registrar aquí"
+
+#: account/templates/registration/login.html:33
+msgid "Sign in with Facebook"
+msgstr "Iniciar sesión usando Facebook"
+
+#: account/templates/registration/login.html:35
+msgid "Login with Twitter"
+msgstr "Inicia sesión con Twitter"
+
+#: account/templates/registration/login.html:37
+msgid "Login with Google"
+msgstr "Inicia sesión con Google"
+
+#: account/templates/registration/login.html:48
+msgid "Forgot your password?"
+msgstr "Olvidaste tu contraseña"
+
+#: account/templates/registration/login.html:51
+#: courses/templates/courses.html:35
+msgid "Teachers' Login"
+msgstr "Acceso de Maestros"
+
+#: account/templates/registration/login.html:56
+#: courses/templates/courses.html:11 courses/templates/courses.html:29
+msgid "Courses"
+msgstr "Cursos"
+
+#: account/templates/registration/login.html:59
+#: account/templates/registration/login.html:60
+msgid "with Google"
+msgstr "con Google"
+
+#: account/templates/registration/logout.html:6
+#: courses/templates/registration/coursesloggedout.html:3
+#: courses/templates/registration/coursesloggedout.html:6
+msgid "Logged Out"
+msgstr "Desconectado"
+
+#: account/templates/registration/logout.html:7
+msgid "You have been logged out. You can"
+msgstr "Has sido desconectado. Usted puede"
+
+#: account/templates/registration/logout.html:9
+msgid "Log in again"
+msgstr "Ingresar de nuevo"
+
+#: account/templates/registration/password_change_done.html:3
+msgid "Password Changed"
+msgstr "Contraseña cambiada"
+
+#: account/templates/registration/password_change_done.html:6
+msgid "Password changed"
+msgstr "Contraseña cambiada"
+
+#: account/templates/registration/password_change_done.html:7
+msgid "Your password has been changed"
+msgstr "Tu contraseña ha sido cambiada"
+
+#: account/templates/registration/password_change_form.html:3
+msgid "Change your password"
+msgstr "Cambia tu contraseña"
+
+#: account/templates/registration/password_change_form.html:6
+msgid "Change your Password"
+msgstr "Cambia tu contraseña"
+
+#: account/templates/registration/password_change_form.html:7
+msgid "Use the form below to change your password"
+msgstr "Utilice el siguiente formulario para cambiar su contraseña"
+
+#: account/templates/registration/password_reset_complete.html:3
+msgid "Password reset"
+msgstr "Restablecimiento de contraseña"
+
+#: account/templates/registration/password_reset_complete.html:5
+msgid "Password set"
+msgstr "Contraseña establecida"
+
+#: account/templates/registration/password_reset_complete.html:6
+msgid "Your password has been set. You can"
+msgstr "Su contraseña ha sido establecida. Usted puede"
+
+#: account/templates/registration/password_reset_complete.html:6
+msgid "log in now"
+msgstr "Inicia sesión ahora"
+
+#: account/templates/registration/password_reset_confirm.html:3
+#: account/templates/registration/password_reset_confirm.html:5
+#: account/templates/registration/password_reset_form.html:3
+msgid "Reset your password"
+msgstr "Restablecer su contraseña"
+
+#: account/templates/registration/password_reset_confirm.html:7
+msgid "Please enter your new password twice:"
+msgstr "Por favor ingrese su nueva contraseña dos veces:"
+
+#: account/templates/registration/password_reset_confirm.html:11
+msgid "Change my password"
+msgstr "Cambiar mi contraseña"
+
+#: account/templates/registration/password_reset_done.html:3
+#: account/templates/registration/password_reset_done.html:6
+msgid "Reset your Password"
+msgstr "Restablecer su contraseña"
+
+#: account/templates/registration/password_reset_done.html:7
+msgid "You have been sent a reset email"
+msgstr "Te han enviado un correo electrónico de reinicio"
+
+#: account/templates/registration/password_reset_done.html:8
+msgid ""
+"if you dont receive an email make sure you use the address you registered "
+"with"
+msgstr ""
+"Si no recibe un correo electrónico, asegúrese de utilizar la dirección con "
+"la que se registró."
+
+#: account/templates/registration/password_reset_form.html:6
+msgid "Forgot your password"
+msgstr "Olvidaste tu contraseña"
+
+#: account/templates/registration/password_reset_form.html:7
+msgid "Enter your e-mail to get a new password"
+msgstr "Ingrese su correo electrónico para obtener una nueva contraseña"
+
+#: account/urls.py:8
+msgid "^connect/(?P<pk>\\d+)/$"
+msgstr "^conectar/(?P<pk>\\d+)/$"
+
+#: account/urls.py:9
+msgid "^accept/(?P<pk>\\d+)/$"
+msgstr "^aceptar/(?P<pk>\\d+)/$"
+
+#: account/urls.py:10
+msgid "^reject/(?P<pk>\\d+)/$"
+msgstr "^rechazar/(?P<pk>\\d+)/$"
+
+#: account/urls.py:12
+msgid "^login/$"
+msgstr "^iniciar/$"
+
+#: account/urls.py:13
+msgid "^logout/$"
+msgstr "^cerrar/$"
+
+#: account/urls.py:14
+msgid "^logout-then-login/$"
+msgstr "^cerrar- iniciarsesion/$"
+
+#: account/urls.py:16
+msgid "^password-change/done/$"
+msgstr "^cambio-contrasena/hecho/$"
+
+#: account/urls.py:17
+msgid "^password-change/$"
+msgstr "^cambio-contrasena/$"
+
+#: account/urls.py:18
+msgid "^password-reset/$"
+msgstr "^restablecimiento-contraseña/$"
+
+#: account/urls.py:19
+msgid "^password-reset/done/$"
+msgstr "^restablecimiento-contrasena/hecho/$"
+
+#: account/urls.py:20
+msgid "^password-reset/confirm/(?P<uidb64>[-\\w]+)/(?P<token>[-\\w]+)/$"
+msgstr ""
+"^ restablecimiento-"
+"contrasena/confirmar/(?P<uidb64>[-\\w]+)/(?P<token>[-\\w]+)/$"
+
+#: account/urls.py:21
+msgid "^password-reset/complete/$"
+msgstr "^restablecimiento-contrasena/completar/$"
+
+#: account/urls.py:22
+msgid "^users/follow/$"
+msgstr "^usuarios/seguir/$"
+
+#: account/urls.py:23
+msgid "^users/$"
+msgstr "^usarios/$"
+
+#: account/urls.py:24
+msgid "^users/(?P<username>[-\\w]+)/$"
+msgstr "^usarios/(?P<username>[-\\w]+)/$"
+
+#: account/urls.py:25 students/urls.py:9
+msgid "^register/$"
+msgstr "^registrarse/$"
+
+#: account/urls.py:26
+msgid "^edit/$"
+msgstr "^edita/$"
+
+#: alpha/templates/alpha/home.html:5
+msgid "Chat Panel"
+msgstr "Chat Panel"
+
+#: alpha/templates/alpha/home.html:20
+msgid "Chat Box"
+msgstr "Ventana de chat"
+
+#: alpha/templates/alpha/home.html:43
+msgid "Back to your Dashboard"
+msgstr "De vuelta a tu Tablero"
+
+#: blog/templates/blog/base.html:73 blog/templates/blog/post/list.html:4
+#: blog/templates/blog/post/list.html:7
+msgid "Testimonials/Reviews"
+msgstr "Testimonios / Comentarios"
+
+#: blog/templates/blog/base.html:75
+msgid "There are a total of"
+msgstr "Hay un total de"
+
+#: blog/templates/blog/base.html:76
+msgid "reviews so far"
+msgstr "comentarios hasta el momento"
+
+#: blog/templates/blog/base.html:81
+msgid "Subscribe to my RSS feed"
+msgstr "Suscríbete a mi fuente RSS"
+
+#: blog/templates/blog/base.html:85
+msgid "Latest Posts"
+msgstr "últimas publicaciones"
+
+#: blog/templates/blog/base.html:87
+msgid "Most Commented Posts"
+msgstr "Publicaciones más comentadas"
+
+#: blog/templates/blog/create.html:3 blog/templates/blog/post/create.html:3
+msgid "Create"
+msgstr "Crear"
+
+#: blog/templates/blog/post/detail.html:6
+msgid "Similar posts"
+msgstr "Publicaciones similares"
+
+#: blog/templates/blog/post/detail.html:12
+msgid "There are no similar posts yet."
+msgstr "No hay publicaciones similares todavía."
+
+#: blog/templates/blog/post/detail.html:15
+#: blog/templates/blog/post/list.html:21
+msgid "Published"
+msgstr "Publicado"
+
+#: blog/templates/blog/post/detail.html:16
+#: blog/templates/blog/post/detail.html:27
+#: blog/templates/blog/post/list.html:22
+msgid "by"
+msgstr "por"
+
+#: blog/templates/blog/post/detail.html:20
+msgid "comment"
+msgstr "comentario"
+
+#: blog/templates/blog/post/detail.html:27
+msgid "Comment"
+msgstr "Comentario"
+
+#: blog/templates/blog/post/detail.html:32
+msgid "There are no comments yet."
+msgstr "Todavía no hay comentarios."
+
+#: blog/templates/blog/post/detail.html:35
+msgid "Your comment has been added to"
+msgstr "Tu comentario ha sido agregado a"
+
+#: blog/templates/blog/post/detail.html:37
+msgid "Add a new comment"
+msgstr "Añadir un nuevo comentario"
+
+#: blog/templates/blog/post/list.html:9
+msgid "Posts tagged with"
+msgstr "Publicaciones etiquetadas con"
+
+#: blog/templates/blog/post/list.html:14
+msgid "Tags:"
+msgstr "Tags:"
+
+#: blog/templates/blog/post/list.html:26
+msgid "Share this post"
+msgstr "Compartir esta publicacion"
+
+#: blog/templates/blog/post/search.html:3
+msgid "Search"
+msgstr "Buscar"
+
+#: blog/templates/blog/post/search.html:7
+msgid "Posts containing"
+msgstr "Publicaciones que contienen"
+
+#: blog/templates/blog/post/search.html:8
+msgid "Found"
+msgstr "Encontró"
+
+#: blog/templates/blog/post/search.html:8
+msgid "result"
+msgstr "resultado"
+
+#: blog/templates/blog/post/search.html:15
+msgid "There are no results for your query."
+msgstr "No hay resultados para su consulta."
+
+#: blog/templates/blog/post/search.html:17
+msgid "Search Again"
+msgstr "Busca de nuevo"
+
+#: blog/templates/blog/post/search.html:19
+msgid "Search for Posts"
+msgstr "Buscar publicaciones"
+
+#: blog/templates/blog/post/share.html:10
+msgid "E-Mail successfully sent"
+msgstr "E-Mail enviado exitosamente"
+
+#: blog/templates/blog/post/share.html:12
+msgid "was successfully sent to"
+msgstr "fue enviado con éxito a"
+
+#: blog/templates/blog/post/share.html:13
+msgid "from"
+msgstr "de"
+
+#: blog/templates/blog/post/share.html:16
+msgid "Share"
+msgstr "Compartir"
+
+#: blog/templates/blog/post/share.html:16
+msgid "by e-mail"
+msgstr "por correo electronico"
+
+#: blog/templates/blog/post/share.html:21
+msgid "Send e-mail"
+msgstr "Enviar correo electrónico"
+
+#: coupons/forms.py:7
+msgid "Coupon"
+msgstr "Cupón"
+
+#: courses/models.py:14 courses/models.py:26 courses/models.py:40
+#: courses/models.py:63
+msgid "title"
+msgstr "título"
+
+#: courses/models.py:27
+msgid "slug"
+msgstr "babosa"
+
+#: courses/templates/courses.html:32
+msgid "Teachers Content"
+msgstr "Contenido de profesores"
+
+#: courses/templates/courses.html:34
+msgid "Teachers' Logout"
+msgstr "Logout de Maestros"
+
+#: courses/templates/courses.html:48
+msgid "Sign Out"
+msgstr "Desconectar"
+
+#: courses/templates/courses.html:50
+msgid "Sign In"
+msgstr "Registrarse"
+
+#: courses/templates/courses/content/file.html:2
+msgid "Download file"
+msgstr "Descargar archivo"
+
+#: courses/templates/courses/course/detail.html:14
+msgid "Overview"
+msgstr "Visión de conjunto"
+
+#: courses/templates/courses/course/detail.html:17
+msgid "modules. Teacher:"
+msgstr "modules. Teacher:"
+
+#: courses/templates/courses/course/detail.html:24
+msgid "Enroll now"
+msgstr "módulos. Profesor:"
+
+#: courses/templates/courses/course/detail.html:27
+msgid "Register as student to enroll"
+msgstr "Registrarse como estudiante para inscribirse"
+
+#: courses/templates/courses/course/list.html:8
+#: courses/templates/courses/course/list.html:17
+#: courses/templates/courses/course/list.html:33
+msgid "courses"
+msgstr "cursos"
+
+#: courses/templates/courses/course/list.html:10
+msgid "All courses"
+msgstr "Todos los cursos"
+
+#: courses/templates/courses/course/list.html:19
+msgid "All Courses"
+msgstr "Todos los Cursos"
+
+#: courses/templates/courses/course/list.html:24
+msgid "Subjects"
+msgstr "Asignaturas"
+
+#: courses/templates/courses/course/list.html:27
+#: shop/templates/shop/product/list.html:15
+msgid "All"
+msgstr "Todos"
+
+#: courses/templates/courses/course/list.html:45
+msgid "modules. Teacher: "
+msgstr "módulos. Profesor:"
+
+#: courses/templates/courses/manage/content/form.html:6
+#: courses/templates/courses/manage/content/form.html:16
+msgid "Edit Content"
+msgstr "Contenido editado"
+
+#: courses/templates/courses/manage/content/form.html:8
+#: courses/templates/courses/manage/content/form.html:18
+msgid "Add new content"
+msgstr "Agregar nuevo contenido"
+
+#: courses/templates/courses/manage/content/form.html:23
+msgid "Course Information"
+msgstr "Información del curso"
+
+#: courses/templates/courses/manage/content/form.html:27
+msgid "Save Content"
+msgstr "Guardar contenido."
+
+#: courses/templates/courses/manage/course/delete.html:3
+#: courses/templates/courses/manage/course/delete.html:5
+msgid "Delete course"
+msgstr "Eliminar curso"
+
+#: courses/templates/courses/manage/course/delete.html:9
+msgid "Are you sure you want to delete"
+msgstr "Estas seguro que quieres borrarlo"
+
+#: courses/templates/courses/manage/course/delete.html:10
+msgid "Confirm"
+msgstr "Confirmar"
+
+#: courses/templates/courses/manage/course/form.html:5
+#: courses/templates/courses/manage/course/form.html:15
+msgid "Edit Course"
+msgstr "Editar curso"
+
+#: courses/templates/courses/manage/course/form.html:7
+#: courses/templates/courses/manage/course/form.html:17
+msgid "Create a new course"
+msgstr "Crea un nuevo curso"
+
+#: courses/templates/courses/manage/course/form.html:22
+msgid "Course Summary"
+msgstr "Resumen del curso"
+
+#: courses/templates/courses/manage/course/form.html:26
+msgid "Save Course."
+msgstr "Guardar curso."
+
+#: courses/templates/courses/manage/course/list.html:3
+#: courses/templates/courses/manage/course/list.html:7
+#: students/templates/course/list.html:6 students/templates/course/list.html:9
+#: students/templates/list.html:6 students/templates/list.html:9
+msgid "My Courses"
+msgstr "Mis cursos"
+
+#: courses/templates/courses/manage/course/list.html:16
+#: courses/templates/courses/manage/module/content_list.html:41
+msgid "Delete"
+msgstr "Borrar"
+
+#: courses/templates/courses/manage/course/list.html:17
+msgid "Edit Modules"
+msgstr "Editar módulos"
+
+#: courses/templates/courses/manage/course/list.html:19
+msgid "Manage contents"
+msgstr "Administrar contenidos"
+
+#: courses/templates/courses/manage/course/list.html:24
+msgid "You have yet to create any courses"
+msgstr "Aún no has creado ningún curso"
+
+#: courses/templates/courses/manage/course/list.html:29
+msgid "Create New Course"
+msgstr "Crear un nuevo curso"
+
+#: courses/templates/courses/manage/module/content_list.html:5
+#: courses/templates/courses/manage/module/content_list.html:18
+#: courses/templates/courses/manage/module/content_list.html:31
+#: students/templates/course/detail.html:16
+msgid "Module"
+msgstr "Módulo"
+
+#: courses/templates/courses/manage/module/content_list.html:10
+msgid "Course"
+msgstr "Curso"
+
+#: courses/templates/courses/manage/module/content_list.html:12
+#: students/templates/course/detail.html:10
+msgid "Modules"
+msgstr "Módulos"
+
+#: courses/templates/courses/manage/module/content_list.html:25
+msgid "No modules yet."
+msgstr "Sin módulos todavía"
+
+#: courses/templates/courses/manage/module/content_list.html:28
+msgid "Edit modules"
+msgstr "Editar módulos"
+
+#: courses/templates/courses/manage/module/content_list.html:32
+msgid "Module contents:"
+msgstr "Contenidos del módulo:"
+
+#: courses/templates/courses/manage/module/content_list.html:47
+msgid "This module has no contents yet."
+msgstr "Este módulo aún no tiene contenido."
+
+#: courses/templates/courses/manage/module/content_list.html:51
+msgid "Add new content:"
+msgstr "Agregar nuevo contenido:"
+
+#: courses/templates/courses/manage/module/content_list.html:53
+msgid "Text"
+msgstr "Texto"
+
+#: courses/templates/courses/manage/module/content_list.html:54
+msgid "Image"
+msgstr "Imagen"
+
+#: courses/templates/courses/manage/module/content_list.html:55
+msgid "Video"
+msgstr "Vídeo"
+
+#: courses/templates/courses/manage/module/content_list.html:56
+msgid "File"
+msgstr "Archivo"
+
+#: courses/templates/courses/manage/module/formset.html:9
+msgid "Course Modules"
+msgstr "Módulos del curso"
+
+#: courses/templates/courses/manage/module/formset.html:14
+msgid "Save Modules"
+msgstr "Guardar módulos"
+
+#: courses/templates/registration/coursesloggedout.html:8
+msgid "You are now logged out.Bye!! or Log back in"
+msgstr "Ahora estás desconectado. ¡Adiós! o vuelva a iniciar sesión"
+
+#: courses/templates/registration/coursesloggedout.html:8
+msgid "Login again"
+msgstr "Ingresar de nuevo"
+
+#: courses/templates/registration/courseslogin.html:4
+msgid "Teacher Login"
+msgstr "Entrada de profesor"
+
+#: courses/templates/registration/courseslogin.html:7
+msgid "Teacher Log-in"
+msgstr "Inicio de sesión de maestro"
+
+#: courses/templates/registration/courseslogin.html:11
+msgid "Your credentials are not correct.Please try again."
+msgstr "Sus credenciales no son correctas. Inténtelo de nuevo."
+
+#: courses/templates/registration/courseslogin.html:15
+msgid "Please, use this form to log in"
+msgstr "Por favor, use este formulario para iniciar sesión"
+
+#: courses/templates/registration/courseslogin.html:24
+msgid "Login"
+msgstr "Iniciar sesión"
+
+#: courses/urls.py:9
+msgid "^clogin/$"
+msgstr "^ciniciar/$"
+
+#: courses/urls.py:10
+msgid "^clogout/$"
+msgstr "^ccerrar/$"
+
+#: courses/urls.py:11
+msgid "^clogout-then-clogin/$"
+msgstr "^ccerrar- iniciar-csesion/$"
+
+#: courses/urls.py:12
+msgid "^mine/$"
+msgstr "^mia/$"
+
+#: courses/urls.py:13 images/urls.py:6
+msgid "^create/$"
+msgstr "^crear/$"
+
+#: courses/urls.py:14
+msgid "^(?P<pk>\\d+)/edit/$"
+msgstr "^(?P<pk>\\d+)/editar/$"
+
+#: courses/urls.py:15
+msgid "^(?P<pk>\\d+)/delete/$"
+msgstr "^(?P<pk>\\d+)/borrar/$"
+
+#: courses/urls.py:16
+msgid "^(?P<pk>\\d+)/module/$"
+msgstr "^(?P<pk>\\d+)/modulo/$"
+
+#: courses/urls.py:17
+msgid "^module/(?P<module_id>\\d+)/content/(?P<model_name>\\w+)/create/$"
+msgstr "^modulo/(?P<module_id>\\d+)/contentido/(?P<model_name>\\w+)/contenido/$"
+
+#: courses/urls.py:18
+msgid "^module/(?P<module_id>\\d+)/content/(?P<model_name>\\w+)/(?P<id>\\d+)/$"
+msgstr "^modulo/(?P<module_id>\\d+)/contentido/(?P<model_name>\\w+)/(?P<id>\\d+)/$"
+
+#: courses/urls.py:19
+msgid "^module/(?P<module_id>\\d+)/$"
+msgstr "^modulo/(?P<module_id>\\d+)/$"
+
+#: courses/urls.py:20
+msgid "^content/(?P<id>\\d+)/delete/$"
+msgstr "^contentido/(?P<id>\\d+)/borrar/$"
+
+#: courses/urls.py:21
+msgid "^module/order/$"
+msgstr "^modulo/pedidos/$"
+
+#: courses/urls.py:22
+msgid "^content/order/$"
+msgstr "^contenido/orden/$"
+
+#: courses/urls.py:23 shop/urls.py:8
+msgid "^list/$"
+msgstr "^lista/$"
+
+#: courses/urls.py:24
+msgid "^subject/(?P<subject>[\\w-]+)/$"
+msgstr "^tema/(?P<subject>[\\w-]+)/$"
+
+#: courses/urls.py:25
+msgid "^(?P<slug>[\\w-]+)/$"
+msgstr "^(?P<slug>[\\w-]+)/$"
+
+#: images/templates/images/create.html:4 images/templates/images/create.html:7
+#: images/templates/images/image/create.html:3
+#: images/templates/images/image/create.html:6
+msgid "Bookmark an Image"
+msgstr "Marcar una imagen"
+
+#: images/templates/images/create.html:13
+msgid "Bookmark it!"
+msgstr "¡Marcarlo!"
+
+#: images/templates/images/image/detail.html:17
+msgid "like"
+msgstr "me gusta"
+
+#: images/templates/images/image/detail.html:22
+msgid "view"
+msgstr "ver"
+
+#: images/templates/images/image/detail.html:26
+msgid "Unlike"
+msgstr "diferente a"
+
+#: images/templates/images/image/detail.html:40
+msgid "Nobody likes this image yet."
+msgstr "A nadie le gusta esta imagen todavía."
+
+#: images/templates/images/image/detail.html:46
+msgid "See the most viewed images."
+msgstr "Ver las imágenes más vistas."
+
+#: images/templates/images/image/list.html:3
+#: images/templates/images/image/list.html:6
+msgid "Images Bookmarked"
+msgstr "Imágenes marcadas"
+
+#: images/templates/images/image/ranking.html:3
+#: images/templates/images/image/ranking.html:6
+msgid "Images Ranking"
+msgstr "Ranking de imágenes"
+
+#: images/urls.py:7
+msgid "^detail/(?P<id>\\d+)/(?P<slug>[-\\w]+)/$"
+msgstr "^detalle/(?P<id>\\d+)/(?P<slug>[-\\w]+)/$"
+
+#: images/urls.py:8
+msgid "^like/$"
+msgstr "^gusta/$"
+
+#: images/urls.py:10
+msgid "^ranking/$"
+msgstr "^clasificacion/$"
+
+#: payment/templates/payment/canceled.html:4
+msgid "Your payment has not been processed"
+msgstr "Su pago no ha sido procesado"
+
+#: payment/templates/payment/canceled.html:5
+msgid "There was a problem processing the payment"
+msgstr "Hubo un problema al procesar el pago"
+
+#: payment/templates/payment/done.html:4
+msgid "Your payment was successful"
+msgstr "Su pago fue exitoso"
+
+#: payment/templates/payment/process.html:3
+#: payment/templates/payment/process.html:6
+msgid "Pay using PayPal"
+msgstr "Pagar usando PayPal"
+
+#: payment/urls.py:7
+msgid "^process/$"
+msgstr "^proceso/$"
+
+#: payment/urls.py:8
+msgid "^done/$"
+msgstr "^hecho/$"
+
+#: payment/urls.py:9
+msgid "^canceled/$"
+msgstr "^cancelado/$"
+
+#: shop/templates/shop/product/detail.html:19
+msgid "Continue shopping"
+msgstr "Seguir comprando"
+
+#: shop/templates/shop/product/detail.html:23
+msgid "Add to cart"
+msgstr "Anadir a la cesta"
+
+#: shop/templates/shop/product/detail.html:29
+msgid "People who bought this also bought"
+msgstr "Las personas que compraron esto también compraron"
+
+#: shop/templates/shop/product/list.html:6
+#: shop/templates/shop/product/list.html:26
+msgid "Products"
+msgstr "Productos"
+
+#: shop/templates/shop/product/list.html:10
+msgid "Categories"
+msgstr "Categorías"
+
+#: shop/templates/shop/shop.html:7 shop/templates/shop/shop.html:12
+msgid "My shop"
+msgstr "Mi Tienda"
+
+#: shop/templates/shop/shop.html:32
+msgid "Your Cart has :"
+msgstr "Tu Carrito tiene"
+
+#: shop/templates/shop/shop.html:36 shop/templates/shop/shop.html:39
+msgid "item"
+msgstr "artículo"
+
+#: shop/templates/shop/shop.html:36
+msgid "A total price of:"
+msgstr "Un precio total de"
+
+#: shop/templates/shop/shop.html:37
+#, python-format
+msgid ""
+"\n"
+"\t\t\t%(total_items)s"
+msgstr ""
+"\n"
+"%(total_items)s"
+
+#: shop/templates/shop/shop.html:39
+#, python-format
+msgid "%(total_items_plural)s,$%(total_price)s"
+msgstr "%(total_items_plural)s,$%(total_price)s"
+
+#: shop/templates/shop/shop.html:43
+msgid "Your Cart is empty."
+msgstr "Tu carrito esta vacío"
+
+#: shop/urls.py:9
+msgid "^(?P<category_slug>[-\\w]+)/$"
+msgstr "^(?P<category_slug>[-\\w]+)/$"
+
+#: shop/urls.py:10
+msgid "^(?P<id>\\d+)/(?P<slug>[-\\w]+)/$"
+msgstr "^(?P<id>\\d+)/(?P<slug>[-\\w]+)/$"
+
+#: students/templates/course/detail.html:25
+msgid "No Modules yet."
+msgstr "No hay módulos todavía"
+
+#: students/templates/course/list.html:14 students/templates/list.html:14
+msgid "Access contents"
+msgstr "Acceder a los contenidos"
+
+#: students/templates/course/list.html:18 students/templates/list.html:18
+msgid "You are not enrolled in any courses yet."
+msgstr "Aún no estás inscrito en ningún curso."
+
+#: students/templates/course/list.html:19 students/templates/list.html:19
+msgid "Browse Courses"
+msgstr "Navegar por los cursos"
+
+#: students/templates/course/list.html:19 students/templates/list.html:19
+msgid "to enroll in a course."
+msgstr "para inscribirse en un curso."
+
+#: students/templates/students/student/student_registration.html:6
+#: students/templates/students/student/student_registration.html:10
+msgid "Student Sign Up"
+msgstr "Registre d'estudiants"
+
+#: students/templates/students/student/student_registration.html:13
+msgid "Enter your details to create an account."
+msgstr "Ingrese sus detalles para crear una cuenta."
+
+#: students/templates/students/student/student_registration.html:17
+msgid "Create my Student Account"
+msgstr "Crear mi cuenta de estudiante"
+
+#: students/urls.py:10
+msgid "^enroll-course/$"
+msgstr "^matricular-curso/$"
+
+#: students/urls.py:11
+msgid "^courses/$"
+msgstr "^cursos/"
+
+#: students/urls.py:12
+msgid "^course/(?P<pk>\\d+)/$"
+msgstr "^curso/(?P<pk>\\d+)/$"
+
+#: students/urls.py:13
+msgid "^course/(?P<pk>\\d+)/(?P<module_id>\\d+)/$"
+msgstr "^curso/(?P<pk>\\d+)/(?P<module_id>\\d+)/$"
+
+#~ msgid "^chatpop/"
+#~ msgstr "^charla/"
+
+#~ msgid "Quantity"
+#~ msgstr "Cantidad"
+
+#~ msgid "Your shopping cart"
+#~ msgstr "Tu carrito de la compra"
+
+#~ msgid "Product"
+#~ msgstr "Producto"
+
+#~ msgid "Remove"
+#~ msgstr "Retirar"
+
+#~ msgid "Unit price"
+#~ msgstr "Precio unitario"
+
+#~ msgid "Price"
+#~ msgstr "Precio"
+
+#~ msgid "Update"
+#~ msgstr "Actualizar"
+
+#~ msgid "Subtotal"
+#~ msgstr "Total parcial"
+
+#~ msgid "coupon"
+#~ msgstr "cupón"
+
+#~ msgid "off"
+#~ msgstr "apagado"
+
+#~ msgid "Total"
+#~ msgstr "Total"
+
+#~ msgid "Apply a Coupon:"
+#~ msgstr "Aplicar un cupón:"
+
+#~ msgid "Apply"
+#~ msgstr "Aplicar"
+
+#~ msgid "Continue Shopping"
+#~ msgstr "Seguir comprando"
+
+#~ msgid "Checkout"
+#~ msgstr "Revisa"
+
+#~ msgid "People who bought this also bought the following,"
+#~ msgstr "Las personas que compraron esto también compraron lo siguiente,"
+
+#~ msgid "^add/(?P<product_id>\\d+)/$"
+#~ msgstr "^anandir/(?P<product_id>\\d+)/$"
+
+#~ msgid "^remove/(?P<product_id>\\d+)/$"
+#~ msgstr "^retirar/(?P<product_id>\\d+)/$"
+
+#~ msgid "No requests"
+#~ msgstr "Sin solicitudes"
+
+#~ msgid "Friends"
+#~ msgstr "Amigos"
+
+#~ msgid "is a friend."
+#~ msgstr "es un amigo."
+
+#~ msgid "OTHER USERS"
+#~ msgstr "Otros usuarios"
+
+#~ msgid "This is user"
+#~ msgstr "This is user"
+
+#~ msgid "Add Friend"
+#~ msgstr "Añadir amigo"
+
+#~ msgid "^connect/(?P<addrem>.+)/(?P<pk>\\d+)/$"
+#~ msgstr "^conectar/(?P<addrem>.+)/(?P<pk>\\d+)/$"
+
+#~ msgid "My Blog"
+#~ msgstr "Mi blog"
+
+#~ msgid "^blog/"
+#~ msgstr "^blog/"
+
+#~ msgid "course/list"
+#~ msgstr "curso/lista"
+
+#~ msgid "follow button"
+#~ msgstr "boton de seguir"
+
+#, fuzzy
+#~ msgid ""
+#~ "\n"
+#~ " \t\t\"Please, use the following form to log-in.\"\n"
+#~ " \t\t\t\t\"If you don't have an account....\"\n"
+#~ " "
+#~ msgstr "Por favor, use el siguiente formulario para iniciar sesión."
+
+#~ msgid "^account/"
+#~ msgstr "^cuenta/"
+
+#~ msgid "/shop"
+#~ msgstr "/tienda"
+
+#~ msgid "list"
+#~ msgstr "lista"
+
+#~ msgid "shop/list"
+#~ msgstr "^tienda/lista"
+
+#~ msgid "description"
+#~ msgstr "descripción"

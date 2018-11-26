@@ -1,0 +1,28 @@
+{% extends "account.html" %}
+{% load i18n %}
+{% load thumbnail %}
+{% load static %}
+{% block title %}{% trans "People" %}{% endblock %}
+{% block content %}
+
+<h1>{% trans "People" %}</h1>
+<div id="people-list">
+{% for user in users %}
+<div class="user">
+<a href="{{ user.get_absolute_url }}">
+{% if not user.profile.photo %}
+	<img src="{% static 'images.jpeg' %}">
+	{% endif %}
+{% thumbnail user.profile.photo "180x180" crop="100%" as im %}
+<img src="{{ im.url }}">
+{% endthumbnail %}
+</a>
+<div class="info" style="display: inline;">
+<a href="{{ user.get_absolute_url }}" class="title" style="text-align: left;">
+{{ user.get_full_name }}
+</a>
+</div>
+</div>
+{% endfor %}
+</div>
+{% endblock %}

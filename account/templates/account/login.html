@@ -1,0 +1,13 @@
+{% extends "account.html" %}
+{% load i18n %}
+{% block title %}{% trans "LogIn" %}{% endblock %}
+
+{% block content %}
+ <h1>{% trans "Log In" %}</h1>
+ 	<p>{% trans "Please use the following form to log in" %}</p>
+ 	<form action="." method="post">
+ 	{{ form.as_p }}
+ 	{% csrf_token %}
+ 	<p><input type="submit" value="{% trans 'Log in' %}"></p>
+ 	</form>
+ {% endblock %}

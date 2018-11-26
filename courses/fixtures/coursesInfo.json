@@ -1,0 +1,564 @@
+[
+{
+  "model": "courses.subject",
+  "pk": 4,
+  "fields": {
+    "title": "German",
+    "slug": "german"
+  }
+},
+{
+  "model": "courses.subject",
+  "pk": 5,
+  "fields": {
+    "title": "English",
+    "slug": "english"
+  }
+},
+{
+  "model": "courses.subject",
+  "pk": 6,
+  "fields": {
+    "title": "French",
+    "slug": "french"
+  }
+},
+{
+  "model": "courses.course",
+  "pk": 7,
+  "fields": {
+    "owner": 5,
+    "subject": 4,
+    "title": "German A1",
+    "slug": "german-a1",
+    "overview": "Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno est\u00e1ndar de las industrias desde el a\u00f1o 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido us\u00f3 una galer\u00eda de textos y los mezcl\u00f3 de tal manera que logr\u00f3 hacer un libro de textos especimen. No s\u00f3lo sobrevivi\u00f3 500 a\u00f1os, sino que tambien ingres\u00f3 como texto de relleno en documentos electr\u00f3nicos, quedando esencialmente igual al original. Fue popularizado en los 60s con la creaci\u00f3n de las hojas \"Letraset\", las cuales contenian pasajes de Lorem Ipsum, y m\u00e1s recientemente con software de autoedici\u00f3n, como por ejemplo Aldus PageMaker, el cual incluye versiones de Lorem Ipsum.",
+    "created": "2018-04-05T17:24:29.862Z",
+    "student": []
+  }
+},
+{
+  "model": "courses.course",
+  "pk": 8,
+  "fields": {
+    "owner": 5,
+    "subject": 4,
+    "title": "German B1",
+    "slug": "german-b1",
+    "overview": "Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno est\u00e1ndar de las industrias desde el a\u00f1o 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido us\u00f3 una galer\u00eda de textos y los mezcl\u00f3 de tal manera que logr\u00f3 hacer un libro de textos especimen. No s\u00f3lo sobrevivi\u00f3 500 a\u00f1os, sino que tambien ingres\u00f3 como texto de relleno en documentos electr\u00f3nicos, quedando esencialmente igual al original. Fue popularizado en los 60s con la creaci\u00f3n de las hojas \"Letraset\", las cuales contenian pasajes de Lorem Ipsum, y m\u00e1s recientemente con software de autoedici\u00f3n, como por ejemplo Aldus PageMaker, el cual incluye versiones de Lorem Ipsum.",
+    "created": "2018-04-05T17:24:58.714Z",
+    "student": [
+      3
+    ]
+  }
+},
+{
+  "model": "courses.course",
+  "pk": 9,
+  "fields": {
+    "owner": 5,
+    "subject": 4,
+    "title": "German C1",
+    "slug": "german-c1",
+    "overview": "Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno est\u00e1ndar de las industrias desde el a\u00f1o 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido us\u00f3 una galer\u00eda de textos y los mezcl\u00f3 de tal manera que logr\u00f3 hacer un libro de textos especimen. No s\u00f3lo sobrevivi\u00f3 500 a\u00f1os, sino que tambien ingres\u00f3 como texto de relleno en documentos electr\u00f3nicos, quedando esencialmente igual al original. Fue popularizado en los 60s con la creaci\u00f3n de las hojas \"Letraset\", las cuales contenian pasajes de Lorem Ipsum, y m\u00e1s recientemente con software de autoedici\u00f3n, como por ejemplo Aldus PageMaker, el cual incluye versiones de Lorem Ipsum.",
+    "created": "2018-04-05T17:25:25.979Z",
+    "student": [
+      5
+    ]
+  }
+},
+{
+  "model": "courses.course",
+  "pk": 10,
+  "fields": {
+    "owner": 5,
+    "subject": 6,
+    "title": "French A1",
+    "slug": "french-a1",
+    "overview": "Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno est\u00e1ndar de las industrias desde el a\u00f1o 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido us\u00f3 una galer\u00eda de textos y los mezcl\u00f3 de tal manera que logr\u00f3 hacer un libro de textos especimen. No s\u00f3lo sobrevivi\u00f3 500 a\u00f1os, sino que tambien ingres\u00f3 como texto de relleno en documentos electr\u00f3nicos, quedando esencialmente igual al original. Fue popularizado en los 60s con la creaci\u00f3n de las hojas \"Letraset\", las cuales contenian pasajes de Lorem Ipsum, y m\u00e1s recientemente con software de autoedici\u00f3n, como por ejemplo Aldus PageMaker, el cual incluye versiones de Lorem Ipsum.",
+    "created": "2018-04-05T17:25:47.928Z",
+    "student": []
+  }
+},
+{
+  "model": "courses.course",
+  "pk": 11,
+  "fields": {
+    "owner": 5,
+    "subject": 6,
+    "title": "French B1",
+    "slug": "french-b1",
+    "overview": "Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno est\u00e1ndar de las industrias desde el a\u00f1o 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido us\u00f3 una galer\u00eda de textos y los mezcl\u00f3 de tal manera que logr\u00f3 hacer un libro de textos especimen. No s\u00f3lo sobrevivi\u00f3 500 a\u00f1os, sino que tambien ingres\u00f3 como texto de relleno en documentos electr\u00f3nicos, quedando esencialmente igual al original. Fue popularizado en los 60s con la creaci\u00f3n de las hojas \"Letraset\", las cuales contenian pasajes de Lorem Ipsum, y m\u00e1s recientemente con software de autoedici\u00f3n, como por ejemplo Aldus PageMaker, el cual incluye versiones de Lorem Ipsum.",
+    "created": "2018-04-05T17:26:14.585Z",
+    "student": []
+  }
+},
+{
+  "model": "courses.course",
+  "pk": 12,
+  "fields": {
+    "owner": 5,
+    "subject": 6,
+    "title": "French C1",
+    "slug": "french-c1",
+    "overview": "Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno est\u00e1ndar de las industrias desde el a\u00f1o 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido us\u00f3 una galer\u00eda de textos y los mezcl\u00f3 de tal manera que logr\u00f3 hacer un libro de textos especimen. No s\u00f3lo sobrevivi\u00f3 500 a\u00f1os, sino que tambien ingres\u00f3 como texto de relleno en documentos electr\u00f3nicos, quedando esencialmente igual al original. Fue popularizado en los 60s con la creaci\u00f3n de las hojas \"Letraset\", las cuales contenian pasajes de Lorem Ipsum, y m\u00e1s recientemente con software de autoedici\u00f3n, como por ejemplo Aldus PageMaker, el cual incluye versiones de Lorem Ipsum.",
+    "created": "2018-04-05T17:27:14.420Z",
+    "student": []
+  }
+},
+{
+  "model": "courses.course",
+  "pk": 13,
+  "fields": {
+    "owner": 5,
+    "subject": 5,
+    "title": "English A1",
+    "slug": "english-a1",
+    "overview": "Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno est\u00e1ndar de las industrias desde el a\u00f1o 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido us\u00f3 una galer\u00eda de textos y los mezcl\u00f3 de tal manera que logr\u00f3 hacer un libro de textos especimen. No s\u00f3lo sobrevivi\u00f3 500 a\u00f1os, sino que tambien ingres\u00f3 como texto de relleno en documentos electr\u00f3nicos, quedando esencialmente igual al original. Fue popularizado en los 60s con la creaci\u00f3n de las hojas \"Letraset\", las cuales contenian pasajes de Lorem Ipsum, y m\u00e1s recientemente con software de autoedici\u00f3n, como por ejemplo Aldus PageMaker, el cual incluye versiones de Lorem Ipsum.",
+    "created": "2018-04-05T17:27:43.084Z",
+    "student": [
+      8
+    ]
+  }
+},
+{
+  "model": "courses.course",
+  "pk": 14,
+  "fields": {
+    "owner": 5,
+    "subject": 5,
+    "title": "English B1",
+    "slug": "english-b1",
+    "overview": "Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno est\u00e1ndar de las industrias desde el a\u00f1o 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido us\u00f3 una galer\u00eda de textos y los mezcl\u00f3 de tal manera que logr\u00f3 hacer un libro de textos especimen. No s\u00f3lo sobrevivi\u00f3 500 a\u00f1os, sino que tambien ingres\u00f3 como texto de relleno en documentos electr\u00f3nicos, quedando esencialmente igual al original. Fue popularizado en los 60s con la creaci\u00f3n de las hojas \"Letraset\", las cuales contenian pasajes de Lorem Ipsum, y m\u00e1s recientemente con software de autoedici\u00f3n, como por ejemplo Aldus PageMaker, el cual incluye versiones de Lorem Ipsum.",
+    "created": "2018-04-05T17:28:05.447Z",
+    "student": []
+  }
+},
+{
+  "model": "courses.course",
+  "pk": 15,
+  "fields": {
+    "owner": 5,
+    "subject": 5,
+    "title": "English C1",
+    "slug": "english-c1",
+    "overview": "Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno est\u00e1ndar de las industrias desde el a\u00f1o 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido us\u00f3 una galer\u00eda de textos y los mezcl\u00f3 de tal manera que logr\u00f3 hacer un libro de textos especimen. No s\u00f3lo sobrevivi\u00f3 500 a\u00f1os, sino que tambien ingres\u00f3 como texto de relleno en documentos electr\u00f3nicos, quedando esencialmente igual al original. Fue popularizado en los 60s con la creaci\u00f3n de las hojas \"Letraset\", las cuales contenian pasajes de Lorem Ipsum, y m\u00e1s recientemente con software de autoedici\u00f3n, como por ejemplo Aldus PageMaker, el cual incluye versiones de Lorem Ipsum.",
+    "created": "2018-04-05T17:28:24.591Z",
+    "student": [
+      3,
+      5,
+      17,
+      8
+    ]
+  }
+},
+{
+  "model": "courses.module",
+  "pk": 10,
+  "fields": {
+    "course": 15,
+    "title": "Grammer Continued",
+    "description": "Adverbs worksheet\r\n\r\nAdverbs are words used to modify verbs. Adverbs can also be used to modify adjectives and other adverbs.\r\n\r\nFill in the blanks with a suitable adverb.\r\n1. I ............................... go to bed at 10 o\u2019clock.\r\nonce\r\never\r\nusually\r\n\r\n2. I have \u2026\u2026\u2026\u2026\u2026\u2026\u2026. been to the USA.\r\nnever\r\never\r\n\r\n3. I have been to Australia just \u2026\u2026\u2026\u2026\u2026\u2026\u2026..\r\none\r\nonce\r\nones\r\n\r\n4. I \u2026\u2026\u2026\u2026\u2026\u2026\u2026.. take a bath before I go to bed.\r\nonce\r\nalways\r\never\r\n\r\n5. My grandparents live in Kerala. I visit them .......................................\r\nonce\r\noften\r\n\r\n6. My friends are ............................................. non-smokers.\r\nmost\r\nmostly\r\n\r\n7. I was ....................................... impressed with her performance.\r\ntoo\r\nsuch\r\nvery\r\n\r\n8. I ....................................... go for a walk in the park.\r\nsome time\r\nsometime\r\nsometimes\r\n\r\n9. I watch English films ....................................\r\nonce\r\nalways\r\noccasionally\r\n\r\n10. They ...................................... go out.\r\nrare\r\nonce\r\nrarely\r\n\r\n\r\nAnswers\r\n1. I usually go to bed at 10 o\u2019clock. (adverb of frequency)\r\n\r\n2. I have never been to the USA.  (frequency adverb)\r\n\r\n3. I have been to Australia just once. (frequency)\r\n\r\n4. I always take a bath before I go to bed.  (frequency)\r\n\r\n5. My grandparents live in Kerala. I visit them often. (frequency)\r\n\r\n6. My friends are mostly non-smokers.  (focusing adverb)\r\n\r\n7. I was very impressed with her performance.  (degree adverb)\r\n\r\n8. I sometimes go for a walk in the park.  (frequency adverb)\r\n\r\n9. I watch English films occasionally. (frequency adverb)\r\n\r\n10. They rarely go out.  (frequency adverb)",
+    "order": 1
+  }
+},
+{
+  "model": "courses.module",
+  "pk": 11,
+  "fields": {
+    "course": 15,
+    "title": "Gammer Advanced",
+    "description": "Adjective Or Participle\r\n\r\nParticiples can also act as adjectives. In this case, they modify nouns. Sometimes participles are  used as adjectives after be or other copular verbs. In this case, they complete the predicate.\r\n\r\nWhen participles help to form continuous and perfect tenses, they act as participles.\r\n\r\nThis grammar exercise tests your ability to recognize participles and \r\nadjectives.\r\n\r\n\r\n1. She was excited about the project.\r\nExcited is an adjective\r\nExcited is a past participle\r\n\r\n2. I watched an interesting movie yesterday.\r\nInteresting is an adjective\r\nInteresting is a present participle\r\n\r\n3. She was driving us crazy.\r\nDriving is an adjective\r\nDriving is a present participle\r\n\r\n4. I hope you are fully recovered from your operation.\r\nRecovered is an adjective\r\nRecovered is a past participle\r\n\r\n5. Her idea seems exciting.\r\nExciting is an adjective\r\nExciting is a present participle\r\n\r\n6. The children were screaming at the top of their voice.\r\nScreaming is an adjective\r\nScreaming is a present participle\r\n\r\n7. I had warned you.\r\nWarned is an adjective\r\nWarned is a past participle\r\n\r\n8. He was not expecting this.\r\nExpecting is an adjective\r\nExpecting is a present participle\r\n\r\n9. It was beginning to rain.\r\nBeginning is an adjective\r\nBeginning is a present participle\r\n\r\n10. I did not enjoy the party because I was bored.\r\nBored is an adjective\r\nBored is a past participle\r\n\r\n11. They have not been able to find the missing child.\r\nMissing is an adjective\r\nMissing is a present participle\r\n\r\n12. She is retired now.\r\nRetired is an adjective\r\nRetired is a past participle\r\n\r\nAnswers\r\n1. She was excited about the project. (Adjective)\r\n2. I watched an interesting movie yesterday. (Adjective)\r\n3. She was driving us crazy. (Participle)\r\n4. I hope you are fully recovered from your operation. (Adjective)\r\n5. Her idea seems exciting. (Adjective)\r\n6. The children were screaming at the top of their voice. (Participle)\r\n7. I had warned you. (Participle)\r\n8. He was not expecting this. (Participle)\r\n9. It was beginning to rain. (Participle)\r\n10. I did not enjoy the party because I was bored. (Adjective)\r\n11. They have not been able to find the missing child. (Adjective)\r\n12. She is retired now. (Adjective)",
+    "order": 0
+  }
+},
+{
+  "model": "courses.content",
+  "pk": 16,
+  "fields": {
+    "module": 11,
+    "content_type": 31,
+    "object_id": 6,
+    "order": 2
+  }
+},
+{
+  "model": "courses.content",
+  "pk": 17,
+  "fields": {
+    "module": 11,
+    "content_type": 29,
+    "object_id": 6,
+    "order": 4
+  }
+},
+{
+  "model": "courses.content",
+  "pk": 18,
+  "fields": {
+    "module": 11,
+    "content_type": 32,
+    "object_id": 4,
+    "order": 3
+  }
+},
+{
+  "model": "courses.content",
+  "pk": 19,
+  "fields": {
+    "module": 11,
+    "content_type": 30,
+    "object_id": 3,
+    "order": 5
+  }
+},
+{
+  "model": "courses.content",
+  "pk": 20,
+  "fields": {
+    "module": 11,
+    "content_type": 30,
+    "object_id": 4,
+    "order": 1
+  }
+},
+{
+  "model": "courses.content",
+  "pk": 21,
+  "fields": {
+    "module": 11,
+    "content_type": 30,
+    "object_id": 5,
+    "order": 0
+  }
+},
+{
+  "model": "courses.content",
+  "pk": 22,
+  "fields": {
+    "module": 10,
+    "content_type": 31,
+    "object_id": 7,
+    "order": 5
+  }
+},
+{
+  "model": "courses.content",
+  "pk": 23,
+  "fields": {
+    "module": 10,
+    "content_type": 29,
+    "object_id": 7,
+    "order": 3
+  }
+},
+{
+  "model": "courses.content",
+  "pk": 24,
+  "fields": {
+    "module": 10,
+    "content_type": 32,
+    "object_id": 5,
+    "order": 0
+  }
+},
+{
+  "model": "courses.content",
+  "pk": 25,
+  "fields": {
+    "module": 10,
+    "content_type": 30,
+    "object_id": 6,
+    "order": 4
+  }
+},
+{
+  "model": "courses.content",
+  "pk": 26,
+  "fields": {
+    "module": 10,
+    "content_type": 30,
+    "object_id": 7,
+    "order": 1
+  }
+},
+{
+  "model": "courses.content",
+  "pk": 27,
+  "fields": {
+    "module": 10,
+    "content_type": 30,
+    "object_id": 8,
+    "order": 2
+  }
+},
+{
+  "model": "courses.text",
+  "pk": 1,
+  "fields": {
+    "owner": 1,
+    "title": "edited",
+    "updated": "2018-04-02T14:01:35.319Z",
+    "content": "edited just for testing"
+  }
+},
+{
+  "model": "courses.text",
+  "pk": 2,
+  "fields": {
+    "owner": 1,
+    "title": "adding text",
+    "updated": "2018-04-01T16:52:12.175Z",
+    "content": "adding test text"
+  }
+},
+{
+  "model": "courses.text",
+  "pk": 3,
+  "fields": {
+    "owner": 1,
+    "title": "more text",
+    "updated": "2018-04-01T16:52:40.820Z",
+    "content": "more text"
+  }
+},
+{
+  "model": "courses.text",
+  "pk": 4,
+  "fields": {
+    "owner": 1,
+    "title": "Some test test",
+    "updated": "2018-04-05T16:51:21.756Z",
+    "content": "Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno est\u00e1ndar de las industrias desde el a\u00f1o 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido us\u00f3 una galer\u00eda de textos y los mezcl\u00f3 de tal manera que logr\u00f3 hacer un libro de textos especimen. No s\u00f3lo sobrevivi\u00f3 500 a\u00f1os, sino que tambien ingres\u00f3 como texto de relleno en documentos electr\u00f3nicos, quedando esencialmente igual al original. Fue popularizado en los 60s con la creaci\u00f3n de las hojas \"Letraset\", las cuales contenian pasajes de Lorem Ipsum, y m\u00e1s recientemente con software de autoedici\u00f3n, como por ejemplo Aldus PageMaker, el cual incluye versiones de Lorem Ipsum."
+  }
+},
+{
+  "model": "courses.text",
+  "pk": 5,
+  "fields": {
+    "owner": 1,
+    "title": "Some test text",
+    "updated": "2018-04-05T16:51:55.255Z",
+    "content": "Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno est\u00e1ndar de las industrias desde el a\u00f1o 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido us\u00f3 una galer\u00eda de textos y los mezcl\u00f3 de tal manera que logr\u00f3 hacer un libro de textos especimen. No s\u00f3lo sobrevivi\u00f3 500 a\u00f1os, sino que tambien ingres\u00f3 como texto de relleno en documentos electr\u00f3nicos, quedando esencialmente igual al original. Fue popularizado en los 60s con la creaci\u00f3n de las hojas \"Letraset\", las cuales contenian pasajes de Lorem Ipsum, y m\u00e1s recientemente con software de autoedici\u00f3n, como por ejemplo Aldus PageMaker, el cual incluye versiones de Lorem Ipsum."
+  }
+},
+{
+  "model": "courses.text",
+  "pk": 6,
+  "fields": {
+    "owner": 5,
+    "title": "Grammer",
+    "updated": "2018-04-06T11:39:00.942Z",
+    "content": "Personalpronomen I (Nominativ)\r\nSingular \tPlural\r\n\r\n1. Person \tich \twir\r\n\r\n2. Person \tdu\r\nSie (H\u00f6flichkeitsform) \tihr\r\nSie (H\u00f6flichkeitsform)\r\n\r\n3. Person \ter (maskulin)\r\nsie (feminin)\r\nes (neutrum)\r\nsie\r\n\r\nKonjugation Pr\u00e4sens I\r\n\r\nSingular \tPlural\r\n1. Person \tich geh-e \twir geh-en\r\n2. Person \tdu geh-st\r\nSie geh-en \tihr geh-t\r\nSie geh-en\r\n\r\n3. Person \ter geh-t\r\n                        sie geh-t\r\n                        es geh-t\r\n\t               sie geh-en\r\nKonjugatio Pr\u00e4sens II (sein)\r\n\r\nSingular \tPlural\r\n1. Person \tich bin \twir sind\r\n2. Person \tdu bist\r\nSie sind \tihr seid\r\nSie sind\r\n\r\n3. Person \ter ist\r\n                       sie ist\r\n                       es ist\r\n\t              sie sind\r\n\r\n\r\nKonjugation Pr\u00e4sens III (haben)\r\n\r\nSingular \tPlural\r\n1. Person \tich habe \twir haben\r\n2. Person \tdu hast\r\nSie haben \tihr habt\r\nSie haben\r\n\r\n3. Person \ter hat\r\n                       sie hat\r\n                       es hat\r\n\t              sie haben"
+  }
+},
+{
+  "model": "courses.text",
+  "pk": 7,
+  "fields": {
+    "owner": 5,
+    "title": "Conjugation",
+    "updated": "2018-04-20T13:30:57.453Z",
+    "content": "English Verb Conjugation\r\n\r\nIn English, you can type in infinitive forms such as \"go\", \"abide\", \"break\", \u2026 but also conjugated forms (\"done\", \"making\", \"has\", \"comes\"). The conjugator recognizes infinitive, reflexive verbs (\"hurt oneself\") and negative forms (\"not remember\") as well as phrasal verbs (\"get off\", \"come in\"). The Contractions option displays the contracted forms of auxiliaries and negatives, e.g.: not believe: \"I do not believe\" or \"I don't believe\", see: \"I have seen\" or \"I've seen\", \"I will go\" or \"I'll go\"...\r\n\r\nThe conjugator uses conjugation rules for irregular verbs and models. You can click on the corresponding sections to learn more.\r\nModals such as \"will\" and \"should\" are also included. The page British and American English highlights some important usage differences."
+  }
+},
+{
+  "model": "courses.file",
+  "pk": 1,
+  "fields": {
+    "owner": 1,
+    "title": "edited",
+    "updated": "2018-04-03T01:49:21.271Z",
+    "file": "files/check.sh"
+  }
+},
+{
+  "model": "courses.file",
+  "pk": 2,
+  "fields": {
+    "owner": 1,
+    "title": "test file",
+    "updated": "2018-04-05T16:52:19.568Z",
+    "file": "files/images21.jpeg"
+  }
+},
+{
+  "model": "courses.file",
+  "pk": 3,
+  "fields": {
+    "owner": 5,
+    "title": "General Grammer Exercises",
+    "updated": "2018-04-06T12:03:42.598Z",
+    "file": "files/General_Grammar_Exercise.pdf"
+  }
+},
+{
+  "model": "courses.file",
+  "pk": 4,
+  "fields": {
+    "owner": 5,
+    "title": "Tenses Exercises",
+    "updated": "2018-04-06T12:04:19.639Z",
+    "file": "files/Tenses_Exercise.pdf"
+  }
+},
+{
+  "model": "courses.file",
+  "pk": 5,
+  "fields": {
+    "owner": 5,
+    "title": "Vocabulary  Exercises",
+    "updated": "2018-04-06T12:05:17.670Z",
+    "file": "files/Vocabulary_Exercise.pdf"
+  }
+},
+{
+  "model": "courses.file",
+  "pk": 6,
+  "fields": {
+    "owner": 5,
+    "title": "Tenses Table",
+    "updated": "2018-04-06T12:11:48.380Z",
+    "file": "files/tenses_table.pdf"
+  }
+},
+{
+  "model": "courses.file",
+  "pk": 7,
+  "fields": {
+    "owner": 5,
+    "title": "Exercises Fill in the blanks",
+    "updated": "2018-04-20T20:50:50.643Z",
+    "file": "files/General_Grammar_Exercise_d3J05RE.pdf"
+  }
+},
+{
+  "model": "courses.file",
+  "pk": 8,
+  "fields": {
+    "owner": 5,
+    "title": "coursetest1",
+    "updated": "2018-04-20T20:51:09.133Z",
+    "file": "files/jquery.min.js"
+  }
+},
+{
+  "model": "courses.image",
+  "pk": 1,
+  "fields": {
+    "owner": 1,
+    "title": "firstPic",
+    "updated": "2018-04-01T16:53:24.761Z",
+    "file": "images/A13.gif"
+  }
+},
+{
+  "model": "courses.image",
+  "pk": 2,
+  "fields": {
+    "owner": 1,
+    "title": "image2",
+    "updated": "2018-04-03T01:48:19.417Z",
+    "file": "images/bandit.jpeg"
+  }
+},
+{
+  "model": "courses.image",
+  "pk": 3,
+  "fields": {
+    "owner": 1,
+    "title": "a pciture test",
+    "updated": "2018-04-04T10:33:07.051Z",
+    "file": "images/elmer.jpeg"
+  }
+},
+{
+  "model": "courses.image",
+  "pk": 4,
+  "fields": {
+    "owner": 1,
+    "title": "image1",
+    "updated": "2018-04-05T16:52:42.090Z",
+    "file": "images/bandit_KVdcXxw.jpeg"
+  }
+},
+{
+  "model": "courses.image",
+  "pk": 5,
+  "fields": {
+    "owner": 1,
+    "title": "image2",
+    "updated": "2018-04-05T16:53:02.569Z",
+    "file": "images/elmer_JjY3627.jpeg"
+  }
+},
+{
+  "model": "courses.image",
+  "pk": 6,
+  "fields": {
+    "owner": 5,
+    "title": "Grammer CheetSheet",
+    "updated": "2018-04-06T11:50:01.203Z",
+    "file": "images/Englishgrammer.png"
+  }
+},
+{
+  "model": "courses.image",
+  "pk": 7,
+  "fields": {
+    "owner": 5,
+    "title": "Conjugation 1",
+    "updated": "2018-04-20T20:50:43.406Z",
+    "file": "images/conjugation1.jpeg"
+  }
+},
+{
+  "model": "courses.video",
+  "pk": 1,
+  "fields": {
+    "owner": 1,
+    "title": "firstVid",
+    "updated": "2018-04-02T21:06:04.893Z",
+    "url": "https://www.youtube.com/watch?v=bgV39DlmZ2U"
+  }
+},
+{
+  "model": "courses.video",
+  "pk": 2,
+  "fields": {
+    "owner": 1,
+    "title": "vid2",
+    "updated": "2018-04-03T01:48:54.818Z",
+    "url": "https://www.youtube.com/watch?v=GqYRHQaJFKg"
+  }
+},
+{
+  "model": "courses.video",
+  "pk": 3,
+  "fields": {
+    "owner": 1,
+    "title": "Another test video",
+    "updated": "2018-04-05T16:50:33.876Z",
+    "url": "https://www.youtube.com/watch?v=uxEFermaeec&pbjreload=10"
+  }
+},
+{
+  "model": "courses.video",
+  "pk": 4,
+  "fields": {
+    "owner": 5,
+    "title": "Grammer Lecture 1",
+    "updated": "2018-04-06T11:52:00.601Z",
+    "url": "https://www.youtube.com/watch?v=mrXt9yrZryg"
+  }
+},
+{
+  "model": "courses.video",
+  "pk": 5,
+  "fields": {
+    "owner": 5,
+    "title": "Conjugation Lecture",
+    "updated": "2018-04-06T12:09:49.018Z",
+    "url": "https://www.youtube.com/watch?v=XH7Dg_Er4P4"
+  }
+}
+]

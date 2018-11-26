@@ -1,0 +1,30 @@
+{% extends "courses.html" %}
+{% load i18n %}
+
+{% block title %}
+	{% if object %}
+		{% trans "Edit Content" %}"{{ object.title }}"
+	{% else %}
+		{% trans "Add new content" %}
+	{% endif %}
+{% endblock %}
+
+{% block content %}
+
+<h1>
+	{% if object %}
+	{% trans "Edit Content" %}"{{ object.title }}"
+	{% else %}
+		{% trans "Add new content" %}
+	{% endif %}
+</h1>
+
+<div class="module">
+	<h2>{% trans "Course Information" %}</h2>
+	<form action="." method="post" enctype="multipart/form-data">
+		{{ form.as_p }}
+		{% csrf_token %}
+		<p><input type="submit" value="{% trans 'Save Content' %}"></p>
+	</form>
+</div>
+{% endblock %}

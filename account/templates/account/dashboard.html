@@ -1,0 +1,93 @@
+{% extends "account.html" %}
+{% load i18n %}
+{% block title %}{% trans "Dashboard" %}{% endblock %}
+{% load friendshiptags %}
+{% block content%}
+	<h1>{% trans "Dashboard" %}</h1>
+	
+	{% with total_images_created=request.user.images_created.count %}
+	<p>{% trans "Welcome to your dashboard. You have bookmarked" %}
+	{{ total_images_created }} {% trans "image" %}
+	{{ total_images_created|pluralize }} </p>
+	{% endwith %}
+
+	<p>
+{% trans "Drag the following button to your bookmarks toolbar" %} 
+ {% trans "to bookmark images" %}
+<br><br><a href="javascript:{% include 'bookmarklet_launcher.js' %}" class="button" >{% trans "Bookmark it" %}</a></p><br>
+
+	<p>{% trans "You can also" %}
+	&nbsp<a href="{% url 'account:edit' %}">
+	{% trans "edit your pofile" %}</a>
+	&nbspor <a href="{% url 'account:password_change' %}">
+	{% trans "change your password" %}</a></p>
+
+	<h2>{% trans "What's happening" %}</h2>
+			<div id="action-list" style="float:left; display: inline; column-count: 1;">
+				{% for action in actions %}
+				
+				{% include "../actions/action/detail.html" %}
+				 {% endfor %}</div>
+
+			
+			<div id="action-list" style="float: right; display: inline; column-span: 2;">
+	<h4>{% trans "REQUESTS SENT" %}</h4>
+		{% if unreads %}
+			{% for req in unreads %}
+				{% if req.from_user == request.user %}
+{% trans "You have sent friend request/s to the following people: " %}
+		{% endif %}
+		{% endfor %}
+			{% for req in unreads %}
+				{% if req.from_user == request.user %}
+			<p>	
+				
+	<a href="{% url 'account:user_detail' req.to_user  %}">
+		{{ req.to_user }}</a>
+				
+			</p>
+				{% endif %}
+
+			{% endfor %}
+		{% endif %}
+
+		<h4>{% trans "REQUESTS RECIEVED" %}</h4>
+		{% for req in unreads %}
+			
+			{% if req.to_user == request.user  %}
+		<p> 
+			{{ req.from_user }}
+
+		{% trans "has sent you a Friend Request" %} 
+			
+		</p>
+
+		<div>
+			<a href="{% url 'account:accept_request' req.pk %}">
+				<button>{% trans "Accept" %}</button>
+			</a> 
+			<a href="{% url 'account:reject_request' req.pk %}">
+				<button>{% trans "Reject" %}</button>
+			</a>
+			<a href="{% url 'account:user_detail' req.from_user %}">
+				<button>{% trans "Review" %}</button>
+			</a>
+		</div> 
+		{% endif %}
+{% endfor %}		
+			<br>
+			<h2>{% trans "You are friends with; " %}</h2>
+		{% for req in unreads %}
+
+			
+		{% endfor  %}
+	{% for friend in all_friends %}
+				<a href="{% url 'account:user_detail' friend %}">
+				<p> 
+					<h2>{{ friend }}</h2>
+				</p>
+				</a>
+				
+	{% endfor %}
+</div>
+{% endblock %}	

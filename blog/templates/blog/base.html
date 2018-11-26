@@ -1,0 +1,99 @@
+{% load blog_tags %}
+{% load i18n %}
+{% load staticfiles %}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{% block title %}{% endblock %}</title>
+    <link href="{% static 'css/blog.css' %}" rel="stylesheet">
+    <link rel="icon" type="image/png" href="{% static 'img/animated_favicon1.gif' %}">  
+</head>
+<body>
+<div id="header">
+    <span class="logo">{% trans "Bookmarks" %}</span>
+    
+    {% if request.user.is_authenticated %}
+
+    <ul class="menu">
+        <li {% if section == "dashboard" %} class="selected" {% endif%}><a href="{% url 'account:dashboard' %}">{% trans "My dashboard" %}</a></li>
+        <li {% if section == "images" %} class="selected"{% endif %}><a href="{% url 'images:list' %}">{% trans "Images" %}</a></li>
+        <li {% if section == "people" %} class="selected"{% endif %}><a href="{% url 'account:user_list' %}">{% trans "People" %}</a></li>
+        {% if request.user.profile.teacher == False %}
+        <li {% if request.user.is_authenticated %} class="selected"{% endif %}><a href="{% url 'students:student_course_list' %}">{% trans "Your Courses" %}</a></li>
+        </li>
+        {% else %}
+        <li {% if request.user.is_authenticated %} class="selected"{% endif %}><a href="{% url 'courses:course_list' %}">{% trans "Courses List"%}</a></li>
+        </li>
+        {% endif %}
+        <li {% if request.user.is_authenticated %} class="selected"{% endif %}><a href="{% url 'shop:product_list' %}">{% trans "Go Shopping!!" %}</a></li>
+        </li>
+        <li {% if request.user.is_authenticated %} class="selected"{% endif %}><a href="{% url 'blog:post_list' %}">{% trans "Testimonials" %}</a></li>
+        </li>
+        
+    </ul>
+    {% endif %}
+    <span class="user">
+    {% if request.user.is_authenticated %}
+        {% trans "Hello" %} {{ request.user.first_name }}, <a href="{% url 'account:logout' %}">{% trans "Logout" %}</a>
+        {% else %}
+        <a href="{% url 'account:login' %}">{% trans "Log In" %}</a>
+        {% endif %}
+    </span>
+
+<div id="subheader"> 
+        {% get_current_language as LANGUAGE_CODE %}
+        {% get_available_languages as LANGUAGES %}
+        {% get_language_info_list for LANGUAGES as languages %}
+    <div class="languages">
+        <p>{% trans "Language" %}:</p>
+        <ul class="languages">
+            {% for language in languages %}
+        <li>
+<a href="/{{ language.code }}/"{% if language.code == LANGUAGE_CODE %} class="selected"{% endif %}>{{ language.name_local }}</a>
+        </li>
+            {% endfor %}
+        </ul>
+    </div>
+</div> 
+</div>
+{% if messages %}
+    <ul class="messages">
+        {% for message in messages %}
+        <li class="{{ message.tags }}">
+            {{ message|safe }}
+        <a style="color: black;" href="/account/edit" class="close">X</a>
+        </li>
+        {% endfor %}
+    </ul>
+    {% endif %}
+    <div id="content">
+        {% block content %}
+        {% endblock %}
+    </div>
+    <div id="sidebar">
+        <h2>{% trans "Testimonials/Reviews" %}</h2>
+        
+        <p>{% trans "There are a total of" %}{% total_posts %}
+        {% trans "reviews so far" %}
+        </p>
+        
+        <p>
+            <a href="{% url 'blog:post_feed' %}">
+            {% trans "Subscribe to my RSS feed" %}
+            </a>
+        </p>
+        
+        <h3>{% trans "Latest Posts" %}</h3>
+        {% show_latest_posts 3 %}
+        <h3>{% trans "Most Commented Posts" %}</h3>
+        {% get_most_commented_posts as most_commented_posts %}
+        <ul>
+            {% for post in most_commented_posts %}
+            <li>
+                <a href="{{ post.get_absolute_url }}">{{ post.title }}</a>
+            </li>
+            {% endfor %}
+        </ul> 
+    </div>
+</body>
+</html>
